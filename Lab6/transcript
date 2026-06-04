@@ -1,0 +1,1133 @@
+# Reading C:/intelFPGA_lite/17.0/modelsim_ase/tcl/vsim/pref.tcl
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:00:56 on Jun 03,2026
+# vlog -reportprogress 300 ./note_input_tb.sv 
+# -- Compiling module note_input_tb
+# 
+# Top level modules:
+# 	note_input_tb
+# End time: 17:00:56 on Jun 03,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:00:56 on Jun 03,2026
+# vlog -reportprogress 300 ./note_input_datapath.sv 
+# -- Compiling module note_input_datapath
+# 
+# Top level modules:
+# 	note_input_datapath
+# End time: 17:00:56 on Jun 03,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:00:56 on Jun 03,2026
+# vlog -reportprogress 300 ./note_input_controller.sv 
+# -- Compiling module note_input_controller
+# 
+# Top level modules:
+# 	note_input_controller
+# End time: 17:00:56 on Jun 03,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:00:56 on Jun 03,2026
+# vlog -reportprogress 300 ./note_input.sv 
+# -- Compiling module note_input
+# 
+# Top level modules:
+# 	note_input
+# End time: 17:00:57 on Jun 03,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:00:57 on Jun 03,2026
+# vlog -reportprogress 300 ./noise_gen.sv 
+# -- Compiling module noise_gen
+# -- Compiling module noise_gen_testbench
+# 
+# Top level modules:
+# 	noise_gen_testbench
+# End time: 17:00:57 on Jun 03,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:00:57 on Jun 03,2026
+# vlog -reportprogress 300 ./DE1_SoC.sv 
+# -- Compiling module DE1_SoC
+# 
+# Top level modules:
+# 	DE1_SoC
+# End time: 17:00:57 on Jun 03,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:00:57 on Jun 03,2026
+# vlog -reportprogress 300 ./clock_generator.v 
+# -- Compiling module clock_generator
+# 
+# Top level modules:
+# 	clock_generator
+# End time: 17:00:57 on Jun 03,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:00:57 on Jun 03,2026
+# vlog -reportprogress 300 ./audio_codec.v 
+# -- Compiling module audio_codec
+# 
+# Top level modules:
+# 	audio_codec
+# End time: 17:00:58 on Jun 03,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:00:58 on Jun 03,2026
+# vlog -reportprogress 300 ./clock_divider_8.sv 
+# -- Compiling module clock_divider_8
+# 
+# Top level modules:
+# 	clock_divider_8
+# End time: 17:00:58 on Jun 03,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:00:58 on Jun 03,2026
+# vlog -reportprogress 300 ./clock_divider_8_tb.sv 
+# -- Compiling module clock_divider_8_tb
+# 
+# Top level modules:
+# 	clock_divider_8_tb
+# End time: 17:00:58 on Jun 03,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs=""+acc"" -t 1ps -lib work note_input_tb -Lf altera_mf_ver 
+# Start time: 17:00:58 on Jun 03,2026
+# Loading sv_std.std
+# Loading work.note_input_tb
+# Loading work.note_input
+# Loading work.note_input_controller
+# Loading work.note_input_datapath
+# ** Error: Cannot open macro file: note_input_wave.do
+# Error in macro ./runlab.do line 26
+# Cannot open macro file: note_input_wave.do
+#     while executing
+# "do note_input_wave.do"
+add wave -position end sim:/note_input_tb/*
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: mflessa  Hostname: EE-347PC07  ProcessID: 18752
+#           Attempting to use alternate WLF file "./wlft2axi0m".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft2axi0m
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:01:26 on Jun 03,2026
+# vlog -reportprogress 300 ./note_input_tb.sv 
+# -- Compiling module note_input_tb
+# 
+# Top level modules:
+# 	note_input_tb
+# End time: 17:01:26 on Jun 03,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:01:26 on Jun 03,2026
+# vlog -reportprogress 300 ./note_input_datapath.sv 
+# -- Compiling module note_input_datapath
+# 
+# Top level modules:
+# 	note_input_datapath
+# End time: 17:01:26 on Jun 03,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:01:26 on Jun 03,2026
+# vlog -reportprogress 300 ./note_input_controller.sv 
+# -- Compiling module note_input_controller
+# 
+# Top level modules:
+# 	note_input_controller
+# End time: 17:01:26 on Jun 03,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:01:27 on Jun 03,2026
+# vlog -reportprogress 300 ./note_input.sv 
+# -- Compiling module note_input
+# 
+# Top level modules:
+# 	note_input
+# End time: 17:01:27 on Jun 03,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:01:27 on Jun 03,2026
+# vlog -reportprogress 300 ./noise_gen.sv 
+# -- Compiling module noise_gen
+# -- Compiling module noise_gen_testbench
+# 
+# Top level modules:
+# 	noise_gen_testbench
+# End time: 17:01:27 on Jun 03,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:01:27 on Jun 03,2026
+# vlog -reportprogress 300 ./DE1_SoC.sv 
+# -- Compiling module DE1_SoC
+# 
+# Top level modules:
+# 	DE1_SoC
+# End time: 17:01:27 on Jun 03,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:01:27 on Jun 03,2026
+# vlog -reportprogress 300 ./clock_generator.v 
+# -- Compiling module clock_generator
+# 
+# Top level modules:
+# 	clock_generator
+# End time: 17:01:27 on Jun 03,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:01:27 on Jun 03,2026
+# vlog -reportprogress 300 ./audio_codec.v 
+# -- Compiling module audio_codec
+# 
+# Top level modules:
+# 	audio_codec
+# End time: 17:01:28 on Jun 03,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:01:28 on Jun 03,2026
+# vlog -reportprogress 300 ./clock_divider_8.sv 
+# -- Compiling module clock_divider_8
+# 
+# Top level modules:
+# 	clock_divider_8
+# End time: 17:01:28 on Jun 03,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:01:28 on Jun 03,2026
+# vlog -reportprogress 300 ./clock_divider_8_tb.sv 
+# -- Compiling module clock_divider_8_tb
+# 
+# Top level modules:
+# 	clock_divider_8_tb
+# End time: 17:01:28 on Jun 03,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 17:01:29 on Jun 03,2026, Elapsed time: 0:00:31
+# Errors: 3, Warnings: 2
+# vsim -voptargs=""+acc"" -t 1ps -lib work note_input_tb -Lf altera_mf_ver 
+# Start time: 17:01:29 on Jun 03,2026
+# Loading sv_std.std
+# Loading work.note_input_tb
+# Loading work.note_input
+# Loading work.note_input_controller
+# Loading work.note_input_datapath
+# ** Error: Cannot open macro file: note_input_wave.do
+# Error in macro ./runlab.do line 26
+# Cannot open macro file: note_input_wave.do
+#     while executing
+# "do note_input_wave.do"
+add wave -position end sim:/note_input_tb/*
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: mflessa  Hostname: EE-347PC07  ProcessID: 18752
+#           Attempting to use alternate WLF file "./wlft2rf8rd".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft2rf8rd
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf U:/EE_371/Lab6/note_input_wave.do
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:01:46 on Jun 03,2026
+# vlog -reportprogress 300 ./note_input_tb.sv 
+# -- Compiling module note_input_tb
+# 
+# Top level modules:
+# 	note_input_tb
+# End time: 17:01:47 on Jun 03,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:01:47 on Jun 03,2026
+# vlog -reportprogress 300 ./note_input_datapath.sv 
+# -- Compiling module note_input_datapath
+# 
+# Top level modules:
+# 	note_input_datapath
+# End time: 17:01:47 on Jun 03,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:01:47 on Jun 03,2026
+# vlog -reportprogress 300 ./note_input_contr# End time: 17:31:06 on Jun 03,2026, Elapsed time: 2:56:09
+# Errors: 0, Warnings: 2
+ote_input_controller
+# End time: 17:01:47 on Jun 03,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:01:48 on Jun 03,2026
+# vlog -reportprogress 300 ./note_input.sv 
+# -- Compiling module note_input
+# 
+# Top level modules:
+# 	note_input
+# End time: 17:01:48 on Jun 03,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:01:48 on Jun 03,2026
+# vlog -reportprogress 300 ./noise_gen.sv 
+# -- Compiling module noise_gen
+# -- Compiling module noise_gen_testbench
+# 
+# Top level modules:
+# 	noise_gen_testbench
+# End time: 17:01:48 on Jun 03,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:01:48 on Jun 03,2026
+# vlog -reportprogress 300 ./DE1_SoC.sv 
+# -- Compiling module DE1_SoC
+# 
+# Top level modules:
+# 	DE1_SoC
+# End time: 17:01:48 on Jun 03,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:01:48 on Jun 03,2026
+# vlog -reportprogress 300 ./clock_generator.v 
+# -- Compiling module clock_generator
+# 
+# Top level modules:
+# 	clock_generator
+# End time: 17:01:48 on Jun 03,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:01:49 on Jun 03,2026
+# vlog -reportprogress 300 ./audio_codec.v 
+# -- Compiling module audio_codec
+# 
+# Top level modules:
+# 	audio_codec
+# End time: 17:01:49 on Jun 03,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:01:49 on Jun 03,2026
+# vlog -reportprogress 300 ./clock_divider_8.sv 
+# -- Compiling module clock_divider_8
+# 
+# Top level modules:
+# 	clock_divider_8
+# End time: 17:01:49 on Jun 03,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:01:49 on Jun 03,2026
+# vlog -reportprogress 300 ./clock_divider_8_tb.sv 
+# -- Compiling module clock_divider_8_tb
+# 
+# Top level modules:
+# 	clock_divider_8_tb
+# End time: 17:01:49 on Jun 03,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 17:01:50 on Jun 03,2026, Elapsed time: 0:00:21
+# Errors: 3, Warnings: 2
+# vsim -voptargs=""+acc"" -t 1ps -lib work note_input_tb -Lf altera_mf_ver 
+# Start time: 17:01:50 on Jun 03,2026
+# Loading sv_std.std
+# Loading work.note_input_tb
+# Loading work.note_input
+# Loading work.note_input_controller
+# Loading work.note_input_datapath
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: mflessa  Hostname: EE-347PC07  ProcessID: 18752
+#           Attempting to use alternate WLF file "./wlftdnbwqb".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftdnbwqb
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : ./note_input_tb.sv(35)
+#    Time: 6050 ps  Iteration: 1  Instance: /note_input_tb
+# Break in Module note_input_tb at ./note_input_tb.sv line 35
+add wave -position end sim:/note_input_tb/dut/ni_c/*
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf U:/EE_371/Lab6/note_input_wave.do
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:05:27 on Jun 03,2026
+# vlog -reportprogress 300 ./note_input_tb.sv 
+# -- Compiling module note_input_tb
+# 
+# Top level modules:
+# 	note_input_tb
+# End time: 17:05:28 on Jun 03,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:05:28 on Jun 03,2026
+# vlog -reportprogress 300 ./note_input_datapath.sv 
+# -- Compiling module note_input_datapath
+# 
+# Top level modules:
+# 	note_input_datapath
+# End time: 17:05:28 on Jun 03,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:05:28 on Jun 03,2026
+# vlog -reportprogress 300 ./note_input_controller.sv 
+# -- Compiling module note_input_controller
+# 
+# Top level modules:
+# 	note_input_controller
+# End time: 17:05:28 on Jun 03,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:05:28 on Jun 03,2026
+# vlog -reportprogress 300 ./note_input.sv 
+# -- Compiling module note_input
+# 
+# Top level modules:
+# 	note_input
+# End time: 17:05:29 on Jun 03,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:05:29 on Jun 03,2026
+# vlog -reportprogress 300 ./noise_gen.sv 
+# -- Compiling module noise_gen
+# -- Compiling module noise_gen_testbench
+# 
+# Top level modules:
+# 	noise_gen_testbench
+# End time: 17:05:29 on Jun 03,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:05:29 on Jun 03,2026
+# vlog -reportprogress 300 ./DE1_SoC.sv 
+# -- Compiling module DE1_SoC
+# 
+# Top level modules:
+# 	DE1_SoC
+# End time: 17:05:29 on Jun 03,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:05:29 on Jun 03,2026
+# vlog -reportprogress 300 ./clock_generator.v 
+# -- Compiling module clock_generator
+# 
+# Top level modules:
+# 	clock_generator
+# End time: 17:05:29 on Jun 03,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:05:29 on Jun 03,2026
+# vlog -reportprogress 300 ./audio_codec.v 
+# -- Compiling module audio_codec
+# 
+# Top level modules:
+# 	audio_codec
+# End time: 17:05:30 on Jun 03,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:05:30 on Jun 03,2026
+# vlog -reportprogress 300 ./clock_divider_8.sv 
+# -- Compiling module clock_divider_8
+# 
+# Top level modules:
+# 	clock_divider_8
+# End time: 17:05:30 on Jun 03,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:05:30 on Jun 03,2026
+# vlog -reportprogress 300 ./clock_divider_8_tb.sv 
+# -- Compiling module clock_divider_8_tb
+# 
+# Top level modules:
+# 	clock_divider_8_tb
+# End time: 17:05:30 on Jun 03,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 17:05:31 on Jun 03,2026, Elapsed time: 0:03:41
+# Errors: 0, Warnings: 2
+# vsim -voptargs=""+acc"" -t 1ps -lib work note_input_tb -Lf altera_mf_ver 
+# Start time: 17:05:31 on Jun 03,2026
+# Loading sv_std.std
+# Loading work.note_input_tb
+# Loading work.note_input
+# Loading work.note_input_controller
+# Loading work.note_input_datapath
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: mflessa  Hostname: EE-347PC07  ProcessID: 18752
+#           Attempting to use alternate WLF file "./wlftitkmic".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftitkmic
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : ./note_input_tb.sv(35)
+#    Time: 6050 ps  Iteration: 1  Instance: /note_input_tb
+# Break in Module note_input_tb at ./note_input_tb.sv line 35
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:10:05 on Jun 03,2026
+# vlog -reportprogress 300 ./note_input_tb.sv 
+# -- Compiling module note_input_tb
+# 
+# Top level modules:
+# 	note_input_tb
+# End time: 17:10:06 on Jun 03,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:10:06 on Jun 03,2026
+# vlog -reportprogress 300 ./note_input_datapath.sv 
+# -- Compiling module note_input_datapath
+# 
+# Top level modules:
+# 	note_input_datapath
+# End time: 17:10:06 on Jun 03,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:10:06 on Jun 03,2026
+# vlog -reportprogress 300 ./note_input_controller.sv 
+# -- Compiling module note_input_controller
+# 
+# Top level modules:
+# 	note_input_controller
+# End time: 17:10:06 on Jun 03,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:10:06 on Jun 03,2026
+# vlog -reportprogress 300 ./note_input.sv 
+# -- Compiling module note_input
+# 
+# Top level modules:
+# 	note_input
+# End time: 17:10:07 on Jun 03,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:10:07 on Jun 03,2026
+# vlog -reportprogress 300 ./noise_gen.sv 
+# -- Compiling module noise_gen
+# -- Compiling module noise_gen_testbench
+# 
+# Top level modules:
+# 	noise_gen_testbench
+# End time: 17:10:07 on Jun 03,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:10:07 on Jun 03,2026
+# vlog -reportprogress 300 ./DE1_SoC.sv 
+# -- Compiling module DE1_SoC
+# 
+# Top level modules:
+# 	DE1_SoC
+# End time: 17:10:08 on Jun 03,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:10:08 on Jun 03,2026
+# vlog -reportprogress 300 ./clock_generator.v 
+# -- Compiling module clock_generator
+# 
+# Top level modules:
+# 	clock_generator
+# End time: 17:10:08 on Jun 03,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:10:08 on Jun 03,2026
+# vlog -reportprogress 300 ./audio_codec.v 
+# -- Compiling module audio_codec
+# 
+# Top level modules:
+# 	audio_codec
+# End time: 17:10:08 on Jun 03,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:10:08 on Jun 03,2026
+# vlog -reportprogress 300 ./clock_divider_8.sv 
+# -- Compiling module clock_divider_8
+# 
+# Top level modules:
+# 	clock_divider_8
+# End time: 17:10:09 on Jun 03,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:10:09 on Jun 03,2026
+# vlog -reportprogress 300 ./clock_divider_8_tb.sv 
+# -- Compiling module clock_divider_8_tb
+# 
+# Top level modules:
+# 	clock_divider_8_tb
+# End time: 17:10:09 on Jun 03,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 17:10:10 on Jun 03,2026, Elapsed time: 0:04:39
+# Errors: 0, Warnings: 2
+# vsim -voptargs=""+acc"" -t 1ps -lib work note_input_tb -Lf altera_mf_ver 
+# Start time: 17:10:10 on Jun 03,2026
+# Loading sv_std.std
+# Loading work.note_input_tb
+# Loading work.note_input
+# Loading work.note_input_controller
+# Loading work.note_input_datapath
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: mflessa  Hostname: EE-347PC07  ProcessID: 18752
+#           Attempting to use alternate WLF file "./wlft70mw44".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft70mw44
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : ./note_input_tb.sv(35)
+#    Time: 6050 ps  Iteration: 1  Instance: /note_input_tb
+# Break in Module note_input_tb at ./note_input_tb.sv line 35
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:11:48 on Jun 03,2026
+# vlog -reportprogress 300 ./note_input_tb.sv 
+# -- Compiling module note_input_tb
+# 
+# Top level modules:
+# 	note_input_tb
+# End time: 17:11:48 on Jun 03,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:11:48 on Jun 03,2026
+# vlog -reportprogress 300 ./note_input_datapath.sv 
+# -- Compiling module note_input_datapath
+# 
+# Top level modules:
+# 	note_input_datapath
+# End time: 17:11:48 on Jun 03,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:11:48 on Jun 03,2026
+# vlog -reportprogress 300 ./note_input_controller.sv 
+# -- Compiling module note_input_controller
+# 
+# Top level modules:
+# 	note_input_controller
+# End time: 17:11:48 on Jun 03,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:11:48 on Jun 03,2026
+# vlog -reportprogress 300 ./note_input.sv 
+# -- Compiling module note_input
+# 
+# Top level modules:
+# 	note_input
+# End time: 17:11:49 on Jun 03,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:11:49 on Jun 03,2026
+# vlog -reportprogress 300 ./noise_gen.sv 
+# -- Compiling module noise_gen
+# -- Compiling module noise_gen_testbench
+# 
+# Top level modules:
+# 	noise_gen_testbench
+# End time: 17:11:49 on Jun 03,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:11:49 on Jun 03,2026
+# vlog -reportprogress 300 ./DE1_SoC.sv 
+# -- Compiling module DE1_SoC
+# 
+# Top level modules:
+# 	DE1_SoC
+# End time: 17:11:49 on Jun 03,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:11:49 on Jun 03,2026
+# vlog -reportprogress 300 ./clock_generator.v 
+# -- Compiling module clock_generator
+# 
+# Top level modules:
+# 	clock_generator
+# End time: 17:11:49 on Jun 03,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:11:49 on Jun 03,2026
+# vlog -reportprogress 300 ./audio_codec.v 
+# -- Compiling module audio_codec
+# 
+# Top level modules:
+# 	audio_codec
+# End time: 17:11:50 on Jun 03,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:11:50 on Jun 03,2026
+# vlog -reportprogress 300 ./clock_divider_8.sv 
+# -- Compiling module clock_divider_8
+# 
+# Top level modules:
+# 	clock_divider_8
+# End time: 17:11:50 on Jun 03,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:11:50 on Jun 03,2026
+# vlog -reportprogress 300 ./clock_divider_8_tb.sv 
+# -- Compiling module clock_divider_8_tb
+# 
+# Top level modules:
+# 	clock_divider_8_tb
+# End time: 17:11:50 on Jun 03,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 17:11:51 on Jun 03,2026, Elapsed time: 0:01:41
+# Errors: 0, Warnings: 2
+# vsim -voptargs=""+acc"" -t 1ps -lib work note_input_tb -Lf altera_mf_ver 
+# Start time: 17:11:51 on Jun 03,2026
+# Loading sv_std.std
+# Loading work.note_input_tb
+# Loading work.note_input
+# Loading work.note_input_controller
+# Loading work.note_input_datapath
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: mflessa  Hostname: EE-347PC07  ProcessID: 18752
+#           Attempting to use alternate WLF file "./wlftrhv4gy".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftrhv4gy
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : ./note_input_tb.sv(35)
+#    Time: 6050 ps  Iteration: 1  Instance: /note_input_tb
+# Break in Module note_input_tb at ./note_input_tb.sv line 35
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:16:12 on Jun 03,2026
+# vlog -reportprogress 300 ./note_input_tb.sv 
+# -- Compiling module note_input_tb
+# 
+# Top level modules:
+# 	note_input_tb
+# End time: 17:16:12 on Jun 03,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:16:12 on Jun 03,2026
+# vlog -reportprogress 300 ./note_input_datapath.sv 
+# -- Compiling module note_input_datapath
+# 
+# Top level modules:
+# 	note_input_datapath
+# End time: 17:16:12 on Jun 03,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:16:13 on Jun 03,2026
+# vlog -reportprogress 300 ./note_input_controller.sv 
+# -- Compiling module note_input_controller
+# 
+# Top level modules:
+# 	note_input_controller
+# End time: 17:16:13 on Jun 03,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:16:13 on Jun 03,2026
+# vlog -reportprogress 300 ./note_input.sv 
+# -- Compiling module note_input
+# 
+# Top level modules:
+# 	note_input
+# End time: 17:16:13 on Jun 03,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:16:13 on Jun 03,2026
+# vlog -reportprogress 300 ./noise_gen.sv 
+# -- Compiling module noise_gen
+# -- Compiling module noise_gen_testbench
+# 
+# Top level modules:
+# 	noise_gen_testbench
+# End time: 17:16:13 on Jun 03,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:16:13 on Jun 03,2026
+# vlog -reportprogress 300 ./DE1_SoC.sv 
+# -- Compiling module DE1_SoC
+# 
+# Top level modules:
+# 	DE1_SoC
+# End time: 17:16:13 on Jun 03,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:16:13 on Jun 03,2026
+# vlog -reportprogress 300 ./clock_generator.v 
+# -- Compiling module clock_generator
+# 
+# Top level modules:
+# 	clock_generator
+# End time: 17:16:14 on Jun 03,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:16:14 on Jun 03,2026
+# vlog -reportprogress 300 ./audio_codec.v 
+# -- Compiling module audio_codec
+# 
+# Top level modules:
+# 	audio_codec
+# End time: 17:16:14 on Jun 03,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:16:14 on Jun 03,2026
+# vlog -reportprogress 300 ./clock_divider_8.sv 
+# -- Compiling module clock_divider_8
+# 
+# Top level modules:
+# 	clock_divider_8
+# End time: 17:16:14 on Jun 03,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:16:14 on Jun 03,2026
+# vlog -reportprogress 300 ./clock_divider_8_tb.sv 
+# -- Compiling module clock_divider_8_tb
+# 
+# Top level modules:
+# 	clock_divider_8_tb
+# End time: 17:16:15 on Jun 03,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# End time: 17:16:16 on Jun 03,2026, Elapsed time: 0:04:25
+# Errors: 0, Warnings: 2
+# vsim -voptargs=""+acc"" -t 1ps -lib work note_input_tb -Lf altera_mf_ver 
+# Start time: 17:16:16 on Jun 03,2026
+# Loading sv_std.std
+# Loading work.note_input_tb
+# Loading work.note_input
+# Loading work.note_input_controller
+# Loading work.note_input_datapath
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: mflessa  Hostname: EE-347PC07  ProcessID: 18752
+#           Attempting to use alternate WLF file "./wlftji4mbx".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftji4mbx
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : ./note_input_tb.sv(35)
+#    Time: 6050 ps  Iteration: 1  Instance: /note_input_tb
+# Break in Module note_input_tb at ./note_input_tb.sv line 35
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:19:14 on Jun 03,2026
+# vlog -reportprogress 300 ./note_input_tb.sv 
+# -- Compiling module note_input_tb
+# 
+# Top level modules:
+# 	note_input_tb
+# End time: 17:19:14 on Jun 03,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:19:14 on Jun 03,2026
+# vlog -reportprogress 300 ./note_input_datapath.sv 
+# -- Compiling module note_input_datapath
+# 
+# Top level modules:
+# 	note_input_datapath
+# End time: 17:19:14 on Jun 03,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:19:14 on Jun 03,2026
+# vlog -reportprogress 300 ./note_input_controller.sv 
+# -- Compiling module note_input_controller
+# 
+# Top level modules:
+# 	note_input_controller
+# End time: 17:19:14 on Jun 03,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:19:14 on Jun 03,2026
+# vlog -reportprogress 300 ./note_input.sv 
+# -- Compiling module note_input
+# 
+# Top level modules:
+# 	note_input
+# End time: 17:19:15 on Jun 03,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:19:15 on Jun 03,2026
+# vlog -reportprogress 300 ./noise_gen.sv 
+# -- Compiling module noise_gen
+# -- Compiling module noise_gen_testbench
+# 
+# Top level modules:
+# 	noise_gen_testbench
+# End time: 17:19:15 on Jun 03,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:19:15 on Jun 03,2026
+# vlog -reportprogress 300 ./DE1_SoC.sv 
+# -- Compiling module DE1_SoC
+# 
+# Top level modules:
+# 	DE1_SoC
+# End time: 17:19:15 on Jun 03,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:19:15 on Jun 03,2026
+# vlog -reportprogress 300 ./clock_generator.v 
+# -- Compiling module clock_generator
+# 
+# Top level modules:
+# 	clock_generator
+# End time: 17:19:15 on Jun 03,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:19:15 on Jun 03,2026
+# vlog -reportprogress 300 ./audio_codec.v 
+# -- Compiling module audio_codec
+# 
+# Top level modules:
+# 	audio_codec
+# End time: 17:19:16 on Jun 03,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:19:16 on Jun 03,2026
+# vlog -reportprogress 300 ./clock_divider_8.sv 
+# -- Compiling module clock_divider_8
+# 
+# Top level modules:
+# 	clock_divider_8
+# End time: 17:19:16 on Jun 03,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:19:16 on Jun 03,2026
+# vlog -reportprogress 300 ./clock_divider_8_tb.sv 
+# -- Compiling module clock_divider_8_tb
+# 
+# Top level modules:
+# 	clock_divider_8_tb
+# End time: 17:19:16 on Jun 03,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 17:19:21 on Jun 03,2026, Elapsed time: 0:03:05
+# Errors: 0, Warnings: 2
+# vsim -voptargs=""+acc"" -t 1ps -lib work note_input_tb -Lf altera_mf_ver 
+# Start time: 17:19:21 on Jun 03,2026
+# Loading sv_std.std
+# Loading work.note_input_tb
+# Loading work.note_input
+# Loading work.note_input_controller
+# Loading work.note_input_datapath
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: mflessa  Hostname: EE-347PC07  ProcessID: 18752
+#           Attempting to use alternate WLF file "./wlft86vbtn".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft86vbtn
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : ./note_input_tb.sv(35)
+#    Time: 6050 ps  Iteration: 1  Instance: /note_input_tb
+# Break in Module note_input_tb at ./note_input_tb.sv line 35
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:23:02 on Jun 03,2026
+# vlog -reportprogress 300 ./note_input_tb.sv 
+# -- Compiling module note_input_tb
+# 
+# Top level modules:
+# 	note_input_tb
+# End time: 17:23:02 on Jun 03,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:23:02 on Jun 03,2026
+# vlog -reportprogress 300 ./note_input_datapath.sv 
+# -- Compiling module note_input_datapath
+# 
+# Top level modules:
+# 	note_input_datapath
+# End time: 17:23:02 on Jun 03,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:23:02 on Jun 03,2026
+# vlog -reportprogress 300 ./note_input_controller.sv 
+# -- Compiling module note_input_controller
+# 
+# Top level modules:
+# 	note_input_controller
+# End time: 17:23:02 on Jun 03,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:23:03 on Jun 03,2026
+# vlog -reportprogress 300 ./note_input.sv 
+# -- Compiling module note_input
+# 
+# Top level modules:
+# 	note_input
+# End time: 17:23:03 on Jun 03,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:23:03 on Jun 03,2026
+# vlog -reportprogress 300 ./noise_gen.sv 
+# -- Compiling module noise_gen
+# -- Compiling module noise_gen_testbench
+# 
+# Top level modules:
+# 	noise_gen_testbench
+# End time: 17:23:03 on Jun 03,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:23:03 on Jun 03,2026
+# vlog -reportprogress 300 ./DE1_SoC.sv 
+# -- Compiling module DE1_SoC
+# 
+# Top level modules:
+# 	DE1_SoC
+# End time: 17:23:03 on Jun 03,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:23:03 on Jun 03,2026
+# vlog -reportprogress 300 ./clock_generator.v 
+# -- Compiling module clock_generator
+# 
+# Top level modules:
+# 	clock_generator
+# End time: 17:23:03 on Jun 03,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:23:03 on Jun 03,2026
+# vlog -reportprogress 300 ./audio_codec.v 
+# -- Compiling module audio_codec
+# 
+# Top level modules:
+# 	audio_codec
+# End time: 17:23:04 on Jun 03,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:23:04 on Jun 03,2026
+# vlog -reportprogress 300 ./clock_divider_8.sv 
+# -- Compiling module clock_divider_8
+# 
+# Top level modules:
+# 	clock_divider_8
+# End time: 17:23:04 on Jun 03,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:23:04 on Jun 03,2026
+# vlog -reportprogress 300 ./clock_divider_8_tb.sv 
+# -- Compiling module clock_divider_8_tb
+# 
+# Top level modules:
+# 	clock_divider_8_tb
+# End time: 17:23:04 on Jun 03,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 17:23:07 on Jun 03,2026, Elapsed time: 0:03:46
+# Errors: 0, Warnings: 2
+# vsim -voptargs=""+acc"" -t 1ps -lib work note_input_tb -Lf altera_mf_ver 
+# Start time: 17:23:07 on Jun 03,2026
+# Loading sv_std.std
+# Loading work.note_input_tb
+# Loading work.note_input
+# Loading work.note_input_controller
+# Loading work.note_input_datapath
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: mflessa  Hostname: EE-347PC07  ProcessID: 18752
+#           Attempting to use alternate WLF file "./wlftsvkrx0".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftsvkrx0
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : ./note_input_tb.sv(37)
+#    Time: 6050 ps  Iteration: 1  Instance: /note_input_tb
+# Break in Module note_input_tb at ./note_input_tb.sv line 37
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:28:02 on Jun 03,2026
+# vlog -reportprogress 300 ./note_input_tb.sv 
+# -- Compiling module note_input_tb
+# 
+# Top level modules:
+# 	note_input_tb
+# End time: 17:28:03 on Jun 03,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:28:03 on Jun 03,2026
+# vlog -reportprogress 300 ./note_input_datapath.sv 
+# -- Compiling module note_input_datapath
+# 
+# Top level modules:
+# 	note_input_datapath
+# End time: 17:28:03 on Jun 03,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:28:03 on Jun 03,2026
+# vlog -reportprogress 300 ./note_input_controller.sv 
+# -- Compiling module note_input_controller
+# 
+# Top level modules:
+# 	note_input_controller
+# End time: 17:28:03 on Jun 03,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:28:03 on Jun 03,2026
+# vlog -reportprogress 300 ./note_input.sv 
+# -- Compiling module note_input
+# 
+# Top level modules:
+# 	note_input
+# End time: 17:28:03 on Jun 03,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:28:03 on Jun 03,2026
+# vlog -reportprogress 300 ./noise_gen.sv 
+# -- Compiling module noise_gen
+# -- Compiling module noise_gen_testbench
+# 
+# Top level modules:
+# 	noise_gen_testbench
+# End time: 17:28:04 on Jun 03,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:28:04 on Jun 03,2026
+# vlog -reportprogress 300 ./DE1_SoC.sv 
+# -- Compiling module DE1_SoC
+# 
+# Top level modules:
+# 	DE1_SoC
+# End time: 17:28:04 on Jun 03,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:28:04 on Jun 03,2026
+# vlog -reportprogress 300 ./clock_generator.v 
+# -- Compiling module clock_generator
+# 
+# Top level modules:
+# 	clock_generator
+# End time: 17:28:04 on Jun 03,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:28:04 on Jun 03,2026
+# vlog -reportprogress 300 ./audio_codec.v 
+# -- Compiling module audio_codec
+# 
+# Top level modules:
+# 	audio_codec
+# End time: 17:28:04 on Jun 03,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:28:04 on Jun 03,2026
+# vlog -reportprogress 300 ./clock_divider_8.sv 
+# -- Compiling module clock_divider_8
+# 
+# Top level modules:
+# 	clock_divider_8
+# End time: 17:28:04 on Jun 03,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:28:05 on Jun 03,2026
+# vlog -reportprogress 300 ./clock_divider_8_tb.sv 
+# -- Compiling module clock_divider_8_tb
+# 
+# Top level modules:
+# 	clock_divider_8_tb
+# End time: 17:28:05 on Jun 03,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 17:28:06 on Jun 03,2026, Elapsed time: 0:04:59
+# Errors: 0, Warnings: 2
+# vsim -voptargs=""+acc"" -t 1ps -lib work note_input_tb -Lf altera_mf_ver 
+# Start time: 17:28:06 on Jun 03,2026
+# Loading sv_std.std
+# Loading work.note_input_tb
+# Loading work.note_input
+# Loading work.note_input_controller
+# Loading work.note_input_datapath
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: mflessa  Hostname: EE-347PC07  ProcessID: 18752
+#           Attempting to use alternate WLF file "./wlft6ee1h1".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft6ee1h1
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : ./note_input_tb.sv(37)
+#    Time: 6050 ps  Iteration: 1  Instance: /note_input_tb
+# Break in Module note_input_tb at ./note_input_tb.sv line 37
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf U:/EE_371/Lab6/note_input_wave.do
+# End time: 17:29:36 on Jun 03,2026, Elapsed time: 0:01:30
+# Errors: 0, Warnings: 2

@@ -1,0 +1,9 @@
+transcript on
+if {[file exists rtl_work]} {
+	vdel -lib rtl_work -all
+}
+vlib rtl_work
+vmap work rtl_work
+
+vlog -sv -work work +incdir+C:/Users/ruby1/Documents/Quartus_Projects/ee371_labs/hw1 {C:/Users/ruby1/Documents/Quartus_Projects/ee371_labs/hw1/hw1p1.sv}
+

@@ -1,0 +1,97 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "full",
+					"strict" : false
+				},
+				{
+					"name" : "RAM_addr[0]",
+					"strict" : false
+				},
+				{
+					"name" : "RAM_addr[1]",
+					"strict" : false
+				},
+				{
+					"name" : "RAM_addr[2]",
+					"strict" : false
+				},
+				{
+					"name" : "RAM_addr[3]",
+					"strict" : false
+				},
+				{
+					"name" : "RAM_addr[4]",
+					"strict" : false
+				},
+				{
+					"name" : "RAM_addr[5]",
+					"strict" : false
+				},
+				{
+					"name" : "RAM_addr[6]",
+					"strict" : false
+				},
+				{
+					"name" : "RAM_din[0]",
+					"strict" : false
+				},
+				{
+					"name" : "RAM_din[1]",
+					"strict" : false
+				},
+				{
+					"name" : "RAM_din[2]",
+					"strict" : false
+				},
+				{
+					"name" : "RAM_wren",
+					"strict" : false
+				},
+				{
+					"name" : "clk",
+					"strict" : false
+				},
+				{
+					"name" : "G",
+					"strict" : false
+				},
+				{
+					"name" : "E",
+					"strict" : false
+				},
+				{
+					"name" : "F",
+					"strict" : false
+				},
+				{
+					"name" : "B",
+					"strict" : false
+				},
+				{
+					"name" : "C",
+					"strict" : false
+				},
+				{
+					"name" : "D",
+					"strict" : false
+				},
+				{
+					"name" : "A",
+					"strict" : false
+				},
+				{
+					"name" : "reset",
+					"strict" : false
+				},
+				{
+					"name" : "stop",
+					"strict" : false
+				}
+			]
+		}
+	]
+}
