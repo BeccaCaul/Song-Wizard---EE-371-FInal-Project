@@ -1,0 +1,800 @@
+# Reading C:/intelFPGA_lite/17.0/modelsim_ase/tcl/vsim/pref.tcl
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:20:33 on Jun 04,2026
+# vlog -reportprogress 300 ./note_input_tb.sv 
+# -- Compiling module note_input_tb
+# 
+# Top level modules:
+# 	note_input_tb
+# End time: 10:20:33 on Jun 04,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:20:33 on Jun 04,2026
+# vlog -reportprogress 300 ./note_input_datapath.sv 
+# -- Compiling module note_input_datapath
+# 
+# Top level modules:
+# 	note_input_datapath
+# End time: 10:20:33 on Jun 04,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:20:33 on Jun 04,2026
+# vlog -reportprogress 300 ./note_input_controller.sv 
+# -- Compiling module note_input_controller
+# 
+# Top level modules:
+# 	note_input_controller
+# End time: 10:20:33 on Jun 04,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:20:33 on Jun 04,2026
+# vlog -reportprogress 300 ./note_input.sv 
+# -- Compiling module note_input
+# 
+# Top level modules:
+# 	note_input
+# End time: 10:20:34 on Jun 04,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:20:34 on Jun 04,2026
+# vlog -reportprogress 300 ./noise_gen.sv 
+# -- Compiling module noise_gen
+# -- Compiling module noise_gen_testbench
+# 
+# Top level modules:
+# 	noise_gen_testbench
+# End time: 10:20:34 on Jun 04,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:20:34 on Jun 04,2026
+# vlog -reportprogress 300 ./DE1_SoC.sv 
+# -- Compiling module DE1_SoC
+# 
+# Top level modules:
+# 	DE1_SoC
+# End time: 10:20:35 on Jun 04,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:20:35 on Jun 04,2026
+# vlog -reportprogress 300 ./clock_generator.v 
+# -- Compiling module clock_generator
+# 
+# Top level modules:
+# 	clock_generator
+# End time: 10:20:35 on Jun 04,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:20:35 on Jun 04,2026
+# vlog -reportprogress 300 ./audio_codec.v 
+# -- Compiling module audio_codec
+# 
+# Top level modules:
+# 	audio_codec
+# End time: 10:20:35 on Jun 04,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:20:35 on Jun 04,2026
+# vlog -reportprogress 300 ./clock_divider_8.sv 
+# -- Compiling module clock_divider_8
+# 
+# Top level modules:
+# 	clock_divider_8
+# End time: 10:20:36 on Jun 04,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:20:36 on Jun 04,2026
+# vlog -reportprogress 300 ./clock_divider_8_tb.sv 
+# -- Compiling module clock_divider_8_tb
+# 
+# Top level modules:
+# 	clock_divider_8_tb
+# End time: 10:20:36 on Jun 04,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs=""+acc"" -t 1ps -lib work note_input_tb -Lf altera_mf_ver 
+# Start time: 10:20:36 on Jun 04,2026
+# Loading sv_std.std
+# Loading work.note_input_tb
+# Loading work.note_input
+# Loading work.note_input_controller
+# Loading work.note_input_datapath
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: mflessa  Hostname: EE-347PC07  ProcessID: 18752
+#           Attempting to use alternate WLF file "./wlft52sbib".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft52sbib
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : ./note_input_tb.sv(37)
+#    Time: 6050 ps  Iteration: 1  Instance: /note_input_tb
+# Break in Module note_input_tb at ./note_input_tb.sv line 37
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:29:08 on Jun 04,2026
+# vlog -reportprogress 300 ./note_input_tb.sv 
+# -- Compiling module note_input_tb
+# 
+# Top level modules:
+# 	note_input_tb
+# End time: 10:29:08 on Jun 04,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:29:08 on Jun 04,2026
+# vlog -reportprogress 300 ./note_input_datapath.sv 
+# -- Compiling module note_input_datapath
+# 
+# Top level modules:
+# 	note_input_datapath
+# End time: 10:29:08 on Jun 04,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:29:08 on Jun 04,2026
+# vlog -reportprogress 300 ./note_input_controller.sv 
+# -- Compiling module note_input_controller
+# 
+# Top level modules:
+# 	note_input_controller
+# End time: 10:29:09 on Jun 04,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:29:09 on Jun 04,2026
+# vlog -reportprogress 300 ./note_input.sv 
+# -- Compiling module note_input
+# 
+# Top level modules:
+# 	note_input
+# End time: 10:29:09 on Jun 04,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:29:09 on Jun 04,2026
+# vlog -reportprogress 300 ./noise_gen.sv 
+# -- Compiling module noise_gen
+# -- Compiling module noise_gen_testbench
+# 
+# Top level modules:
+# 	noise_gen_testbench
+# End time: 10:29:09 on Jun 04,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:29:09 on Jun 04,2026
+# vlog -reportprogress 300 ./DE1_SoC.sv 
+# -- Compiling module DE1_SoC
+# 
+# Top level modules:
+# 	DE1_SoC
+# End time: 10:29:09 on Jun 04,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:29:10 on Jun 04,2026
+# vlog -reportprogress 300 ./clock_generator.v 
+# -- Compiling module clock_generator
+# 
+# Top level modules:
+# 	clock_generator
+# End time: 10:29:10 on Jun 04,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:29:10 on Jun 04,2026
+# vlog -reportprogress 300 ./audio_codec.v 
+# -- Compiling module audio_codec
+# 
+# Top level modules:
+# 	audio_codec
+# End time: 10:29:10 on Jun 04,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:29:10 on Jun 04,2026
+# vlog -reportprogress 300 ./clock_divider_8.sv 
+# -- Compiling module clock_divider_8
+# 
+# Top level modules:
+# 	clock_divider_8
+# End time: 10:29:10 on Jun 04,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:29:10 on Jun 04,2026
+# vlog -reportprogress 300 ./clock_divider_8_tb.sv 
+# -- Compiling module clock_divider_8_tb
+# 
+# Top level modules:
+# 	clock_divider_8_tb
+# End time: 10:29:11 on Jun 04,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# End time: 10:29:16 on Jun 04,2026, Elapsed time: 0:08:40
+# Errors: 0, Warnings: 2
+# vsim -voptargs=""+acc"" -t 1ps -lib work note_input_tb -Lf altera_mf_ver 
+# Start time: 10:29:16 on Jun 04,2026
+# Loading sv_std.std
+# Loading work.note_input_tb
+# Loading work.note_input
+# Loading work.note_input_controller
+# Loading work.note_input_datapath
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: mflessa  Hostname: EE-347PC07  ProcessID: 18752
+#           Attempting to use alternate WLF file "./wlft56ctn8".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft56ctn8
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : ./note_input_tb.sv(45)
+#    Time: 13050 ps  Iteration: 1  Instance: /note_input_tb
+# Break in Module note_input_tb at ./note_input_tb.sv line 45
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf U:/EE_371/Lab6/note_input_wave.do
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:02:52 on Jun 04,2026
+# vlog -reportprogress 300 ./note_input_tb.sv 
+# -- Compiling module note_input_tb
+# 
+# Top level modules:
+# 	note_input_tb
+# End time: 11:02:52 on Jun 04,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:02:52 on Jun 04,2026
+# vlog -reportprogress 300 ./note_input_datapath.sv 
+# -- Compiling module note_input_datapath
+# 
+# Top level modules:
+# 	note_input_datapath
+# End time: 11:02:53 on Jun 04,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:02:53 on Jun 04,2026
+# vlog -reportprogress 300 ./note_input_controller.sv 
+# -- Compiling module note_input_controller
+# 
+# Top level modules:
+# 	note_input_controller
+# End time: 11:02:53 on Jun 04,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:02:53 on Jun 04,2026
+# vlog -reportprogress 300 ./note_input.sv 
+# -- Compiling module note_input
+# 
+# Top level modules:
+# 	note_input
+# End time: 11:02:53 on Jun 04,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:02:53 on Jun 04,2026
+# vlog -reportprogress 300 ./noise_gen.sv 
+# -- Compiling module noise_gen
+# -- Compiling module noise_gen_testbench
+# 
+# Top level modules:
+# 	noise_gen_testbench
+# End time: 11:02:54 on Jun 04,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:02:54 on Jun 04,2026
+# vlog -reportprogress 300 ./DE1_SoC.sv 
+# -- Compiling module DE1_SoC
+# 
+# Top level modules:
+# 	DE1_SoC
+# End time: 11:02:54 on Jun 04,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:02:54 on Jun 04,2026
+# vlog -reportprogress 300 ./clock_generator.v 
+# -- Compiling module clock_generator
+# 
+# Top level modules:
+# 	clock_generator
+# End time: 11:02:54 on Jun 04,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:02:54 on Jun 04,2026
+# vlog -reportprogress 300 ./audio_codec.v 
+# -- Compiling module audio_codec
+# 
+# Top level modules:
+# 	audio_codec
+# End time: 11:02:54 on Jun 04,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:02:54 on Jun 04,2026
+# vlog -reportprogress 300 ./clock_divider_8.sv 
+# -- Compiling module clock_divider_8
+# 
+# Top level modules:
+# 	clock_divider_8
+# End time: 11:02:55 on Jun 04,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:02:55 on Jun 04,2026
+# vlog -reportprogress 300 ./clock_divider_8_tb.sv 
+# -- Compiling module clock_divider_8_tb
+# 
+# Top level modules:
+# 	clock_divider_8_tb
+# End time: 11:02:55 on Jun 04,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 11:02:58 on Jun 04,2026, Elapsed time: 0:33:42
+# Errors: 0, Warnings: 2
+# vsim -voptargs=""+acc"" -t 1ps -lib work note_input_tb -Lf altera_mf_ver 
+# Start time: 11:02:58 on Jun 04,2026
+# Loading sv_std.std
+# Loading work.note_input_tb
+# Loading work.note_input
+# Loading work.note_input_controller
+# Loading work.note_input_datapath
+# ** Error: (vsim-3043) ./note_input_tb.sv(40): Unresolved reference to 'x'.
+#    Time: 0 ps  Iteration: 0  Instance: /note_input_tb File: ./note_input_tb.sv
+# ** Error: (vsim-3043) ./note_input_tb.sv(40): Unresolved reference to 'y'.
+#    Time: 0 ps  Iteration: 0  Instance: /note_input_tb File: ./note_input_tb.sv
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./runlab.do PAUSED at line 21
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:03:34 on Jun 04,2026
+# vlog -reportprogress 300 ./note_input_tb.sv 
+# -- Compiling module note_input_tb
+# 
+# Top level modules:
+# 	note_input_tb
+# End time: 11:03:35 on Jun 04,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:03:35 on Jun 04,2026
+# vlog -reportprogress 300 ./note_input_datapath.sv 
+# -- Compiling module note_input_datapath
+# 
+# Top level modules:
+# 	note_input_datapath
+# End time: 11:03:35 on Jun 04,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:03:35 on Jun 04,2026
+# vlog -reportprogress 300 ./note_input_controller.sv 
+# -- Compiling module note_input_controller
+# 
+# Top level modules:
+# 	note_input_controller
+# End time: 11:03:35 on Jun 04,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:03:35 on Jun 04,2026
+# vlog -reportprogress 300 ./note_input.sv 
+# -- Compiling module note_input
+# 
+# Top level modules:
+# 	note_input
+# End time: 11:03:35 on Jun 04,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:03:36 on Jun 04,2026
+# vlog -reportprogress 300 ./noise_gen.sv 
+# -- Compiling module noise_gen
+# -- Compiling module noise_gen_testbench
+# 
+# Top level modules:
+# 	noise_gen_testbench
+# End time: 11:03:36 on Jun 04,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:03:36 on Jun 04,2026
+# vlog -reportprogress 300 ./DE1_SoC.sv 
+# -- Compiling module DE1_SoC
+# 
+# Top level modules:
+# 	DE1_SoC
+# End time: 11:03:36 on Jun 04,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:03:36 on Jun 04,2026
+# vlog -reportprogress 300 ./clock_generator.v 
+# -- Compiling module clock_generator
+# 
+# Top level modules:
+# 	clock_generator
+# End time: 11:03:36 on Jun 04,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:03:36 on Jun 04,2026
+# vlog -reportprogress 300 ./audio_codec.v 
+# -- Compiling module audio_codec
+# 
+# Top level modules:
+# 	audio_codec
+# End time: 11:03:37 on Jun 04,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:03:37 on Jun 04,2026
+# vlog -reportprogress 300 ./clock_divider_8.sv 
+# -- Compiling module clock_divider_8
+# 
+# Top level modules:
+# 	clock_divider_8
+# End time: 11:03:37 on Jun 04,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:03:37 on Jun 04,2026
+# vlog -reportprogress 300 ./clock_divider_8_tb.sv 
+# -- Compiling module clock_divider_8_tb
+# 
+# Top level modules:
+# 	clock_divider_8_tb
+# End time: 11:03:37 on Jun 04,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs=""+acc"" -t 1ps -lib work note_input_tb -Lf altera_mf_ver 
+# Start time: 11:02:58 on Jun 04,2026
+# Loading sv_std.std
+# Loading work.note_input_tb
+# Loading work.note_input
+# Loading work.note_input_controller
+# Loading work.note_input_datapath
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: mflessa  Hostname: EE-347PC07  ProcessID: 18752
+#           Attempting to use alternate WLF file "./wlft546jah".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft546jah
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# Loading. Full = 0. Wren = 1. T=  950
+# Loading. Full = 0. Wren = 0. T= 1050
+# Loading. Full = 0. Wren = 1. T= 1150
+# Loading. Full = 0. Wren = 1. T= 1250
+# Loading. Full = 0. Wren = 1. T= 1350
+# Loading. Full = 0. Wren = 1. T= 1450
+# Loading. Full = 0. Wren = 1. T= 1550
+# Loading. Full = 0. Wren = 1. T= 1650
+# Loading. Full = 0. Wren = 1. T= 1750
+# Loading. Full = 0. Wren = 1. T= 1850
+# Loading. Full = 0. Wren = 1. T= 1950
+# Loading. Full = 0. Wren = 1. T= 2050
+# Loading. Full = 0. Wren = 1. T= 2150
+# Loading. Full = 0. Wren = 1. T= 2250
+# Loading. Full = 0. Wren = 1. T= 2350
+# Loading. Full = 0. Wren = 1. T= 2450
+# Loading. Full = 0. Wren = 1. T= 2550
+# Loading. Full = 0. Wren = 1. T= 2650
+# Loading. Full = 0. Wren = 1. T= 2750
+# Loading. Full = 0. Wren = 1. T= 2850
+# Loading. Full = 0. Wren = 1. T= 2950
+# Loading. Full = 0. Wren = 1. T= 3050
+# Loading. Full = 0. Wren = 1. T= 3150
+# Loading. Full = 0. Wren = 1. T= 3250
+# Loading. Full = 0. Wren = 1. T= 3350
+# Loading. Full = 0. Wren = 1. T= 3450
+# Loading. Full = 0. Wren = 1. T= 3550
+# Loading. Full = 0. Wren = 1. T= 3650
+# Loading. Full = 0. Wren = 1. T= 3750
+# Loading. Full = 0. Wren = 1. T= 3850
+# Loading. Full = 0. Wren = 1. T= 3950
+# Loading. Full = 0. Wren = 1. T= 4050
+# Loading. Full = 0. Wren = 1. T= 4150
+# Loading. Full = 0. Wren = 1. T= 4250
+# Loading. Full = 0. Wren = 1. T= 4350
+# Loading. Full = 0. Wren = 1. T= 4450
+# Loading. Full = 0. Wren = 1. T= 4550
+# Loading. Full = 0. Wren = 1. T= 4650
+# Loading. Full = 0. Wren = 1. T= 4750
+# Loading. Full = 0. Wren = 1. T= 4850
+# Loading. Full = 0. Wren = 1. T= 4950
+# Loading. Full = 0. Wren = 1. T= 5050
+# Loading. Full = 0. Wren = 1. T= 5150
+# Loading. Full = 0. Wren = 1. T= 5250
+# Loading. Full = 0. Wren = 1. T= 5350
+# Loading. Full = 0. Wren = 1. T= 5450
+# Loading. Full = 0. Wren = 1. T= 5550
+# Loading. Full = 0. Wren = 1. T= 5650
+# Loading. Full = 0. Wren = 1. T= 5750
+# Loading. Full = 0. Wren = 1. T= 5850
+# Loading. Full = 0. Wren = 1. T= 5950
+# Loading. Full = 0. Wren = 1. T= 6050
+# Loading. Full = 0. Wren = 1. T= 6150
+# Loading. Full = 0. Wren = 1. T= 6250
+# Loading. Full = 0. Wren = 1. T= 6350
+# Loading. Full = 0. Wren = 1. T= 6450
+# Loading. Full = 0. Wren = 1. T= 6550
+# Loading. Full = 0. Wren = 1. T= 6650
+# Loading. Full = 0. Wren = 1. T= 6750
+# Loading. Full = 0. Wren = 1. T= 6850
+# Loading. Full = 0. Wren = 1. T= 6950
+# Loading. Full = 0. Wren = 1. T= 7050
+# Loading. Full = 0. Wren = 1. T= 7150
+# Loading. Full = 0. Wren = 1. T= 7250
+# Loading. Full = 0. Wren = 1. T= 7350
+# Loading. Full = 0. Wren = 1. T= 7450
+# Loading. Full = 0. Wren = 1. T= 7550
+# Loading. Full = 0. Wren = 1. T= 7650
+# Loading. Full = 0. Wren = 1. T= 7750
+# Loading. Full = 0. Wren = 1. T= 7850
+# Loading. Full = 0. Wren = 1. T= 7950
+# Loading. Full = 0. Wren = 1. T= 8050
+# Loading. Full = 0. Wren = 1. T= 8150
+# Loading. Full = 0. Wren = 1. T= 8250
+# Loading. Full = 0. Wren = 1. T= 8350
+# Loading. Full = 0. Wren = 1. T= 8450
+# Loading. Full = 0. Wren = 1. T= 8550
+# Loading. Full = 0. Wren = 1. T= 8650
+# Loading. Full = 0. Wren = 1. T= 8750
+# Loading. Full = 0. Wren = 1. T= 8850
+# Loading. Full = 0. Wren = 1. T= 8950
+# Loading. Full = 0. Wren = 1. T= 9050
+# Loading. Full = 0. Wren = 1. T= 9150
+# Loading. Full = 0. Wren = 1. T= 9250
+# Loading. Full = 0. Wren = 1. T= 9350
+# Loading. Full = 0. Wren = 1. T= 9450
+# Loading. Full = 0. Wren = 1. T= 9550
+# Loading. Full = 0. Wren = 1. T= 9650
+# Loading. Full = 0. Wren = 1. T= 9750
+# Loading. Full = 0. Wren = 1. T= 9850
+# Loading. Full = 0. Wren = 1. T= 9950
+# Loading. Full = 0. Wren = 1. T= 10050
+# Loading. Full = 0. Wren = 1. T= 10150
+# Loading. Full = 0. Wren = 1. T= 10250
+# Loading. Full = 0. Wren = 1. T= 10350
+# Loading. Full = 0. Wren = 1. T= 10450
+# Loading. Full = 0. Wren = 1. T= 10550
+# Loading. Full = 0. Wren = 1. T= 10650
+# Loading. Full = 0. Wren = 1. T= 10750
+# Loading. Full = 0. Wren = 1. T= 10850
+# Loading. Full = 0. Wren = 1. T= 10950
+# Loading. Full = 0. Wren = 1. T= 11050
+# Loading. Full = 0. Wren = 1. T= 11150
+# Loading. Full = 0. Wren = 1. T= 11250
+# Loading. Full = 0. Wren = 1. T= 11350
+# Loading. Full = 0. Wren = 1. T= 11450
+# Loading. Full = 0. Wren = 1. T= 11550
+# Loading. Full = 0. Wren = 1. T= 11650
+# Loading. Full = 0. Wren = 1. T= 11750
+# Loading. Full = 0. Wren = 1. T= 11850
+# Loading. Full = 0. Wren = 1. T= 11950
+# Loading. Full = 0. Wren = 1. T= 12050
+# Loading. Full = 0. Wren = 1. T= 12150
+# Loading. Full = 0. Wren = 1. T= 12250
+# Loading. Full = 0. Wren = 1. T= 12350
+# Loading. Full = 0. Wren = 1. T= 12450
+# Loading. Full = 0. Wren = 1. T= 12550
+# Loading. Full = 0. Wren = 1. T= 12650
+# Loading. Full = 0. Wren = 1. T= 12750
+# DONE LOADING, T = 12850
+# ** Note: $stop    : ./note_input_tb.sv(54)
+#    Time: 13150 ps  Iteration: 1  Instance: /note_input_tb
+# Break in Module note_input_tb at ./note_input_tb.sv line 54
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:04:47 on Jun 04,2026
+# vlog -reportprogress 300 ./note_input_tb.sv 
+# -- Compiling module note_input_tb
+# 
+# Top level modules:
+# 	note_input_tb
+# End time: 11:04:47 on Jun 04,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:04:47 on Jun 04,2026
+# vlog -reportprogress 300 ./note_input_datapath.sv 
+# -- Compiling module note_input_datapath
+# 
+# Top level modules:
+# 	note_input_datapath
+# End time: 11:04:47 on Jun 04,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:04:47 on Jun 04,2026
+# vlog -reportprogress 300 ./note_input_controller.sv 
+# -- Compiling module note_input_controller
+# 
+# Top level modules:
+# 	note_input_controller
+# End time: 11:04:48 on Jun 04,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:04:48 on Jun 04,2026
+# vlog -reportprogress 300 ./note_input.sv 
+# -- Compiling module note_input
+# 
+# Top level modules:
+# 	note_input
+# End time: 11:04:48 on Jun 04,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:04:48 on Jun 04,2026
+# vlog -reportprogress 300 ./noise_gen.sv 
+# -- Compiling module noise_gen
+# -- Compiling module noise_gen_testbench
+# 
+# Top level modules:
+# 	noise_gen_testbench
+# End time: 11:04:48 on Jun 04,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:04:48 on Jun 04,2026
+# vlog -reportprogress 300 ./DE1_SoC.sv 
+# -- Compiling module DE1_SoC
+# 
+# Top level modules:
+# 	DE1_SoC
+# End time: 11:04:49 on Jun 04,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:04:49 on Jun 04,2026
+# vlog -reportprogress 300 ./clock_generator.v 
+# -- Compiling module clock_generator
+# 
+# Top level modules:
+# 	clock_generator
+# End time: 11:04:49 on Jun 04,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:04:49 on Jun 04,2026
+# vlog -reportprogress 300 ./audio_codec.v 
+# -- Compiling module audio_codec
+# 
+# Top level modules:
+# 	audio_codec
+# End time: 11:04:49 on Jun 04,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:04:49 on Jun 04,2026
+# vlog -reportprogress 300 ./clock_divider_8.sv 
+# -- Compiling module clock_divider_8
+# 
+# Top level modules:
+# 	clock_divider_8
+# End time: 11:04:49 on Jun 04,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:04:49 on Jun 04,2026
+# vlog -reportprogress 300 ./clock_divider_8_tb.sv 
+# -- Compiling module clock_divider_8_tb
+# 
+# Top level modules:
+# 	clock_divider_8_tb
+# End time: 11:04:50 on Jun 04,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# End time: 11:04:53 on Jun 04,2026, Elapsed time: 0:01:55
+# Errors: 2, Warnings: 2
+# vsim -voptargs=""+acc"" -t 1ps -lib work note_input_tb -Lf altera_mf_ver 
+# Start time: 11:04:53 on Jun 04,2026
+# Loading sv_std.std
+# Loading work.note_input_tb
+# Loading work.note_input
+# Loading work.note_input_controller
+# Loading work.note_input_datapath
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: mflessa  Hostname: EE-347PC07  ProcessID: 18752
+#           Attempting to use alternate WLF file "./wlftz3wfgf".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftz3wfgf
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# Loading. Full = 0. Wren = 1. T=  950
+# Loading. Full = 0. Wren = 0. T= 1050
+# Loading. Full = 0. Wren = 1. T= 1150
+# Loading. Full = 0. Wren = 1. T= 1250
+# Loading. Full = 0. Wren = 1. T= 1350
+# Loading. Full = 0. Wren = 1. T= 1450
+# Loading. Full = 0. Wren = 1. T= 1550
+# Loading. Full = 0. Wren = 1. T= 1650
+# Loading. Full = 0. Wren = 1. T= 1750
+# Loading. Full = 0. Wren = 1. T= 1850
+# Loading. Full = 0. Wren = 1. T= 1950
+# Loading. Full = 0. Wren = 1. T= 2050
+# Loading. Full = 0. Wren = 1. T= 2150
+# Loading. Full = 0. Wren = 1. T= 2250
+# Loading. Full = 0. Wren = 1. T= 2350
+# Loading. Full = 0. Wren = 1. T= 2450
+# Loading. Full = 0. Wren = 1. T= 2550
+# Loading. Full = 0. Wren = 1. T= 2650
+# Loading. Full = 0. Wren = 1. T= 2750
+# Loading. Full = 0. Wren = 1. T= 2850
+# Loading. Full = 0. Wren = 1. T= 2950
+# Loading. Full = 0. Wren = 1. T= 3050
+# Loading. Full = 0. Wren = 1. T= 3150
+# Loading. Full = 0. Wren = 1. T= 3250
+# Loading. Full = 0. Wren = 1. T= 3350
+# Loading. Full = 0. Wren = 1. T= 3450
+# Loading. Full = 0. Wren = 1. T= 3550
+# Loading. Full = 0. Wren = 1. T= 3650
+# Loading. Full = 0. Wren = 1. T= 3750
+# Loading. Full = 0. Wren = 1. T= 3850
+# Loading. Full = 0. Wren = 1. T= 3950
+# Loading. Full = 0. Wren = 1. T= 4050
+# Loading. Full = 0. Wren = 1. T= 4150
+# Loading. Full = 0. Wren = 1. T= 4250
+# Loading. Full = 0. Wren = 1. T= 4350
+# Loading. Full = 0. Wren = 1. T= 4450
+# Loading. Full = 0. Wren = 1. T= 4550
+# Loading. Full = 0. Wren = 1. T= 4650
+# Loading. Full = 0. Wren = 1. T= 4750
+# Loading. Full = 0. Wren = 1. T= 4850
+# Loading. Full = 0. Wren = 1. T= 4950
+# Loading. Full = 0. Wren = 1. T= 5050
+# Loading. Full = 0. Wren = 1. T= 5150
+# Loading. Full = 0. Wren = 1. T= 5250
+# Loading. Full = 0. Wren = 1. T= 5350
+# Loading. Full = 0. Wren = 1. T= 5450
+# Loading. Full = 0. Wren = 1. T= 5550
+# Loading. Full = 0. Wren = 1. T= 5650
+# Loading. Full = 0. Wren = 1. T= 5750
+# Loading. Full = 0. Wren = 1. T= 5850
+# Loading. Full = 0. Wren = 1. T= 5950
+# Loading. Full = 0. Wren = 1. T= 6050
+# Loading. Full = 0. Wren = 1. T= 6150
+# Loading. Full = 0. Wren = 1. T= 6250
+# Loading. Full = 0. Wren = 1. T= 6350
+# Loading. Full = 0. Wren = 1. T= 6450
+# Loading. Full = 0. Wren = 1. T= 6550
+# Loading. Full = 0. Wren = 1. T= 6650
+# Loading. Full = 0. Wren = 1. T= 6750
+# Loading. Full = 0. Wren = 1. T= 6850
+# Loading. Full = 0. Wren = 1. T= 6950
+# Loading. Full = 0. Wren = 1. T= 7050
+# Loading. Full = 0. Wren = 1. T= 7150
+# Loading. Full = 0. Wren = 1. T= 7250
+# Loading. Full = 0. Wren = 1. T= 7350
+# Loading. Full = 0. Wren = 1. T= 7450
+# Loading. Full = 0. Wren = 1. T= 7550
+# Loading. Full = 0. Wren = 1. T= 7650
+# Loading. Full = 0. Wren = 1. T= 7750
+# Loading. Full = 0. Wren = 1. T= 7850
+# Loading. Full = 0. Wren = 1. T= 7950
+# Loading. Full = 0. Wren = 1. T= 8050
+# Loading. Full = 0. Wren = 1. T= 8150
+# Loading. Full = 0. Wren = 1. T= 8250
+# Loading. Full = 0. Wren = 1. T= 8350
+# Loading. Full = 0. Wren = 1. T= 8450
+# Loading. Full = 0. Wren = 1. T= 8550
+# Loading. Full = 0. Wren = 1. T= 8650
+# Loading. Full = 0. Wren = 1. T= 8750
+# Loading. Full = 0. Wren = 1. T= 8850
+# Loading. Full = 0. Wren = 1. T= 8950
+# Loading. Full = 0. Wren = 1. T= 9050
+# Loading. Full = 0. Wren = 1. T= 9150
+# Loading. Full = 0. Wren = 1. T= 9250
+# Loading. Full = 0. Wren = 1. T= 9350
+# Loading. Full = 0. Wren = 1. T= 9450
+# Loading. Full = 0. Wren = 1. T= 9550
+# Loading. Full = 0. Wren = 1. T= 9650
+# Loading. Full = 0. Wren = 1. T= 9750
+# Loading. Full = 0. Wren = 1. T= 9850
+# Loading. Full = 0. Wren = 1. T= 9950
+# Loading. Full = 0. Wren = 1. T= 10050
+# Loading. Full = 0. Wren = 1. T= 10150
+# Loading. Full = 0. Wren = 1. T= 10250
+# Loading. Full = 0. Wren = 1. T= 10350
+# Loading. Full = 0. Wren = 1. T= 10450
+# Loading. Full = 0. Wren = 1. T= 10550
+# Loading. Full = 0. Wren = 1. T= 10650
+# Loading. Full = 0. Wren = 1. T= 10750
+# Loading. Full = 0. Wren = 1. T= 10850
+# Loading. Full = 0. Wren = 1. T= 10950
+# Loading. Full = 0. Wren = 1. T= 11050
+# Loading. Full = 0. Wren = 1. T= 11150
+# Loading. Full = 0. Wren = 1. T= 11250
+# Loading. Full = 0. Wren = 1. T= 11350
+# Loading. Full = 0. Wren = 1. T= 11450
+# Loading. Full = 0. Wren = 1. T= 11550
+# Loading. Full = 0. Wren = 1. T= 11650
+# Loading. Full = 0. Wren = 1. T= 11750
+# Loading. Full = 0. Wren = 1. T= 11850
+# Loading. Full = 0. Wren = 1. T= 11950
+# Loading. Full = 0. Wren = 1. T= 12050
+# Loading. Full = 0. Wren = 1. T= 12150
+# Loading. Full = 0. Wren = 1. T= 12250
+# Loading. Full = 0. Wren = 1. T= 12350
+# Loading. Full = 0. Wren = 1. T= 12450
+# Loading. Full = 0. Wren = 1. T= 12550
+# Loading. Full = 0. Wren = 1. T= 12650
+# Loading. Full = 0. Wren = 1. T= 12750
+# DONE LOADING! Full = 1. Wren = 0. T = 12850
+# ** Note: $stop    : ./note_input_tb.sv(54)
+#    Time: 13150 ps  Iteration: 1  Instance: /note_input_tb
+# Break in Module note_input_tb at ./note_input_tb.sv line 54

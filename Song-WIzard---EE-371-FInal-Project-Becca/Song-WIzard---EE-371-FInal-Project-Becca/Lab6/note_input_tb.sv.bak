@@ -1,0 +1,38 @@
+/* Testbench for line drawer */
+module line_drawer_tb (); //line_drawer_tb
+  input logic clk, reset;
+	input logic [10:0]	x0, y0, x1, y1;
+	output logic done;
+	output logic [10:0]	x, y;
+
+  //instantiate task 1 as dut
+  t1 #(W) dut(.*);
+  
+  // simulated clock
+	 parameter period = 100;
+	 initial begin
+		clk <= 0;
+		forever
+			#(period/2)
+			clk <= ~clk;
+	end // initial clock
+	
+	integer i;
+	initial begin // initial
+		reset = 1; s = 0;														@(posedge clk);
+		reset = 0;																@(posedge clk);
+		for (i = 0; i < 2**W; i++) begin                                           
+		           A = i;														@(posedge clk);
+					  s = 1;														@(posedge clk);  // iterate through all possible values for A
+					  s = 0; 									            @(posedge done); // wait for posedge of done signal to display final result
+					  $display("T= %4t, countOnes(%8b) returned %0d",
+					 $time, A, result);     								@(posedge clk);                       
+		end
+		@(posedge clk); // extra cycle
+		$stop;
+	
+	end //initial
+
+	
+	
+endmodule  // line_drawer_tb
