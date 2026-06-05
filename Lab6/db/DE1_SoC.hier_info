@@ -1,4 +1,201 @@
-|note_input
+|DE1_SoC
+CLOCK_50 => CLOCK_50.IN2
+CLOCK2_50 => ~NO_FANOUT~
+FPGA_I2C_SCLK << <GND>
+FPGA_I2C_SDAT <> <UNC>
+AUD_XCK << <GND>
+AUD_DACLRCK => ~NO_FANOUT~
+AUD_ADCLRCK => ~NO_FANOUT~
+AUD_BCLK => ~NO_FANOUT~
+AUD_ADCDAT => ~NO_FANOUT~
+AUD_DACDAT << <GND>
+HEX0[0] << <GND>
+HEX0[1] << <GND>
+HEX0[2] << <GND>
+HEX0[3] << <GND>
+HEX0[4] << <GND>
+HEX0[5] << <GND>
+HEX0[6] << <GND>
+HEX1[0] << <GND>
+HEX1[1] << <GND>
+HEX1[2] << <GND>
+HEX1[3] << <GND>
+HEX1[4] << <GND>
+HEX1[5] << <GND>
+HEX1[6] << <GND>
+HEX2[0] << <GND>
+HEX2[1] << <GND>
+HEX2[2] << <GND>
+HEX2[3] << <GND>
+HEX2[4] << <GND>
+HEX2[5] << <GND>
+HEX2[6] << <GND>
+HEX3[0] << <GND>
+HEX3[1] << <GND>
+HEX3[2] << <GND>
+HEX3[3] << <GND>
+HEX3[4] << <GND>
+HEX3[5] << <GND>
+HEX3[6] << <GND>
+HEX4[0] << <GND>
+HEX4[1] << <GND>
+HEX4[2] << <GND>
+HEX4[3] << <GND>
+HEX4[4] << <GND>
+HEX4[5] << <GND>
+HEX4[6] << <GND>
+HEX5[0] << <GND>
+HEX5[1] << <GND>
+HEX5[2] << <GND>
+HEX5[3] << <GND>
+HEX5[4] << <GND>
+HEX5[5] << <GND>
+HEX5[6] << <GND>
+LEDR[0] << n8_driver:driver.pulse
+LEDR[1] << n8_driver:driver.latch
+LEDR[2] << LEDR[2].DB_MAX_OUTPUT_PORT_TYPE
+LEDR[3] << LEDR[3].DB_MAX_OUTPUT_PORT_TYPE
+LEDR[4] << LEDR[4].DB_MAX_OUTPUT_PORT_TYPE
+LEDR[5] << LEDR[5].DB_MAX_OUTPUT_PORT_TYPE
+LEDR[6] << LEDR[6].DB_MAX_OUTPUT_PORT_TYPE
+LEDR[7] << LEDR[7].DB_MAX_OUTPUT_PORT_TYPE
+LEDR[8] << <GND>
+LEDR[9] << <GND>
+V_GPIO[0] <> <UNC>
+V_GPIO[1] <> <UNC>
+V_GPIO[2] <> <UNC>
+V_GPIO[3] <> <UNC>
+V_GPIO[4] <> <UNC>
+V_GPIO[5] <> <UNC>
+V_GPIO[6] <> <UNC>
+V_GPIO[7] <> <UNC>
+V_GPIO[8] <> <UNC>
+V_GPIO[9] <> <UNC>
+V_GPIO[13] <> <UNC>
+V_GPIO[14] <> <UNC>
+V_GPIO[15] <> <UNC>
+V_GPIO[16] <> <UNC>
+V_GPIO[17] <> <UNC>
+V_GPIO[18] <> <UNC>
+V_GPIO[19] <> <UNC>
+V_GPIO[20] <> <UNC>
+V_GPIO[21] <> <UNC>
+V_GPIO[22] <> <UNC>
+V_GPIO[23] <> <UNC>
+V_GPIO[24] <> <UNC>
+V_GPIO[25] <> <UNC>
+V_GPIO[26] <> V_GPIO[26]
+V_GPIO[27] <> V_GPIO[27]
+V_GPIO[28] <> n8_driver:driver.data_in
+V_GPIO[31] <> <UNC>
+V_GPIO[32] <> <UNC>
+V_GPIO[33] <> <UNC>
+V_GPIO[34] <> <UNC>
+V_GPIO[35] <> <UNC>
+test_A => note_input:note_loader_sim.A
+test_B => note_input:note_loader_sim.B
+test_C => note_input:note_loader_sim.C
+test_D => note_input:note_loader_sim.D
+test_E => note_input:note_loader_sim.E
+test_F => note_input:note_loader_sim.F
+test_G => note_input:note_loader_sim.G
+test_reset => note_input:note_loader_sim.reset
+
+
+|DE1_SoC|n8_driver:driver
+clk => clk.IN1
+data_in => data_in.IN1
+latch <= serial_driver:driver.latch
+pulse <= serial_driver:driver.pulse
+A <= serial_driver:driver.data_out
+B <= serial_driver:driver.data_out
+C <= serial_driver:driver.data_out
+D <= serial_driver:driver.data_out
+E <= serial_driver:driver.data_out
+F <= serial_driver:driver.data_out
+G <= serial_driver:driver.data_out
+
+
+|DE1_SoC|n8_driver:driver|serial_driver:driver
+clk => counter[0].CLK
+clk => counter[1].CLK
+clk => counter[2].CLK
+clk => counter[3].CLK
+clk => counter[4].CLK
+clk => counter[5].CLK
+clk => counter[6].CLK
+clk => counter[7].CLK
+clk => counter[8].CLK
+clk => counter[9].CLK
+clk => counter[10].CLK
+clk => counter[11].CLK
+clk => counter[12].CLK
+clk => counter[13].CLK
+clk => counter[14].CLK
+data_in => temp[0].DATAIN
+latch <= latch.DB_MAX_OUTPUT_PORT_TYPE
+pulse <= pulse.DB_MAX_OUTPUT_PORT_TYPE
+data_out[0] <= data_out[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+data_out[1] <= data_out[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+data_out[2] <= data_out[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+data_out[3] <= data_out[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+data_out[4] <= data_out[4]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+data_out[5] <= data_out[5]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+data_out[6] <= data_out[6]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+data_out[7] <= data_out[7]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DE1_SoC|clock_divider_8:c8
+clk => clk_8~reg0.CLK
+clk => counter[0].CLK
+clk => counter[1].CLK
+clk => counter[2].CLK
+clk => counter[3].CLK
+clk => counter[4].CLK
+clk => counter[5].CLK
+clk => counter[6].CLK
+clk => counter[7].CLK
+clk => counter[8].CLK
+clk => counter[9].CLK
+clk => counter[10].CLK
+clk => counter[11].CLK
+clk => counter[12].CLK
+clk => counter[13].CLK
+clk => counter[14].CLK
+clk => counter[15].CLK
+clk => counter[16].CLK
+clk => counter[17].CLK
+clk => counter[18].CLK
+clk => counter[19].CLK
+clk => counter[20].CLK
+clk => counter[21].CLK
+reset => clk_8~reg0.ACLR
+reset => counter[0].ACLR
+reset => counter[1].ACLR
+reset => counter[2].ACLR
+reset => counter[3].ACLR
+reset => counter[4].ACLR
+reset => counter[5].ACLR
+reset => counter[6].ACLR
+reset => counter[7].ACLR
+reset => counter[8].ACLR
+reset => counter[9].ACLR
+reset => counter[10].ACLR
+reset => counter[11].ACLR
+reset => counter[12].ACLR
+reset => counter[13].ACLR
+reset => counter[14].ACLR
+reset => counter[15].ACLR
+reset => counter[16].ACLR
+reset => counter[17].ACLR
+reset => counter[18].ACLR
+reset => counter[19].ACLR
+reset => counter[20].ACLR
+reset => counter[21].ACLR
+clk_8 <= clk_8~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DE1_SoC|note_input:note_loader_sim
 clk => note_input_controller:ni_c.clk
 clk => note_input_datapath:ni_d.clk
 reset => note_input_controller:ni_c.reset
@@ -11,21 +208,21 @@ E => note_input_datapath:ni_d.E
 F => note_input_datapath:ni_d.F
 G => note_input_datapath:ni_d.G
 stop => note_input_datapath:ni_d.stop
-full << note_input_datapath:ni_d.full
-RAM_addr[0] << note_input_datapath:ni_d.RAM_addr[0]
-RAM_addr[1] << note_input_datapath:ni_d.RAM_addr[1]
-RAM_addr[2] << note_input_datapath:ni_d.RAM_addr[2]
-RAM_addr[3] << note_input_datapath:ni_d.RAM_addr[3]
-RAM_addr[4] << note_input_datapath:ni_d.RAM_addr[4]
-RAM_addr[5] << note_input_datapath:ni_d.RAM_addr[5]
-RAM_addr[6] << note_input_datapath:ni_d.RAM_addr[6]
-RAM_din[0] << note_input_datapath:ni_d.RAM_din[0]
-RAM_din[1] << note_input_datapath:ni_d.RAM_din[1]
-RAM_din[2] << note_input_datapath:ni_d.RAM_din[2]
-RAM_wren << note_input_datapath:ni_d.RAM_wren
+full <= note_input_datapath:ni_d.full
+RAM_addr[0] <= note_input_datapath:ni_d.RAM_addr[0]
+RAM_addr[1] <= note_input_datapath:ni_d.RAM_addr[1]
+RAM_addr[2] <= note_input_datapath:ni_d.RAM_addr[2]
+RAM_addr[3] <= note_input_datapath:ni_d.RAM_addr[3]
+RAM_addr[4] <= note_input_datapath:ni_d.RAM_addr[4]
+RAM_addr[5] <= note_input_datapath:ni_d.RAM_addr[5]
+RAM_addr[6] <= note_input_datapath:ni_d.RAM_addr[6]
+RAM_din[0] <= note_input_datapath:ni_d.RAM_din[0]
+RAM_din[1] <= note_input_datapath:ni_d.RAM_din[1]
+RAM_din[2] <= note_input_datapath:ni_d.RAM_din[2]
+RAM_wren <= note_input_datapath:ni_d.RAM_wren
 
 
-|note_input|note_input_controller:ni_c
+|DE1_SoC|note_input:note_loader_sim|note_input_controller:ni_c
 clk => ps~1.DATAIN
 reset => ps.OUTPUTSELECT
 reset => ps.OUTPUTSELECT
@@ -73,7 +270,7 @@ incr_addr <= reset_wren.DB_MAX_OUTPUT_PORT_TYPE
 load_regs <= load_regs.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|note_input|note_input_datapath:ni_d
+|DE1_SoC|note_input:note_loader_sim|note_input_datapath:ni_d
 clk => RAM_addr[0]~reg0.CLK
 clk => RAM_addr[1]~reg0.CLK
 clk => RAM_addr[2]~reg0.CLK
@@ -169,5 +366,97 @@ note_press_G <= G.DB_MAX_OUTPUT_PORT_TYPE
 addr_eq_max <= Equal0.DB_MAX_OUTPUT_PORT_TYPE
 still_pressed <= still_pressed.DB_MAX_OUTPUT_PORT_TYPE
 stop_load <= stop.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DE1_SoC|note_ram120x3:user_notes_RAM
+address[0] => address[0].IN1
+address[1] => address[1].IN1
+address[2] => address[2].IN1
+address[3] => address[3].IN1
+address[4] => address[4].IN1
+address[5] => address[5].IN1
+address[6] => address[6].IN1
+clock => clock.IN1
+data[0] => data[0].IN1
+data[1] => data[1].IN1
+data[2] => data[2].IN1
+wren => wren.IN1
+q[0] <= altsyncram:altsyncram_component.q_a
+q[1] <= altsyncram:altsyncram_component.q_a
+q[2] <= altsyncram:altsyncram_component.q_a
+
+
+|DE1_SoC|note_ram120x3:user_notes_RAM|altsyncram:altsyncram_component
+wren_a => altsyncram_tqq1:auto_generated.wren_a
+rden_a => ~NO_FANOUT~
+wren_b => ~NO_FANOUT~
+rden_b => ~NO_FANOUT~
+data_a[0] => altsyncram_tqq1:auto_generated.data_a[0]
+data_a[1] => altsyncram_tqq1:auto_generated.data_a[1]
+data_a[2] => altsyncram_tqq1:auto_generated.data_a[2]
+data_b[0] => ~NO_FANOUT~
+address_a[0] => altsyncram_tqq1:auto_generated.address_a[0]
+address_a[1] => altsyncram_tqq1:auto_generated.address_a[1]
+address_a[2] => altsyncram_tqq1:auto_generated.address_a[2]
+address_a[3] => altsyncram_tqq1:auto_generated.address_a[3]
+address_a[4] => altsyncram_tqq1:auto_generated.address_a[4]
+address_a[5] => altsyncram_tqq1:auto_generated.address_a[5]
+address_a[6] => altsyncram_tqq1:auto_generated.address_a[6]
+address_b[0] => ~NO_FANOUT~
+addressstall_a => ~NO_FANOUT~
+addressstall_b => ~NO_FANOUT~
+clock0 => altsyncram_tqq1:auto_generated.clock0
+clock1 => ~NO_FANOUT~
+clocken0 => ~NO_FANOUT~
+clocken1 => ~NO_FANOUT~
+clocken2 => ~NO_FANOUT~
+clocken3 => ~NO_FANOUT~
+aclr0 => ~NO_FANOUT~
+aclr1 => ~NO_FANOUT~
+byteena_a[0] => ~NO_FANOUT~
+byteena_b[0] => ~NO_FANOUT~
+q_a[0] <= altsyncram_tqq1:auto_generated.q_a[0]
+q_a[1] <= altsyncram_tqq1:auto_generated.q_a[1]
+q_a[2] <= altsyncram_tqq1:auto_generated.q_a[2]
+q_b[0] <= <GND>
+eccstatus[0] <= <GND>
+eccstatus[1] <= <GND>
+eccstatus[2] <= <GND>
+
+
+|DE1_SoC|note_ram120x3:user_notes_RAM|altsyncram:altsyncram_component|altsyncram_tqq1:auto_generated
+address_a[0] => ram_block1a0.PORTAADDR
+address_a[0] => ram_block1a1.PORTAADDR
+address_a[0] => ram_block1a2.PORTAADDR
+address_a[1] => ram_block1a0.PORTAADDR1
+address_a[1] => ram_block1a1.PORTAADDR1
+address_a[1] => ram_block1a2.PORTAADDR1
+address_a[2] => ram_block1a0.PORTAADDR2
+address_a[2] => ram_block1a1.PORTAADDR2
+address_a[2] => ram_block1a2.PORTAADDR2
+address_a[3] => ram_block1a0.PORTAADDR3
+address_a[3] => ram_block1a1.PORTAADDR3
+address_a[3] => ram_block1a2.PORTAADDR3
+address_a[4] => ram_block1a0.PORTAADDR4
+address_a[4] => ram_block1a1.PORTAADDR4
+address_a[4] => ram_block1a2.PORTAADDR4
+address_a[5] => ram_block1a0.PORTAADDR5
+address_a[5] => ram_block1a1.PORTAADDR5
+address_a[5] => ram_block1a2.PORTAADDR5
+address_a[6] => ram_block1a0.PORTAADDR6
+address_a[6] => ram_block1a1.PORTAADDR6
+address_a[6] => ram_block1a2.PORTAADDR6
+clock0 => ram_block1a0.CLK0
+clock0 => ram_block1a1.CLK0
+clock0 => ram_block1a2.CLK0
+data_a[0] => ram_block1a0.PORTADATAIN
+data_a[1] => ram_block1a1.PORTADATAIN
+data_a[2] => ram_block1a2.PORTADATAIN
+q_a[0] <= ram_block1a0.PORTADATAOUT
+q_a[1] <= ram_block1a1.PORTADATAOUT
+q_a[2] <= ram_block1a2.PORTADATAOUT
+wren_a => ram_block1a0.PORTAWE
+wren_a => ram_block1a1.PORTAWE
+wren_a => ram_block1a2.PORTAWE
 
 

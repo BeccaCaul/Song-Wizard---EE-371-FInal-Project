@@ -1,0 +1,61 @@
+`timescale 1 ps / 1 ps
+module DE1_SoC_tb ();
+  	parameter MAX = 5;
+   
+	logic CLOCK_50, CLOCK2_50;
+	logic [6:0] HEX0, HEX1, HEX2, HEX3, HEX4, HEX5;
+   logic [9:0] LEDR;
+	 wire [35:0] V_GPIO;
+	
+	// I2C Audio/Video config interface
+	wire FPGA_I2C_SCLK;
+	wire FPGA_I2C_SDAT;
+	// Audio CODEC
+	wire AUD_XCK;
+	wire AUD_DACLRCK, AUD_ADCLRCK, AUD_BCLK;
+	wire AUD_ADCDAT;
+	wire AUD_DACDAT;
+	
+	//connect notes to GPIO
+	logic A
+	
+  //instantiate task 1 as dut
+  DE1_SoC #(MAX) dut(.*);
+  
+  // simulated clock
+	 parameter period = 100;
+	 initial begin
+		CLOCK_50 <= 0;
+		forever
+			#(period/2)
+			CLOCK_50 <= ~CLOCK_50;
+	end // initial clock
+	
+	integer i;
+	initial begin
+	//TASK 1 TESTS => SW[9] = 0
+			KEY[0] = 0; KEY[3] = 1; SW[9] = 0;                   @(posedge CLOCK_50); //reset
+			KEY[0] = 1;			                                   @(posedge CLOCK_50);
+			
+			for (i = 0; i < 2**W; i++) begin  								//iterate through all possible values for A
+					  KEY[0] = 0; KEY[3] = 1; SW[9] = 0;            @(posedge CLOCK_50); //reset
+					  KEY[0] = 1;			                           @(posedge CLOCK_50);
+		           SW[7:0] = i;												@(posedge CLOCK_50); //set A
+					  KEY[3] = 1;												@(posedge CLOCK_50);  // start
+					  KEY[3] = 0; 									         @(posedge LEDR[9]); // wait for posedge of done signal to display final result
+			end
+  //TASK 2 TESTS => SW[9] = 1
+			KEY[0] = 0; KEY[3] = 1; SW[9] = 1;                   @(posedge CLOCK_50); //reset
+			KEY[0] = 1;			                                   @(posedge CLOCK_50);
+				
+				for (i = 0; i < 2**W; i++) begin  								//iterate through all possible values for A
+						  KEY[0] = 0; KEY[3] = 1; SW[9] = 1;            @(posedge CLOCK_50); //reset
+						  KEY[0] = 1;			                           @(posedge CLOCK_50);
+						  SW[7:0] = i;												@(posedge CLOCK_50); //set A
+						  KEY[3] = 1;												@(posedge CLOCK_50);  // start
+						  KEY[3] = 0; 									         @(posedge LEDR[9]); // wait for posedge of done signal to display final result
+			end
+		@(posedge CLOCK_50); // extra cycle
+		$stop;
+	end
+endmodule

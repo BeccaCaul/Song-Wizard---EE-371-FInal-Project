@@ -1,11 +1,11 @@
-Analysis & Synthesis Status : Successful - Thu Jun 04 13:02:41 2026
+Analysis & Synthesis Status : Successful - Fri Jun 05 14:59:39 2026
 Quartus Prime Version : 17.0.0 Build 595 04/25/2017 SJ Lite Edition
 Revision Name : DE1_SoC
-Top-level Entity Name : note_input
+Top-level Entity Name : DE1_SoC
 Family : Cyclone V
 Logic utilization (in ALMs) : N/A
-Total registers : 16
-Total pins : 22
+Total registers : 24
+Total pins : 106
 Total virtual pins : 0
 Total block memory bits : 0
 Total DSP Blocks : 0

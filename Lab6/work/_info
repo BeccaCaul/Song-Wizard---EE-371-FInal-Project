@@ -32,7 +32,7 @@ Z5 !s108 1779489986.000000
 !i113 1
 Z6 tCvgOpt 0
 vaudio_codec
-Z7 !s110 1780602977
+Z7 !s110 1780696789
 !i10b 1
 !s100 43h1ad@K@aG98IRVc4i1M1
 Il5jdb3Yg0[LkkDZXocg4G2
@@ -46,7 +46,7 @@ R4
 r1
 !s85 0
 31
-Z10 !s108 1780602977.000000
+Z10 !s108 1780696788.000000
 !s107 ./audio_codec.v|
 !s90 -reportprogress|300|./audio_codec.v|
 !i113 1
@@ -376,7 +376,7 @@ R4
 r1
 !s85 0
 31
-R10
+Z20 !s108 1780696789.000000
 !s107 ./clock_divider_8.sv|
 !s90 -reportprogress|300|./clock_divider_8.sv|
 !i113 1
@@ -399,13 +399,13 @@ R4
 r1
 !s85 0
 31
-R10
+R20
 !s107 ./clock_divider_8_tb.sv|
 !s90 -reportprogress|300|./clock_divider_8_tb.sv|
 !i113 1
 R6
 vclock_generator
-Z20 !s110 1780602976
+Z21 !s110 1780696788
 !i10b 1
 !s100 39OA<gKn`aijkLgT:8]8i2
 IHQWDYoAc:2;9RO8;SJLV:0
@@ -419,7 +419,7 @@ R4
 r1
 !s85 0
 31
-Z21 !s108 1780602976.000000
+R10
 !s107 ./clock_generator.v|
 !s90 -reportprogress|300|./clock_generator.v|
 !i113 1
@@ -450,15 +450,15 @@ R6
 n@d_@f@f
 vDE1_SoC
 R0
-R20
+R21
 !i10b 1
-!s100 H0[nd9nDO`UW5EzWZU?bI2
-IYmgnASd8JCm8HzYEmmSbd2
+!s100 :Ojb8k@6ibDc;DB7KLZ142
+Ibb2?^7mE<^AcMnW@KfmYY0
 R2
 !s105 DE1_SoC_sv_unit
 S1
 R8
-w1780530484
+w1780696598
 8./DE1_SoC.sv
 F./DE1_SoC.sv
 L0 1
@@ -466,7 +466,7 @@ R4
 r1
 !s85 0
 31
-R21
+R10
 !s107 ./DE1_SoC.sv|
 !s90 -reportprogress|300|./DE1_SoC.sv|
 !i113 1
@@ -474,15 +474,15 @@ R6
 n@d@e1_@so@c
 vDE1_SoC_tb
 R0
-R22
+R21
 !i10b 1
-!s100 ocQM;FZQ@RO[;2eY8J?:S0
-I>V<1?6aQcV5N2]cSkjF[02
+!s100 8BJ?8S59=ae[]KF]Uli0a0
+IL:151ThMA4A9>F8g7BMh<1
 R2
 !s105 DE1_SoC_tb_sv_unit
 S1
-R12
-w1778354583
+R8
+w1780696772
 8./DE1_SoC_tb.sv
 F./DE1_SoC_tb.sv
 L0 2
@@ -490,7 +490,7 @@ R4
 r1
 !s85 0
 31
-R23
+R10
 !s107 ./DE1_SoC_tb.sv|
 !s90 -reportprogress|300|./DE1_SoC_tb.sv|
 !i113 1
@@ -657,9 +657,32 @@ Z49 !s107 ./note_input_tb.sv|
 Z50 !s90 -reportprogress|300|./note_input_tb.sv|
 !i113 1
 R6
+vn8_driver
+R0
+R7
+!i10b 1
+!s100 60_YV`58VgAkD>7c_SmCM2
+Ik[f0CQDjX?9dN[Q_4MflJ3
+R2
+!s105 n8_driver_sv_unit
+S1
+R8
+w1780690407
+8./n8_driver.sv
+F./n8_driver.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R20
+!s107 ./n8_driver.sv|
+!s90 -reportprogress|300|./n8_driver.sv|
+!i113 1
+R6
 vnoise_gen
 R0
-R20
+R21
 !i10b 1
 !s100 _nMfB40VAYYKFoDL@c_lY0
 IoP_e1C^l<[GV=7QiXOcWg3
@@ -675,14 +698,14 @@ R4
 r1
 !s85 0
 31
-R21
-Z55 !s107 ./noise_gen.sv|
-Z56 !s90 -reportprogress|300|./noise_gen.sv|
+Z55 !s108 1780696787.000000
+Z56 !s107 ./noise_gen.sv|
+Z57 !s90 -reportprogress|300|./noise_gen.sv|
 !i113 1
 R6
 vnoise_gen_testbench
 R0
-R20
+R21
 !i10b 1
 !s100 ``;@?X[J89_UljO9KJh^Z1
 ILo2^CaYCk5Lzi`fD7`Q491
@@ -698,14 +721,14 @@ R4
 r1
 !s85 0
 31
-R21
 R55
 R56
+R57
 !i113 1
 R6
 vnote_input
 R0
-R20
+Z58 !s110 1780696787
 !i10b 1
 !s100 ^MDF4^A0YiocAf6<k9@`U2
 IgnngaPMd6T4;h2kZJh@I^2
@@ -721,14 +744,14 @@ R4
 r1
 !s85 0
 31
-Z57 !s108 1780602975.000000
+R55
 R33
 R34
 !i113 1
 R6
 vnote_input_controller
 R0
-Z58 !s110 1780602975
+R58
 !i10b 1
 !s100 V;1V@^]ffMg[de::]2_590
 I[Qz7RzYce[F[SgY4INSzC1
@@ -744,7 +767,7 @@ R4
 r1
 !s85 0
 31
-R57
+R55
 R38
 R39
 !i113 1
@@ -767,7 +790,7 @@ R4
 r1
 !s85 0
 31
-R57
+R55
 R44
 R45
 !i113 1
@@ -790,9 +813,29 @@ R4
 r1
 !s85 0
 31
-!s108 1780602974.000000
+!s108 1780696786.000000
 R49
 R50
+!i113 1
+R6
+vnote_ram120x3
+Z59 !s110 1780696790
+!i10b 1
+!s100 T_?i`Z`e;H:RRY5k2z<4d1
+IzE3YZA93?C<Wa[;B7z<^m0
+R2
+R8
+w1780518200
+8./note_ram120x3.v
+F./note_ram120x3.v
+Z60 L0 40
+R4
+r1
+!s85 0
+31
+!s108 1780696790.000000
+!s107 ./note_ram120x3.v|
+!s90 -reportprogress|300|./note_ram120x3.v|
 !i113 1
 R6
 vram32x3
@@ -801,16 +844,16 @@ vram32x3
 !s100 >i_=LX@Q5h;U6@m4D`gHo2
 IF9LFi]JIjV5GI?6l5GF;h1
 R2
-Z59 dU:/EE 371/Lab_2
+Z61 dU:/EE 371/Lab_2
 w1776113437
 8./ram32x3.v
 F./ram32x3.v
-Z60 L0 40
+R60
 R4
 r1
 !s85 0
 31
-Z61 !s108 1776291232.000000
+Z62 !s108 1776291232.000000
 !s107 ./ram32x3.v|
 !s90 -reportprogress|300|./ram32x3.v|
 !i113 1
@@ -837,14 +880,14 @@ R23
 R6
 vseg7
 R0
-Z62 !s110 1778106177
+Z63 !s110 1778106177
 !i10b 1
 !s100 jj9HOZ_?ONU=EkYa?Y1[J2
 IOHV<;HWWTn3d95DFVdPKk1
 R2
 !s105 seg7_sv_unit
 S1
-Z63 dU:/EE_371/Lab_4
+Z64 dU:/EE_371/Lab_4
 w1776288071
 8./seg7.sv
 F./seg7.sv
@@ -853,21 +896,44 @@ R4
 r1
 !s85 0
 31
-Z64 !s108 1778106177.000000
+Z65 !s108 1778106177.000000
 !s107 ./seg7.sv|
 !s90 -reportprogress|300|./seg7.sv|
 !i113 1
 R6
+vserial_driver
+R0
+R59
+!i10b 1
+!s100 LW>QD^em:98Bb9O21FDHR0
+I<67<05BRb3D8@JRi:H4j[0
+R2
+!s105 serial_driver_sv_unit
+S1
+R8
+w1780695840
+8./serial_driver.sv
+F./serial_driver.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R20
+!s107 ./serial_driver.sv|
+!s90 -reportprogress|300|./serial_driver.sv|
+!i113 1
+R6
 vsign_mag_add
 R0
-Z65 !s110 1776109893
+Z66 !s110 1776109893
 !i10b 1
 !s100 ^RW7j==Smn0ail;==oScm1
 IQh6877O`;aRc`8Yli2HgI3
 R2
 !s105 sign_mag_add_sv_unit
 S1
-Z66 dU:/EE 371/HW2
+Z67 dU:/EE 371/HW2
 w1775945975
 8./sign_mag_add.sv
 F./sign_mag_add.sv
@@ -883,14 +949,14 @@ r1
 R6
 vsign_mag_add_tb
 R0
-R65
+R66
 !i10b 1
 !s100 jK@jM`m@nbak0E[KhSDPH1
 IW155UmV4i_D5DCC@9C>Kn2
 R2
 !s105 sign_mag_add_tb_sv_unit
 S1
-R66
+R67
 w1776109727
 8./sign_mag_add_tb.sv
 F./sign_mag_add_tb.sv
@@ -899,21 +965,21 @@ R4
 r1
 !s85 0
 31
-Z67 !s108 1776109893.000000
+Z68 !s108 1776109893.000000
 !s107 ./sign_mag_add_tb.sv|
 !s90 -reportprogress|300|./sign_mag_add_tb.sv|
 !i113 1
 R6
 vsync_rom
 R0
-R65
+R66
 !i10b 1
 !s100 h_S>P78oZo]U>`jocn64f1
 I0JX@UBHS>2@27[hTaof1<1
 R2
 !s105 sync_rom_sv_unit
 S1
-R66
+R67
 w1776035473
 8./sync_rom.sv
 F./sync_rom.sv
@@ -922,21 +988,21 @@ R4
 r1
 !s85 0
 31
-R67
+R68
 !s107 ./sync_rom.sv|
 !s90 -reportprogress|300|./sync_rom.sv|
 !i113 1
 R6
 vt1
 R0
-Z68 !s110 1778106178
+Z69 !s110 1778106178
 !i10b 1
 !s100 m?@Fhk[CD9P=cXL7z:O@H1
 IT^o=M^5YUOZPn[Ao]_G??0
 R2
 !s105 t1_sv_unit
 S1
-R63
+R64
 w1778104685
 8./t1.sv
 F./t1.sv
@@ -945,21 +1011,21 @@ R4
 r1
 !s85 0
 31
-R64
+R65
 !s107 ./t1.sv|
 !s90 -reportprogress|300|./t1.sv|
 !i113 1
 R6
 vt1_controller
 R0
-R62
+R63
 !i10b 1
 !s100 5dhzMO1N>CG3oFmjOWlKW3
 IO:K27mm3]SQZ7UF3DE1RP1
 R2
 !s105 t1_controller_sv_unit
 S1
-R63
+R64
 w1778101675
 8./t1_controller.sv
 F./t1_controller.sv
@@ -968,21 +1034,21 @@ R4
 r1
 !s85 0
 31
-R64
+R65
 !s107 ./t1_controller.sv|
 !s90 -reportprogress|300|./t1_controller.sv|
 !i113 1
 R6
 vt1_datapath
 R0
-R62
+R63
 !i10b 1
 !s100 lVm?MEzFD9X<`dOG:5hm>1
 I9F2[X62mMNdI==UOOMIfX2
 R2
 !s105 t1_datapath_sv_unit
 S1
-R63
+R64
 w1778104684
 8./t1_datapath.sv
 F./t1_datapath.sv
@@ -991,21 +1057,21 @@ R4
 r1
 !s85 0
 31
-R64
+R65
 !s107 ./t1_datapath.sv|
 !s90 -reportprogress|300|./t1_datapath.sv|
 !i113 1
 R6
 vt1_tb
 R0
-R68
+R69
 !i10b 1
 !s100 :HF0l5k?FAZ33V_kQBjib0
 I:z9;h8Wm4WSdi[1:`ac`V3
 R2
 !s105 t1_tb_sv_unit
 S1
-R63
+R64
 w1778105398
 8./t1_tb.sv
 F./t1_tb.sv
@@ -1021,14 +1087,14 @@ r1
 R6
 vtask1
 R0
-Z69 !s110 1776291232
+Z70 !s110 1776291232
 !i10b 1
 !s100 fAD`=WBU^2`8H=W3V5bff2
 I[]71R:^cmeD^T_Qm9_6az2
 R2
 !s105 task1_sv_unit
 S1
-R59
+R61
 w1776115262
 8./task1.sv
 F./task1.sv
@@ -1037,21 +1103,21 @@ R4
 r1
 !s85 0
 31
-R61
+R62
 !s107 ./task1.sv|
 !s90 -reportprogress|300|./task1.sv|
 !i113 1
 R6
 vtask1_tb
 R0
-R69
+R70
 !i10b 1
 !s100 LEf5WFahbL=h:`V_>hZJi1
 I1HNTXH30fV4f=:o=dnQ@Y2
 R2
 !s105 task1_tb_sv_unit
 S1
-R59
+R61
 w1776285969
 8./task1_tb.sv
 F./task1_tb.sv
@@ -1060,21 +1126,21 @@ R4
 r1
 !s85 0
 31
-R61
+R62
 !s107 ./task1_tb.sv|
 !s90 -reportprogress|300|./task1_tb.sv|
 !i113 1
 R6
 vtask2
 R0
-R69
+R70
 !i10b 1
 !s100 kY?e7JXfo?eIVc18j:TNB0
 IC7UIX7VR[m3Rce;HlkQMA0
 R2
 !s105 task2_sv_unit
 S1
-R59
+R61
 w1776284663
 8./task2.sv
 F./task2.sv
@@ -1083,7 +1149,7 @@ R4
 r1
 !s85 0
 31
-R61
+R62
 !s107 ./task2.sv|
 !s90 -reportprogress|300|./task2.sv|
 !i113 1

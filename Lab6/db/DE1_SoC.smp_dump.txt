@@ -1,5 +1,5 @@
 
-State Machine - |note_input|note_input_controller:ni_c|ps
+State Machine - |DE1_SoC|note_input:note_loader_sim|note_input_controller:ni_c|ps
 Name ps.S3 ps.S2 ps.S1 ps.S0 
 ps.S0 0 0 0 0 
 ps.S1 0 0 1 1 
