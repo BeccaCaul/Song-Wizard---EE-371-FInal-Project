@@ -56,18 +56,6 @@
 					"strict" : false
 				},
 				{
-					"name" : "V_GPIO[10]",
-					"strict" : false
-				},
-				{
-					"name" : "V_GPIO[11]",
-					"strict" : false
-				},
-				{
-					"name" : "V_GPIO[12]",
-					"strict" : false
-				},
-				{
 					"name" : "V_GPIO[26]",
 					"strict" : false
 				},
@@ -77,14 +65,6 @@
 				},
 				{
 					"name" : "V_GPIO[28]",
-					"strict" : false
-				},
-				{
-					"name" : "V_GPIO[29]",
-					"strict" : false
-				},
-				{
-					"name" : "V_GPIO[30]",
 					"strict" : false
 				},
 				{

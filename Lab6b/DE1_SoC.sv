@@ -26,8 +26,6 @@ module DE1_SoC #(parameter MAX = 3125000) (CLOCK_50, CLOCK2_50, FPGA_I2C_SCLK, F
 	logic read_ready, write_ready, read, write;
 	logic signed [23:0] readdata_left, readdata_right;
 	logic signed [23:0] writedata_left, writedata_right;
-//	logic signed [23:0] task2_left, task2_right, task3_left, task3_right;
-//	logic signed [23:0] noisy_left, noisy_right;
 	logic reset;
 	logic CLOCK_8;
 	//logic done;
@@ -65,18 +63,18 @@ module DE1_SoC #(parameter MAX = 3125000) (CLOCK_50, CLOCK2_50, FPGA_I2C_SCLK, F
 //     assign LEDR[6] = V_GPIO[11]; // sw6; for debugging
 //     assign LEDR[7] = V_GPIO[12]; // sw7; for debugging
     
-    	 assign LEDR[1] = full;
-    	 assign LEDR[0] = all_done;
-    	 
-    	 
-    	 assign LEDR[9] = C;
-    	 assign LEDR[8] = D;
-        assign LEDR[7] = E;
-        assign LEDR[6] = F;
-        assign LEDR[5] = G;
-        assign LEDR[4] = A;
-        assign LEDR[3] = B;
-        assign LEDR[2] = V_GPIO[28]; // gpio 20 of RPico
+	 assign LEDR[1] = full;
+	 assign LEDR[0] = all_done;
+	 
+	 
+	 assign LEDR[9] = C;
+	 assign LEDR[8] = D;
+	 assign LEDR[7] = E;
+	 assign LEDR[6] = F;
+	 assign LEDR[5] = G;
+	 assign LEDR[4] = A;
+	 assign LEDR[3] = B;
+	 assign LEDR[2] = V_GPIO[28]; // gpio 20 of RPico
 	 
 	 assign reset = ~KEY[3];
 	 assign {HEX0, HEX1, HEX2, HEX3, HEX4, HEX5} = '1;
@@ -101,15 +99,12 @@ module DE1_SoC #(parameter MAX = 3125000) (CLOCK_50, CLOCK2_50, FPGA_I2C_SCLK, F
    clock_divider_8 #(.MAX(MAX)) c8 (.clk(CLOCK_50), .reset, .clk_8(CLOCK_8));
 	
 	// SELECT SIGNALS - dependent on loading vs. output phase ---------------
-	//select signal: audio_start -> passed into audio_output ASMD
-	//logic audio_start;
-	
-	// RAM addr: note_in_RAM_addr when !audio_start, RAM_read_addr when audio_start
+
+	// RAM addr: note_in_RAM_addr when !full, RAM_read_addr when full
 	logic [6:0] RAM_addr, RAM_read_addr;
-	//assign RAM_addr = audio_start ? RAM_read_addr : note_in_RAM_addr;
 	assign RAM_addr = full ? RAM_read_addr : note_in_RAM_addr;
 	
-	// note_ROM_ID: 000 (empty) when !audio_start, RAM_dout when audio_start
+	// ROM addr: dout of ROM counter when in audio output phase, otherwise 0
 	logic [2:0] note_ROM_ID;
 	assign note_ROM_ID = full ? RAM_dout : 3'b000;
 	
@@ -118,7 +113,7 @@ module DE1_SoC #(parameter MAX = 3125000) (CLOCK_50, CLOCK2_50, FPGA_I2C_SCLK, F
 	logic [2:0] RAM_din, RAM_dout;
 	logic full;
 	logic RAM_wren, stop;
-	//TODO: assign notes to their N8 controller keys
+
 	assign stop = 0; //UPDATE SW to something other than switches
 	
 	//for sim
@@ -156,25 +151,19 @@ module DE1_SoC #(parameter MAX = 3125000) (CLOCK_50, CLOCK2_50, FPGA_I2C_SCLK, F
 	note_ROM_select rom_select (.clk(CLOCK_50), .reset, .ID(note_ROM_ID), .addr(ROM_addr), .dout(sample_dout));
 	
 	
-	//NEW num_writes counter
+	//num_writes counter
+	/* Handles audio output phase - triggered by full
+	*  For each note loaded in RAM, loops through 12500 writes to CODEC
+	*  writes are determined by read_ready && write_ready
+	* asserts all_done when all writes have completed for all notes
+	*/
 	num_writes_counter num_writes (.clk(CLOCK_50), .reset, .full, .write, .addr(RAM_read_addr), .all_done);
 	
-	//NEW AUDIO OUTPUT:
+	//CODEC output - begins when full is asserted
 	assign read = full ? (read_ready && write_ready) : 1'b0;
 	assign write = full ? (read_ready && write_ready) : 1'b0;
 	assign writedata_left = sample_dout;
 	assign writedata_right = sample_dout;
-
-	
-	//Audio Output ASMD module
-	//audio_output aud_ASMD (.clk(CLOCK_50), .reset, .read_ready, .write_ready, .full, .RAM_read_addr, .write_note, .audio_start, .done);
-	
-	// CODEC Connections - based on audio_start select
-//	assign writedata_left = sample_dout;
-//	assign writedata_right = sample_dout;
-//	logic write_note;
-//	assign read = audio_start ? write_note : 1'b0;
-//	assign write = audio_start ? write_note : 1'b0;
 	
 ///////////////////////////////////////////////////////////////////////////////
 //Audio CODEC interface. 

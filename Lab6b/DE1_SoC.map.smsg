@@ -1,1 +1,2 @@
-Info (10281): Verilog HDL Declaration information at DE1_SoC.sv(150): object "CODEC" differs only in case from object "codec" in the same scope File: U:/EE_371/Lab6/DE1_SoC.sv Line: 150
+Info (10281): Verilog HDL Declaration information at n8_driver.sv(6): object "A" differs only in case from object "a" in the same scope File: U:/EE_371/Lab6b/n8_driver.sv Line: 6
+Info (10281): Verilog HDL Declaration information at n8_driver.sv(6): object "B" differs only in case from object "b" in the same scope File: U:/EE_371/Lab6b/n8_driver.sv Line: 6

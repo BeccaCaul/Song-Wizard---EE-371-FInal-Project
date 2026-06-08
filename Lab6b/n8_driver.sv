@@ -1,27 +1,22 @@
 module n8_driver
 (
-    input clk,
-    input data_in,
-    output reg latch,
-    output reg pulse,
-//    output reg up,
-//    output reg down,
-//    output reg left,
-//    output reg right,
-//    output reg select,
-//    output reg start,
-//    output reg a,
-//    output reg b
-	 output reg A,
-	 output reg B,
-	 output reg C,
-	 output reg D,
-	 output reg E,
-	 output reg F,
-	 output reg G
+    input logic clk,
+    input logic data_in,
+	 output logic latch, pulse,
+    output logic A,B,C,D,E,F,G
+	 
 );
 
-    reg[7:0] data_out;
+    logic[7:0] data_out;
+	 
+    logic up;
+    logic down;
+    logic left;
+    logic right;
+    logic select;
+    logic start;
+    logic a;
+    logic b;
     
 
     serial_driver #(.BITS(8)) driver (
@@ -32,42 +27,22 @@ module n8_driver
         .data_out(data_out)
     );
     
-    // assign C  = ~data_out[0];
-    // assign A  = ~data_out[1];
-    // assign B  = ~data_out[2];
-    // //assign up     = ~data_out[3];
-    // assign E  = ~data_out[4];
-    // assign D  = ~data_out[5];
-    // assign F  = ~data_out[6];
-    // assign G  = ~data_out[7];
-    
-    // assign C  = ~data_out[0];
-    // assign D  = ~data_out[1];
-    // assign E  = ~data_out[2];
-    // //assign up     = ~data_out[3];
-    // assign F  = ~data_out[4];
-    // assign G  = ~data_out[5];
-    // assign A  = ~data_out[6];
-    // assign B  = ~data_out[7];
-    
-    //other boards:
-    // assign C  = ~data_out[1];
-    // assign D  = ~data_out[3];
-    // assign E  = ~data_out[0];
-    // assign F  = ~data_out[6];
-    // assign G  = ~data_out[5];
-    // assign A  = ~data_out[7]; 
-    // assign B  = ~data_out[2];
-    
-    
-    //correct on certain boards (og):
-    assign C  = ~data_out[1];
-    assign D  = ~data_out[2];
-    assign E  = ~data_out[0];
-    assign F  = ~data_out[5];
-    assign G  = ~data_out[4];
-    assign A  = ~data_out[6]; 
-    assign B  = ~data_out[7];
-    
+    assign right  = ~data_out[0];
+    assign left   = ~data_out[1];
+    assign down   = ~data_out[2];
+    assign up     = ~data_out[3];
+    assign start  = ~data_out[4];
+    assign select = ~data_out[5];
+    assign b      = ~data_out[6];
+    assign a      = ~data_out[7];
+	 
+	 // Note mapping
+	 assign C = left;   //A key
+	 assign D = down;   //S key
+	 assign E = right;  //D key
+	 assign F = select; //H key
+	 assign G = start;  //J key
+	 assign A = b;      //K key
+	 assign B = a;      //L key
     
 endmodule
