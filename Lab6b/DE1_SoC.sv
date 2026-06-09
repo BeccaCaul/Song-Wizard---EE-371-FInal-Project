@@ -150,6 +150,10 @@ module DE1_SoC #(parameter MAX = 3125000) (CLOCK_50, CLOCK2_50, FPGA_I2C_SCLK, F
 	logic [23:0] sample_dout;
 	note_ROM_select rom_select (.clk(CLOCK_50), .reset, .ID(note_ROM_ID), .addr(ROM_addr), .dout(sample_dout));
 	
+	//FIR filter - filter sample dout to make it less abrasive
+	logic [23:0] filtered_dout;
+	FIR_filter filter1 (.clk(CLOCK_50), .reset, .r_enable(read), .w_enable(write), .din(sample_dout), .dout(filtered_dout));
+	
 	
 	//num_writes counter
 	/* Handles audio output phase - triggered by full
@@ -164,8 +168,10 @@ module DE1_SoC #(parameter MAX = 3125000) (CLOCK_50, CLOCK2_50, FPGA_I2C_SCLK, F
 	//CODEC output - begins when full is asserted
 	assign read = full ? (read_ready && write_ready) : 1'b0;
 	assign write = full ? (read_ready && write_ready) : 1'b0;
-	assign writedata_left = sample_dout;
-	assign writedata_right = sample_dout;
+//	assign writedata_left = sample_dout;
+//	assign writedata_right = sample_dout;
+	assign writedata_left = filtered_dout;
+	assign writedata_right = filtered_dout;
 	
 ///////////////////////////////////////////////////////////////////////////////
 //Audio CODEC interface. 

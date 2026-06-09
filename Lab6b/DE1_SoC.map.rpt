@@ -1,5 +1,5 @@
 Analysis & Synthesis report for DE1_SoC
-Mon Jun 08 15:57:32 2026
+Mon Jun 08 16:55:47 2026
 Quartus Prime Version 17.0.0 Build 595 04/25/2017 SJ Lite Edition
 
 
@@ -21,74 +21,81 @@ Quartus Prime Version 17.0.0 Build 595 04/25/2017 SJ Lite Edition
  13. Registers Removed During Synthesis
  14. Removed Registers Triggering Further Register Optimizations
  15. General Register Statistics
- 16. Multiplexer Restructuring Statistics (Restructuring Performed)
- 17. Source assignments for note_ram120x3:user_notes_RAM|altsyncram:altsyncram_component|altsyncram_tqq1:auto_generated
- 18. Source assignments for note_ROM_select:rom_select|A4_ROM:A4|altsyncram:altsyncram_component|altsyncram_dgh1:auto_generated
- 19. Source assignments for note_ROM_select:rom_select|B4_ROM:B4|altsyncram:altsyncram_component|altsyncram_egh1:auto_generated
- 20. Source assignments for note_ROM_select:rom_select|C4_ROM:C4|altsyncram:altsyncram_component|altsyncram_fgh1:auto_generated
- 21. Source assignments for note_ROM_select:rom_select|D4_ROM:D4|altsyncram:altsyncram_component|altsyncram_ggh1:auto_generated
- 22. Source assignments for note_ROM_select:rom_select|E4_ROM:E4|altsyncram:altsyncram_component|altsyncram_hgh1:auto_generated
- 23. Source assignments for note_ROM_select:rom_select|F4_ROM:F4|altsyncram:altsyncram_component|altsyncram_igh1:auto_generated
- 24. Source assignments for note_ROM_select:rom_select|G4_ROM:G4|altsyncram:altsyncram_component|altsyncram_jgh1:auto_generated
- 25. Source assignments for audio_codec:codec|Altera_UP_Audio_In_Deserializer:Audio_In_Deserializer|Altera_UP_SYNC_FIFO:Audio_In_Left_Channel_FIFO|scfifo:Sync_FIFO|scfifo_8ba1:auto_generated|a_dpfifo_r2a1:dpfifo|altsyncram_p3i1:FIFOram
- 26. Source assignments for audio_codec:codec|Altera_UP_Audio_In_Deserializer:Audio_In_Deserializer|Altera_UP_SYNC_FIFO:Audio_In_Right_Channel_FIFO|scfifo:Sync_FIFO|scfifo_8ba1:auto_generated|a_dpfifo_r2a1:dpfifo|altsyncram_p3i1:FIFOram
- 27. Source assignments for audio_codec:codec|Altera_UP_Audio_Out_Serializer:Audio_Out_Serializer|Altera_UP_SYNC_FIFO:Audio_Out_Left_Channel_FIFO|scfifo:Sync_FIFO|scfifo_8ba1:auto_generated|a_dpfifo_r2a1:dpfifo|altsyncram_p3i1:FIFOram
- 28. Source assignments for audio_codec:codec|Altera_UP_Audio_Out_Serializer:Audio_Out_Serializer|Altera_UP_SYNC_FIFO:Audio_Out_Right_Channel_FIFO|scfifo:Sync_FIFO|scfifo_8ba1:auto_generated|a_dpfifo_r2a1:dpfifo|altsyncram_p3i1:FIFOram
- 29. Parameter Settings for User Entity Instance: Top-level Entity: |DE1_SoC
- 30. Parameter Settings for User Entity Instance: n8_driver:driver|serial_driver:driver
- 31. Parameter Settings for User Entity Instance: clock_divider_8:c8
- 32. Parameter Settings for User Entity Instance: note_input:note_loader|note_input_datapath:ni_d
- 33. Parameter Settings for User Entity Instance: note_ram120x3:user_notes_RAM|altsyncram:altsyncram_component
- 34. Parameter Settings for User Entity Instance: note_ROM_select:rom_select
- 35. Parameter Settings for User Entity Instance: note_ROM_select:rom_select|A4_ROM:A4|altsyncram:altsyncram_component
- 36. Parameter Settings for User Entity Instance: note_ROM_select:rom_select|B4_ROM:B4|altsyncram:altsyncram_component
- 37. Parameter Settings for User Entity Instance: note_ROM_select:rom_select|C4_ROM:C4|altsyncram:altsyncram_component
- 38. Parameter Settings for User Entity Instance: note_ROM_select:rom_select|D4_ROM:D4|altsyncram:altsyncram_component
- 39. Parameter Settings for User Entity Instance: note_ROM_select:rom_select|E4_ROM:E4|altsyncram:altsyncram_component
- 40. Parameter Settings for User Entity Instance: note_ROM_select:rom_select|F4_ROM:F4|altsyncram:altsyncram_component
- 41. Parameter Settings for User Entity Instance: note_ROM_select:rom_select|G4_ROM:G4|altsyncram:altsyncram_component
- 42. Parameter Settings for User Entity Instance: num_writes_counter:num_writes
- 43. Parameter Settings for User Entity Instance: clock_generator:my_clock_gen
- 44. Parameter Settings for User Entity Instance: clock_generator:my_clock_gen|altpll:DE_Clock_Generator_Audio
- 45. Parameter Settings for User Entity Instance: audio_and_video_config:cfg
- 46. Parameter Settings for User Entity Instance: audio_and_video_config:cfg|Altera_UP_Slow_Clock_Generator:Clock_Generator_400KHz
- 47. Parameter Settings for User Entity Instance: audio_and_video_config:cfg|Altera_UP_I2C_AV_Auto_Initialize:Auto_Initialize
- 48. Parameter Settings for User Entity Instance: audio_and_video_config:cfg|Altera_UP_I2C:I2C_Controller
- 49. Parameter Settings for User Entity Instance: audio_codec:codec
- 50. Parameter Settings for User Entity Instance: audio_codec:codec|Altera_UP_Audio_In_Deserializer:Audio_In_Deserializer
- 51. Parameter Settings for User Entity Instance: audio_codec:codec|Altera_UP_Audio_In_Deserializer:Audio_In_Deserializer|Altera_UP_Audio_Bit_Counter:Audio_Out_Bit_Counter
- 52. Parameter Settings for User Entity Instance: audio_codec:codec|Altera_UP_Audio_In_Deserializer:Audio_In_Deserializer|Altera_UP_SYNC_FIFO:Audio_In_Left_Channel_FIFO
- 53. Parameter Settings for User Entity Instance: audio_codec:codec|Altera_UP_Audio_In_Deserializer:Audio_In_Deserializer|Altera_UP_SYNC_FIFO:Audio_In_Left_Channel_FIFO|scfifo:Sync_FIFO
- 54. Parameter Settings for User Entity Instance: audio_codec:codec|Altera_UP_Audio_In_Deserializer:Audio_In_Deserializer|Altera_UP_SYNC_FIFO:Audio_In_Right_Channel_FIFO
- 55. Parameter Settings for User Entity Instance: audio_codec:codec|Altera_UP_Audio_In_Deserializer:Audio_In_Deserializer|Altera_UP_SYNC_FIFO:Audio_In_Right_Channel_FIFO|scfifo:Sync_FIFO
- 56. Parameter Settings for User Entity Instance: audio_codec:codec|Altera_UP_Audio_Out_Serializer:Audio_Out_Serializer
- 57. Parameter Settings for User Entity Instance: audio_codec:codec|Altera_UP_Audio_Out_Serializer:Audio_Out_Serializer|Altera_UP_SYNC_FIFO:Audio_Out_Left_Channel_FIFO
- 58. Parameter Settings for User Entity Instance: audio_codec:codec|Altera_UP_Audio_Out_Serializer:Audio_Out_Serializer|Altera_UP_SYNC_FIFO:Audio_Out_Left_Channel_FIFO|scfifo:Sync_FIFO
- 59. Parameter Settings for User Entity Instance: audio_codec:codec|Altera_UP_Audio_Out_Serializer:Audio_Out_Serializer|Altera_UP_SYNC_FIFO:Audio_Out_Right_Channel_FIFO
- 60. Parameter Settings for User Entity Instance: audio_codec:codec|Altera_UP_Audio_Out_Serializer:Audio_Out_Serializer|Altera_UP_SYNC_FIFO:Audio_Out_Right_Channel_FIFO|scfifo:Sync_FIFO
- 61. altsyncram Parameter Settings by Entity Instance
- 62. altpll Parameter Settings by Entity Instance
- 63. scfifo Parameter Settings by Entity Instance
- 64. Port Connectivity Checks: "audio_codec:codec"
- 65. Port Connectivity Checks: "audio_and_video_config:cfg|Altera_UP_I2C:I2C_Controller"
- 66. Port Connectivity Checks: "audio_and_video_config:cfg|Altera_UP_I2C_AV_Auto_Initialize:Auto_Initialize"
- 67. Port Connectivity Checks: "audio_and_video_config:cfg|Altera_UP_Slow_Clock_Generator:Clock_Generator_400KHz"
- 68. Port Connectivity Checks: "audio_and_video_config:cfg"
- 69. Port Connectivity Checks: "clock_generator:my_clock_gen"
- 70. Port Connectivity Checks: "note_ROM_select:rom_select|G4_ROM:G4"
- 71. Port Connectivity Checks: "note_ROM_select:rom_select|F4_ROM:F4"
- 72. Port Connectivity Checks: "note_ROM_select:rom_select|E4_ROM:E4"
- 73. Port Connectivity Checks: "note_ROM_select:rom_select|D4_ROM:D4"
- 74. Port Connectivity Checks: "note_ROM_select:rom_select|C4_ROM:C4"
- 75. Port Connectivity Checks: "note_ROM_select:rom_select|B4_ROM:B4"
- 76. Port Connectivity Checks: "note_ROM_select:rom_select|A4_ROM:A4"
- 77. Port Connectivity Checks: "note_ROM_select:rom_select"
- 78. Port Connectivity Checks: "note_input:note_loader"
- 79. Port Connectivity Checks: "n8_driver:driver|serial_driver:driver"
- 80. Post-Synthesis Netlist Statistics for Top Partition
- 81. Elapsed Time Per Partition
- 82. Analysis & Synthesis Messages
- 83. Analysis & Synthesis Suppressed Messages
+ 16. Registers Added for RAM Pass-Through Logic
+ 17. Multiplexer Restructuring Statistics (Restructuring Performed)
+ 18. Source assignments for note_ram120x3:user_notes_RAM|altsyncram:altsyncram_component|altsyncram_tqq1:auto_generated
+ 19. Source assignments for note_ROM_select:rom_select|A4_ROM:A4|altsyncram:altsyncram_component|altsyncram_dgh1:auto_generated
+ 20. Source assignments for note_ROM_select:rom_select|B4_ROM:B4|altsyncram:altsyncram_component|altsyncram_egh1:auto_generated
+ 21. Source assignments for note_ROM_select:rom_select|C4_ROM:C4|altsyncram:altsyncram_component|altsyncram_fgh1:auto_generated
+ 22. Source assignments for note_ROM_select:rom_select|D4_ROM:D4|altsyncram:altsyncram_component|altsyncram_ggh1:auto_generated
+ 23. Source assignments for note_ROM_select:rom_select|E4_ROM:E4|altsyncram:altsyncram_component|altsyncram_hgh1:auto_generated
+ 24. Source assignments for note_ROM_select:rom_select|F4_ROM:F4|altsyncram:altsyncram_component|altsyncram_igh1:auto_generated
+ 25. Source assignments for note_ROM_select:rom_select|G4_ROM:G4|altsyncram:altsyncram_component|altsyncram_jgh1:auto_generated
+ 26. Source assignments for audio_codec:codec|Altera_UP_Audio_In_Deserializer:Audio_In_Deserializer|Altera_UP_SYNC_FIFO:Audio_In_Left_Channel_FIFO|scfifo:Sync_FIFO|scfifo_8ba1:auto_generated|a_dpfifo_r2a1:dpfifo|altsyncram_p3i1:FIFOram
+ 27. Source assignments for audio_codec:codec|Altera_UP_Audio_In_Deserializer:Audio_In_Deserializer|Altera_UP_SYNC_FIFO:Audio_In_Right_Channel_FIFO|scfifo:Sync_FIFO|scfifo_8ba1:auto_generated|a_dpfifo_r2a1:dpfifo|altsyncram_p3i1:FIFOram
+ 28. Source assignments for audio_codec:codec|Altera_UP_Audio_Out_Serializer:Audio_Out_Serializer|Altera_UP_SYNC_FIFO:Audio_Out_Left_Channel_FIFO|scfifo:Sync_FIFO|scfifo_8ba1:auto_generated|a_dpfifo_r2a1:dpfifo|altsyncram_p3i1:FIFOram
+ 29. Source assignments for audio_codec:codec|Altera_UP_Audio_Out_Serializer:Audio_Out_Serializer|Altera_UP_SYNC_FIFO:Audio_Out_Right_Channel_FIFO|scfifo:Sync_FIFO|scfifo_8ba1:auto_generated|a_dpfifo_r2a1:dpfifo|altsyncram_p3i1:FIFOram
+ 30. Source assignments for FIR_filter:filter1|reg_file:r_unit|altsyncram:array_reg_rtl_0|altsyncram_agi1:auto_generated
+ 31. Parameter Settings for User Entity Instance: Top-level Entity: |DE1_SoC
+ 32. Parameter Settings for User Entity Instance: n8_driver:driver|serial_driver:driver
+ 33. Parameter Settings for User Entity Instance: clock_divider_8:c8
+ 34. Parameter Settings for User Entity Instance: note_input:note_loader|note_input_datapath:ni_d
+ 35. Parameter Settings for User Entity Instance: note_ram120x3:user_notes_RAM|altsyncram:altsyncram_component
+ 36. Parameter Settings for User Entity Instance: note_ROM_select:rom_select
+ 37. Parameter Settings for User Entity Instance: note_ROM_select:rom_select|A4_ROM:A4|altsyncram:altsyncram_component
+ 38. Parameter Settings for User Entity Instance: note_ROM_select:rom_select|B4_ROM:B4|altsyncram:altsyncram_component
+ 39. Parameter Settings for User Entity Instance: note_ROM_select:rom_select|C4_ROM:C4|altsyncram:altsyncram_component
+ 40. Parameter Settings for User Entity Instance: note_ROM_select:rom_select|D4_ROM:D4|altsyncram:altsyncram_component
+ 41. Parameter Settings for User Entity Instance: note_ROM_select:rom_select|E4_ROM:E4|altsyncram:altsyncram_component
+ 42. Parameter Settings for User Entity Instance: note_ROM_select:rom_select|F4_ROM:F4|altsyncram:altsyncram_component
+ 43. Parameter Settings for User Entity Instance: note_ROM_select:rom_select|G4_ROM:G4|altsyncram:altsyncram_component
+ 44. Parameter Settings for User Entity Instance: FIR_filter:filter1
+ 45. Parameter Settings for User Entity Instance: FIR_filter:filter1|fifo_ctrl:c_unit
+ 46. Parameter Settings for User Entity Instance: FIR_filter:filter1|reg_file:r_unit
+ 47. Parameter Settings for User Entity Instance: num_writes_counter:num_writes
+ 48. Parameter Settings for User Entity Instance: clock_generator:my_clock_gen
+ 49. Parameter Settings for User Entity Instance: clock_generator:my_clock_gen|altpll:DE_Clock_Generator_Audio
+ 50. Parameter Settings for User Entity Instance: audio_and_video_config:cfg
+ 51. Parameter Settings for User Entity Instance: audio_and_video_config:cfg|Altera_UP_Slow_Clock_Generator:Clock_Generator_400KHz
+ 52. Parameter Settings for User Entity Instance: audio_and_video_config:cfg|Altera_UP_I2C_AV_Auto_Initialize:Auto_Initialize
+ 53. Parameter Settings for User Entity Instance: audio_and_video_config:cfg|Altera_UP_I2C:I2C_Controller
+ 54. Parameter Settings for User Entity Instance: audio_codec:codec
+ 55. Parameter Settings for User Entity Instance: audio_codec:codec|Altera_UP_Audio_In_Deserializer:Audio_In_Deserializer
+ 56. Parameter Settings for User Entity Instance: audio_codec:codec|Altera_UP_Audio_In_Deserializer:Audio_In_Deserializer|Altera_UP_Audio_Bit_Counter:Audio_Out_Bit_Counter
+ 57. Parameter Settings for User Entity Instance: audio_codec:codec|Altera_UP_Audio_In_Deserializer:Audio_In_Deserializer|Altera_UP_SYNC_FIFO:Audio_In_Left_Channel_FIFO
+ 58. Parameter Settings for User Entity Instance: audio_codec:codec|Altera_UP_Audio_In_Deserializer:Audio_In_Deserializer|Altera_UP_SYNC_FIFO:Audio_In_Left_Channel_FIFO|scfifo:Sync_FIFO
+ 59. Parameter Settings for User Entity Instance: audio_codec:codec|Altera_UP_Audio_In_Deserializer:Audio_In_Deserializer|Altera_UP_SYNC_FIFO:Audio_In_Right_Channel_FIFO
+ 60. Parameter Settings for User Entity Instance: audio_codec:codec|Altera_UP_Audio_In_Deserializer:Audio_In_Deserializer|Altera_UP_SYNC_FIFO:Audio_In_Right_Channel_FIFO|scfifo:Sync_FIFO
+ 61. Parameter Settings for User Entity Instance: audio_codec:codec|Altera_UP_Audio_Out_Serializer:Audio_Out_Serializer
+ 62. Parameter Settings for User Entity Instance: audio_codec:codec|Altera_UP_Audio_Out_Serializer:Audio_Out_Serializer|Altera_UP_SYNC_FIFO:Audio_Out_Left_Channel_FIFO
+ 63. Parameter Settings for User Entity Instance: audio_codec:codec|Altera_UP_Audio_Out_Serializer:Audio_Out_Serializer|Altera_UP_SYNC_FIFO:Audio_Out_Left_Channel_FIFO|scfifo:Sync_FIFO
+ 64. Parameter Settings for User Entity Instance: audio_codec:codec|Altera_UP_Audio_Out_Serializer:Audio_Out_Serializer|Altera_UP_SYNC_FIFO:Audio_Out_Right_Channel_FIFO
+ 65. Parameter Settings for User Entity Instance: audio_codec:codec|Altera_UP_Audio_Out_Serializer:Audio_Out_Serializer|Altera_UP_SYNC_FIFO:Audio_Out_Right_Channel_FIFO|scfifo:Sync_FIFO
+ 66. Parameter Settings for Inferred Entity Instance: FIR_filter:filter1|reg_file:r_unit|altsyncram:array_reg_rtl_0
+ 67. altsyncram Parameter Settings by Entity Instance
+ 68. altpll Parameter Settings by Entity Instance
+ 69. scfifo Parameter Settings by Entity Instance
+ 70. Port Connectivity Checks: "audio_codec:codec"
+ 71. Port Connectivity Checks: "audio_and_video_config:cfg|Altera_UP_I2C:I2C_Controller"
+ 72. Port Connectivity Checks: "audio_and_video_config:cfg|Altera_UP_I2C_AV_Auto_Initialize:Auto_Initialize"
+ 73. Port Connectivity Checks: "audio_and_video_config:cfg|Altera_UP_Slow_Clock_Generator:Clock_Generator_400KHz"
+ 74. Port Connectivity Checks: "audio_and_video_config:cfg"
+ 75. Port Connectivity Checks: "clock_generator:my_clock_gen"
+ 76. Port Connectivity Checks: "FIR_filter:filter1|fifo_ctrl:c_unit"
+ 77. Port Connectivity Checks: "note_ROM_select:rom_select|G4_ROM:G4"
+ 78. Port Connectivity Checks: "note_ROM_select:rom_select|F4_ROM:F4"
+ 79. Port Connectivity Checks: "note_ROM_select:rom_select|E4_ROM:E4"
+ 80. Port Connectivity Checks: "note_ROM_select:rom_select|D4_ROM:D4"
+ 81. Port Connectivity Checks: "note_ROM_select:rom_select|C4_ROM:C4"
+ 82. Port Connectivity Checks: "note_ROM_select:rom_select|B4_ROM:B4"
+ 83. Port Connectivity Checks: "note_ROM_select:rom_select|A4_ROM:A4"
+ 84. Port Connectivity Checks: "note_ROM_select:rom_select"
+ 85. Port Connectivity Checks: "note_input:note_loader"
+ 86. Port Connectivity Checks: "n8_driver:driver|serial_driver:driver"
+ 87. Post-Synthesis Netlist Statistics for Top Partition
+ 88. Elapsed Time Per Partition
+ 89. Analysis & Synthesis Messages
+ 90. Analysis & Synthesis Suppressed Messages
 
 
 
@@ -115,16 +122,16 @@ agreement for further details.
 +-------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                  ;
 +---------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status     ; Successful - Mon Jun 08 15:57:31 2026       ;
+; Analysis & Synthesis Status     ; Successful - Mon Jun 08 16:55:47 2026       ;
 ; Quartus Prime Version           ; 17.0.0 Build 595 04/25/2017 SJ Lite Edition ;
 ; Revision Name                   ; DE1_SoC                                     ;
 ; Top-level Entity Name           ; DE1_SoC                                     ;
 ; Family                          ; Cyclone V                                   ;
 ; Logic utilization (in ALMs)     ; N/A                                         ;
-; Total registers                 ; 331                                         ;
+; Total registers                 ; 392                                         ;
 ; Total pins                      ; 98                                          ;
 ; Total virtual pins              ; 0                                           ;
-; Total block memory bits         ; 229,776                                     ;
+; Total block memory bits         ; 155,544                                     ;
 ; Total DSP Blocks                ; 0                                           ;
 ; Total HSSI RX PCSs              ; 0                                           ;
 ; Total HSSI PMA RX Deserializers ; 0                                           ;
@@ -240,7 +247,8 @@ agreement for further details.
 ;     Processor 4            ;   0.0%      ;
 ;     Processor 5            ;   0.0%      ;
 ;     Processor 6            ;   0.0%      ;
-;     Processors 7-16        ;   0.0%      ;
+;     Processor 7            ;   0.0%      ;
+;     Processors 8-16        ;   0.0%      ;
 +----------------------------+-------------+
 
 
@@ -249,6 +257,9 @@ agreement for further details.
 +------------------------------------+-----------------+----------------------------------------+------------------------------------------------------------------------------+---------+
 ; File Name with User-Entered Path   ; Used in Netlist ; File Type                              ; File Name with Absolute Path                                                 ; Library ;
 +------------------------------------+-----------------+----------------------------------------+------------------------------------------------------------------------------+---------+
+; reg_file.sv                        ; yes             ; User SystemVerilog HDL File            ; U:/EE_371/Lab6b/reg_file.sv                                                  ;         ;
+; FIR_filter.sv                      ; yes             ; User SystemVerilog HDL File            ; U:/EE_371/Lab6b/FIR_filter.sv                                                ;         ;
+; fifo_ctrl.sv                       ; yes             ; User SystemVerilog HDL File            ; U:/EE_371/Lab6b/fifo_ctrl.sv                                                 ;         ;
 ; serial_driver.sv                   ; yes             ; User SystemVerilog HDL File            ; U:/EE_371/Lab6b/serial_driver.sv                                             ;         ;
 ; n8_driver.sv                       ; yes             ; User SystemVerilog HDL File            ; U:/EE_371/Lab6b/n8_driver.sv                                                 ;         ;
 ; note_input_datapath.sv             ; yes             ; User SystemVerilog HDL File            ; U:/EE_371/Lab6b/note_input_datapath.sv                                       ;         ;
@@ -322,6 +333,7 @@ agreement for further details.
 ; db/cntr_h2b.tdf                    ; yes             ; Auto-Generated Megafunction            ; U:/EE_371/Lab6b/db/cntr_h2b.tdf                                              ;         ;
 ; db/cntr_u27.tdf                    ; yes             ; Auto-Generated Megafunction            ; U:/EE_371/Lab6b/db/cntr_u27.tdf                                              ;         ;
 ; db/cntr_i2b.tdf                    ; yes             ; Auto-Generated Megafunction            ; U:/EE_371/Lab6b/db/cntr_i2b.tdf                                              ;         ;
+; db/altsyncram_agi1.tdf             ; yes             ; Auto-Generated Megafunction            ; U:/EE_371/Lab6b/db/altsyncram_agi1.tdf                                       ;         ;
 +------------------------------------+-----------------+----------------------------------------+------------------------------------------------------------------------------+---------+
 
 
@@ -330,20 +342,20 @@ agreement for further details.
 +---------------------------------------------+----------------+
 ; Resource                                    ; Usage          ;
 +---------------------------------------------+----------------+
-; Estimate of Logic utilization (ALMs needed) ; 294            ;
+; Estimate of Logic utilization (ALMs needed) ; 308            ;
 ;                                             ;                ;
-; Combinational ALUT usage for logic          ; 481            ;
+; Combinational ALUT usage for logic          ; 514            ;
 ;     -- 7 input functions                    ; 8              ;
-;     -- 6 input functions                    ; 92             ;
-;     -- 5 input functions                    ; 95             ;
-;     -- 4 input functions                    ; 76             ;
-;     -- <=3 input functions                  ; 210            ;
+;     -- 6 input functions                    ; 84             ;
+;     -- 5 input functions                    ; 107            ;
+;     -- 4 input functions                    ; 80             ;
+;     -- <=3 input functions                  ; 235            ;
 ;                                             ;                ;
-; Dedicated logic registers                   ; 331            ;
+; Dedicated logic registers                   ; 392            ;
 ;                                             ;                ;
 ; I/O pins                                    ; 98             ;
 ; Total MLAB memory bits                      ; 0              ;
-; Total block memory bits                     ; 229776         ;
+; Total block memory bits                     ; 155544         ;
 ;                                             ;                ;
 ; Total DSP Blocks                            ; 0              ;
 ;                                             ;                ;
@@ -351,9 +363,9 @@ agreement for further details.
 ;     -- PLLs                                 ; 1              ;
 ;                                             ;                ;
 ; Maximum fan-out node                        ; CLOCK_50~input ;
-; Maximum fan-out                             ; 510            ;
-; Total fan-out                               ; 5820           ;
-; Average fan-out                             ; 4.62           ;
+; Maximum fan-out                             ; 539            ;
+; Total fan-out                               ; 5663           ;
+; Average fan-out                             ; 4.28           ;
 +---------------------------------------------+----------------+
 
 
@@ -362,13 +374,18 @@ agreement for further details.
 +---------------------------------------------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------+--------------+
 ; Compilation Hierarchy Node                                    ; Combinational ALUTs ; Dedicated Logic Registers ; Block Memory Bits ; DSP Blocks ; Pins ; Virtual Pins ; Full Hierarchy Name                                                                                                                                                                                                      ; Entity Name                      ; Library Name ;
 +---------------------------------------------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------+--------------+
-; |DE1_SoC                                                      ; 481 (12)            ; 331 (0)                   ; 229776            ; 0          ; 98   ; 0            ; |DE1_SoC                                                                                                                                                                                                                 ; DE1_SoC                          ; work         ;
+; |DE1_SoC                                                      ; 514 (12)            ; 392 (0)                   ; 155544            ; 0          ; 98   ; 0            ; |DE1_SoC                                                                                                                                                                                                                 ; DE1_SoC                          ; work         ;
+;    |FIR_filter:filter1|                                       ; 59 (25)             ; 61 (24)                   ; 192               ; 0          ; 0    ; 0            ; |DE1_SoC|FIR_filter:filter1                                                                                                                                                                                              ; FIR_filter                       ; work         ;
+;       |fifo_ctrl:c_unit|                                      ; 8 (8)               ; 6 (6)                     ; 0                 ; 0          ; 0    ; 0            ; |DE1_SoC|FIR_filter:filter1|fifo_ctrl:c_unit                                                                                                                                                                             ; fifo_ctrl                        ; work         ;
+;       |reg_file:r_unit|                                       ; 26 (26)             ; 31 (31)                   ; 192               ; 0          ; 0    ; 0            ; |DE1_SoC|FIR_filter:filter1|reg_file:r_unit                                                                                                                                                                              ; reg_file                         ; work         ;
+;          |altsyncram:array_reg_rtl_0|                         ; 0 (0)               ; 0 (0)                     ; 192               ; 0          ; 0    ; 0            ; |DE1_SoC|FIR_filter:filter1|reg_file:r_unit|altsyncram:array_reg_rtl_0                                                                                                                                                   ; altsyncram                       ; work         ;
+;             |altsyncram_agi1:auto_generated|                  ; 0 (0)               ; 0 (0)                     ; 192               ; 0          ; 0    ; 0            ; |DE1_SoC|FIR_filter:filter1|reg_file:r_unit|altsyncram:array_reg_rtl_0|altsyncram_agi1:auto_generated                                                                                                                    ; altsyncram_agi1                  ; work         ;
 ;    |ROM_addr_counter:ROM_count|                               ; 14 (14)             ; 11 (11)                   ; 0                 ; 0          ; 0    ; 0            ; |DE1_SoC|ROM_addr_counter:ROM_count                                                                                                                                                                                      ; ROM_addr_counter                 ; work         ;
-;    |audio_and_video_config:cfg|                               ; 96 (0)              ; 64 (8)                    ; 0                 ; 0          ; 0    ; 0            ; |DE1_SoC|audio_and_video_config:cfg                                                                                                                                                                                      ; audio_and_video_config           ; work         ;
+;    |audio_and_video_config:cfg|                               ; 95 (0)              ; 64 (8)                    ; 0                 ; 0          ; 0    ; 0            ; |DE1_SoC|audio_and_video_config:cfg                                                                                                                                                                                      ; audio_and_video_config           ; work         ;
 ;       |Altera_UP_I2C:I2C_Controller|                          ; 20 (20)             ; 18 (18)                   ; 0                 ; 0          ; 0    ; 0            ; |DE1_SoC|audio_and_video_config:cfg|Altera_UP_I2C:I2C_Controller                                                                                                                                                         ; Altera_UP_I2C                    ; work         ;
-;       |Altera_UP_I2C_AV_Auto_Initialize:Auto_Initialize|      ; 62 (62)             ; 25 (25)                   ; 0                 ; 0          ; 0    ; 0            ; |DE1_SoC|audio_and_video_config:cfg|Altera_UP_I2C_AV_Auto_Initialize:Auto_Initialize                                                                                                                                     ; Altera_UP_I2C_AV_Auto_Initialize ; work         ;
+;       |Altera_UP_I2C_AV_Auto_Initialize:Auto_Initialize|      ; 61 (61)             ; 25 (25)                   ; 0                 ; 0          ; 0    ; 0            ; |DE1_SoC|audio_and_video_config:cfg|Altera_UP_I2C_AV_Auto_Initialize:Auto_Initialize                                                                                                                                     ; Altera_UP_I2C_AV_Auto_Initialize ; work         ;
 ;       |Altera_UP_Slow_Clock_Generator:Clock_Generator_400KHz| ; 14 (14)             ; 13 (13)                   ; 0                 ; 0          ; 0    ; 0            ; |DE1_SoC|audio_and_video_config:cfg|Altera_UP_Slow_Clock_Generator:Clock_Generator_400KHz                                                                                                                                ; Altera_UP_Slow_Clock_Generator   ; work         ;
-;    |audio_codec:codec|                                        ; 168 (7)             ; 154 (0)                   ; 6144              ; 0          ; 0    ; 0            ; |DE1_SoC|audio_codec:codec                                                                                                                                                                                               ; audio_codec                      ; work         ;
+;    |audio_codec:codec|                                        ; 167 (6)             ; 154 (0)                   ; 6144              ; 0          ; 0    ; 0            ; |DE1_SoC|audio_codec:codec                                                                                                                                                                                               ; audio_codec                      ; work         ;
 ;       |Altera_UP_Audio_In_Deserializer:Audio_In_Deserializer| ; 36 (2)              ; 40 (16)                   ; 0                 ; 0          ; 0    ; 0            ; |DE1_SoC|audio_codec:codec|Altera_UP_Audio_In_Deserializer:Audio_In_Deserializer                                                                                                                                         ; Altera_UP_Audio_In_Deserializer  ; work         ;
 ;          |Altera_UP_SYNC_FIFO:Audio_In_Left_Channel_FIFO|     ; 17 (0)              ; 12 (0)                    ; 0                 ; 0          ; 0    ; 0            ; |DE1_SoC|audio_codec:codec|Altera_UP_Audio_In_Deserializer:Audio_In_Deserializer|Altera_UP_SYNC_FIFO:Audio_In_Left_Channel_FIFO                                                                                          ; Altera_UP_SYNC_FIFO              ; work         ;
 ;             |scfifo:Sync_FIFO|                                ; 17 (0)              ; 12 (0)                    ; 0                 ; 0          ; 0    ; 0            ; |DE1_SoC|audio_codec:codec|Altera_UP_Audio_In_Deserializer:Audio_In_Deserializer|Altera_UP_SYNC_FIFO:Audio_In_Left_Channel_FIFO|scfifo:Sync_FIFO                                                                         ; scfifo                           ; work         ;
@@ -406,31 +423,31 @@ agreement for further details.
 ;          |altpll_1uu1:auto_generated|                         ; 0 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |DE1_SoC|clock_generator:my_clock_gen|altpll:DE_Clock_Generator_Audio|altpll_1uu1:auto_generated                                                                                                                         ; altpll_1uu1                      ; work         ;
 ;    |n8_driver:driver|                                         ; 31 (0)              ; 39 (0)                    ; 0                 ; 0          ; 0    ; 0            ; |DE1_SoC|n8_driver:driver                                                                                                                                                                                                ; n8_driver                        ; work         ;
 ;       |serial_driver:driver|                                  ; 31 (31)             ; 39 (39)                   ; 0                 ; 0          ; 0    ; 0            ; |DE1_SoC|n8_driver:driver|serial_driver:driver                                                                                                                                                                           ; serial_driver                    ; work         ;
-;    |note_ROM_select:rom_select|                               ; 74 (74)             ; 0 (0)                     ; 223272            ; 0          ; 0    ; 0            ; |DE1_SoC|note_ROM_select:rom_select                                                                                                                                                                                      ; note_ROM_select                  ; work         ;
-;       |A4_ROM:A4|                                             ; 0 (0)               ; 0 (0)                     ; 31896             ; 0          ; 0    ; 0            ; |DE1_SoC|note_ROM_select:rom_select|A4_ROM:A4                                                                                                                                                                            ; A4_ROM                           ; work         ;
-;          |altsyncram:altsyncram_component|                    ; 0 (0)               ; 0 (0)                     ; 31896             ; 0          ; 0    ; 0            ; |DE1_SoC|note_ROM_select:rom_select|A4_ROM:A4|altsyncram:altsyncram_component                                                                                                                                            ; altsyncram                       ; work         ;
-;             |altsyncram_dgh1:auto_generated|                  ; 0 (0)               ; 0 (0)                     ; 31896             ; 0          ; 0    ; 0            ; |DE1_SoC|note_ROM_select:rom_select|A4_ROM:A4|altsyncram:altsyncram_component|altsyncram_dgh1:auto_generated                                                                                                             ; altsyncram_dgh1                  ; work         ;
-;       |B4_ROM:B4|                                             ; 0 (0)               ; 0 (0)                     ; 31896             ; 0          ; 0    ; 0            ; |DE1_SoC|note_ROM_select:rom_select|B4_ROM:B4                                                                                                                                                                            ; B4_ROM                           ; work         ;
-;          |altsyncram:altsyncram_component|                    ; 0 (0)               ; 0 (0)                     ; 31896             ; 0          ; 0    ; 0            ; |DE1_SoC|note_ROM_select:rom_select|B4_ROM:B4|altsyncram:altsyncram_component                                                                                                                                            ; altsyncram                       ; work         ;
-;             |altsyncram_egh1:auto_generated|                  ; 0 (0)               ; 0 (0)                     ; 31896             ; 0          ; 0    ; 0            ; |DE1_SoC|note_ROM_select:rom_select|B4_ROM:B4|altsyncram:altsyncram_component|altsyncram_egh1:auto_generated                                                                                                             ; altsyncram_egh1                  ; work         ;
-;       |C4_ROM:C4|                                             ; 0 (0)               ; 0 (0)                     ; 31896             ; 0          ; 0    ; 0            ; |DE1_SoC|note_ROM_select:rom_select|C4_ROM:C4                                                                                                                                                                            ; C4_ROM                           ; work         ;
-;          |altsyncram:altsyncram_component|                    ; 0 (0)               ; 0 (0)                     ; 31896             ; 0          ; 0    ; 0            ; |DE1_SoC|note_ROM_select:rom_select|C4_ROM:C4|altsyncram:altsyncram_component                                                                                                                                            ; altsyncram                       ; work         ;
-;             |altsyncram_fgh1:auto_generated|                  ; 0 (0)               ; 0 (0)                     ; 31896             ; 0          ; 0    ; 0            ; |DE1_SoC|note_ROM_select:rom_select|C4_ROM:C4|altsyncram:altsyncram_component|altsyncram_fgh1:auto_generated                                                                                                             ; altsyncram_fgh1                  ; work         ;
-;       |D4_ROM:D4|                                             ; 0 (0)               ; 0 (0)                     ; 31896             ; 0          ; 0    ; 0            ; |DE1_SoC|note_ROM_select:rom_select|D4_ROM:D4                                                                                                                                                                            ; D4_ROM                           ; work         ;
-;          |altsyncram:altsyncram_component|                    ; 0 (0)               ; 0 (0)                     ; 31896             ; 0          ; 0    ; 0            ; |DE1_SoC|note_ROM_select:rom_select|D4_ROM:D4|altsyncram:altsyncram_component                                                                                                                                            ; altsyncram                       ; work         ;
-;             |altsyncram_ggh1:auto_generated|                  ; 0 (0)               ; 0 (0)                     ; 31896             ; 0          ; 0    ; 0            ; |DE1_SoC|note_ROM_select:rom_select|D4_ROM:D4|altsyncram:altsyncram_component|altsyncram_ggh1:auto_generated                                                                                                             ; altsyncram_ggh1                  ; work         ;
-;       |E4_ROM:E4|                                             ; 0 (0)               ; 0 (0)                     ; 31896             ; 0          ; 0    ; 0            ; |DE1_SoC|note_ROM_select:rom_select|E4_ROM:E4                                                                                                                                                                            ; E4_ROM                           ; work         ;
-;          |altsyncram:altsyncram_component|                    ; 0 (0)               ; 0 (0)                     ; 31896             ; 0          ; 0    ; 0            ; |DE1_SoC|note_ROM_select:rom_select|E4_ROM:E4|altsyncram:altsyncram_component                                                                                                                                            ; altsyncram                       ; work         ;
-;             |altsyncram_hgh1:auto_generated|                  ; 0 (0)               ; 0 (0)                     ; 31896             ; 0          ; 0    ; 0            ; |DE1_SoC|note_ROM_select:rom_select|E4_ROM:E4|altsyncram:altsyncram_component|altsyncram_hgh1:auto_generated                                                                                                             ; altsyncram_hgh1                  ; work         ;
-;       |F4_ROM:F4|                                             ; 0 (0)               ; 0 (0)                     ; 31896             ; 0          ; 0    ; 0            ; |DE1_SoC|note_ROM_select:rom_select|F4_ROM:F4                                                                                                                                                                            ; F4_ROM                           ; work         ;
-;          |altsyncram:altsyncram_component|                    ; 0 (0)               ; 0 (0)                     ; 31896             ; 0          ; 0    ; 0            ; |DE1_SoC|note_ROM_select:rom_select|F4_ROM:F4|altsyncram:altsyncram_component                                                                                                                                            ; altsyncram                       ; work         ;
-;             |altsyncram_igh1:auto_generated|                  ; 0 (0)               ; 0 (0)                     ; 31896             ; 0          ; 0    ; 0            ; |DE1_SoC|note_ROM_select:rom_select|F4_ROM:F4|altsyncram:altsyncram_component|altsyncram_igh1:auto_generated                                                                                                             ; altsyncram_igh1                  ; work         ;
-;       |G4_ROM:G4|                                             ; 0 (0)               ; 0 (0)                     ; 31896             ; 0          ; 0    ; 0            ; |DE1_SoC|note_ROM_select:rom_select|G4_ROM:G4                                                                                                                                                                            ; G4_ROM                           ; work         ;
-;          |altsyncram:altsyncram_component|                    ; 0 (0)               ; 0 (0)                     ; 31896             ; 0          ; 0    ; 0            ; |DE1_SoC|note_ROM_select:rom_select|G4_ROM:G4|altsyncram:altsyncram_component                                                                                                                                            ; altsyncram                       ; work         ;
-;             |altsyncram_jgh1:auto_generated|                  ; 0 (0)               ; 0 (0)                     ; 31896             ; 0          ; 0    ; 0            ; |DE1_SoC|note_ROM_select:rom_select|G4_ROM:G4|altsyncram:altsyncram_component|altsyncram_jgh1:auto_generated                                                                                                             ; altsyncram_jgh1                  ; work         ;
-;    |note_input:note_loader|                                   ; 28 (0)              ; 16 (0)                    ; 0                 ; 0          ; 0    ; 0            ; |DE1_SoC|note_input:note_loader                                                                                                                                                                                          ; note_input                       ; work         ;
+;    |note_ROM_select:rom_select|                               ; 52 (52)             ; 0 (0)                     ; 148848            ; 0          ; 0    ; 0            ; |DE1_SoC|note_ROM_select:rom_select                                                                                                                                                                                      ; note_ROM_select                  ; work         ;
+;       |A4_ROM:A4|                                             ; 0 (0)               ; 0 (0)                     ; 21264             ; 0          ; 0    ; 0            ; |DE1_SoC|note_ROM_select:rom_select|A4_ROM:A4                                                                                                                                                                            ; A4_ROM                           ; work         ;
+;          |altsyncram:altsyncram_component|                    ; 0 (0)               ; 0 (0)                     ; 21264             ; 0          ; 0    ; 0            ; |DE1_SoC|note_ROM_select:rom_select|A4_ROM:A4|altsyncram:altsyncram_component                                                                                                                                            ; altsyncram                       ; work         ;
+;             |altsyncram_dgh1:auto_generated|                  ; 0 (0)               ; 0 (0)                     ; 21264             ; 0          ; 0    ; 0            ; |DE1_SoC|note_ROM_select:rom_select|A4_ROM:A4|altsyncram:altsyncram_component|altsyncram_dgh1:auto_generated                                                                                                             ; altsyncram_dgh1                  ; work         ;
+;       |B4_ROM:B4|                                             ; 0 (0)               ; 0 (0)                     ; 21264             ; 0          ; 0    ; 0            ; |DE1_SoC|note_ROM_select:rom_select|B4_ROM:B4                                                                                                                                                                            ; B4_ROM                           ; work         ;
+;          |altsyncram:altsyncram_component|                    ; 0 (0)               ; 0 (0)                     ; 21264             ; 0          ; 0    ; 0            ; |DE1_SoC|note_ROM_select:rom_select|B4_ROM:B4|altsyncram:altsyncram_component                                                                                                                                            ; altsyncram                       ; work         ;
+;             |altsyncram_egh1:auto_generated|                  ; 0 (0)               ; 0 (0)                     ; 21264             ; 0          ; 0    ; 0            ; |DE1_SoC|note_ROM_select:rom_select|B4_ROM:B4|altsyncram:altsyncram_component|altsyncram_egh1:auto_generated                                                                                                             ; altsyncram_egh1                  ; work         ;
+;       |C4_ROM:C4|                                             ; 0 (0)               ; 0 (0)                     ; 21264             ; 0          ; 0    ; 0            ; |DE1_SoC|note_ROM_select:rom_select|C4_ROM:C4                                                                                                                                                                            ; C4_ROM                           ; work         ;
+;          |altsyncram:altsyncram_component|                    ; 0 (0)               ; 0 (0)                     ; 21264             ; 0          ; 0    ; 0            ; |DE1_SoC|note_ROM_select:rom_select|C4_ROM:C4|altsyncram:altsyncram_component                                                                                                                                            ; altsyncram                       ; work         ;
+;             |altsyncram_fgh1:auto_generated|                  ; 0 (0)               ; 0 (0)                     ; 21264             ; 0          ; 0    ; 0            ; |DE1_SoC|note_ROM_select:rom_select|C4_ROM:C4|altsyncram:altsyncram_component|altsyncram_fgh1:auto_generated                                                                                                             ; altsyncram_fgh1                  ; work         ;
+;       |D4_ROM:D4|                                             ; 0 (0)               ; 0 (0)                     ; 21264             ; 0          ; 0    ; 0            ; |DE1_SoC|note_ROM_select:rom_select|D4_ROM:D4                                                                                                                                                                            ; D4_ROM                           ; work         ;
+;          |altsyncram:altsyncram_component|                    ; 0 (0)               ; 0 (0)                     ; 21264             ; 0          ; 0    ; 0            ; |DE1_SoC|note_ROM_select:rom_select|D4_ROM:D4|altsyncram:altsyncram_component                                                                                                                                            ; altsyncram                       ; work         ;
+;             |altsyncram_ggh1:auto_generated|                  ; 0 (0)               ; 0 (0)                     ; 21264             ; 0          ; 0    ; 0            ; |DE1_SoC|note_ROM_select:rom_select|D4_ROM:D4|altsyncram:altsyncram_component|altsyncram_ggh1:auto_generated                                                                                                             ; altsyncram_ggh1                  ; work         ;
+;       |E4_ROM:E4|                                             ; 0 (0)               ; 0 (0)                     ; 21264             ; 0          ; 0    ; 0            ; |DE1_SoC|note_ROM_select:rom_select|E4_ROM:E4                                                                                                                                                                            ; E4_ROM                           ; work         ;
+;          |altsyncram:altsyncram_component|                    ; 0 (0)               ; 0 (0)                     ; 21264             ; 0          ; 0    ; 0            ; |DE1_SoC|note_ROM_select:rom_select|E4_ROM:E4|altsyncram:altsyncram_component                                                                                                                                            ; altsyncram                       ; work         ;
+;             |altsyncram_hgh1:auto_generated|                  ; 0 (0)               ; 0 (0)                     ; 21264             ; 0          ; 0    ; 0            ; |DE1_SoC|note_ROM_select:rom_select|E4_ROM:E4|altsyncram:altsyncram_component|altsyncram_hgh1:auto_generated                                                                                                             ; altsyncram_hgh1                  ; work         ;
+;       |F4_ROM:F4|                                             ; 0 (0)               ; 0 (0)                     ; 21264             ; 0          ; 0    ; 0            ; |DE1_SoC|note_ROM_select:rom_select|F4_ROM:F4                                                                                                                                                                            ; F4_ROM                           ; work         ;
+;          |altsyncram:altsyncram_component|                    ; 0 (0)               ; 0 (0)                     ; 21264             ; 0          ; 0    ; 0            ; |DE1_SoC|note_ROM_select:rom_select|F4_ROM:F4|altsyncram:altsyncram_component                                                                                                                                            ; altsyncram                       ; work         ;
+;             |altsyncram_igh1:auto_generated|                  ; 0 (0)               ; 0 (0)                     ; 21264             ; 0          ; 0    ; 0            ; |DE1_SoC|note_ROM_select:rom_select|F4_ROM:F4|altsyncram:altsyncram_component|altsyncram_igh1:auto_generated                                                                                                             ; altsyncram_igh1                  ; work         ;
+;       |G4_ROM:G4|                                             ; 0 (0)               ; 0 (0)                     ; 21264             ; 0          ; 0    ; 0            ; |DE1_SoC|note_ROM_select:rom_select|G4_ROM:G4                                                                                                                                                                            ; G4_ROM                           ; work         ;
+;          |altsyncram:altsyncram_component|                    ; 0 (0)               ; 0 (0)                     ; 21264             ; 0          ; 0    ; 0            ; |DE1_SoC|note_ROM_select:rom_select|G4_ROM:G4|altsyncram:altsyncram_component                                                                                                                                            ; altsyncram                       ; work         ;
+;             |altsyncram_jgh1:auto_generated|                  ; 0 (0)               ; 0 (0)                     ; 21264             ; 0          ; 0    ; 0            ; |DE1_SoC|note_ROM_select:rom_select|G4_ROM:G4|altsyncram:altsyncram_component|altsyncram_jgh1:auto_generated                                                                                                             ; altsyncram_jgh1                  ; work         ;
+;    |note_input:note_loader|                                   ; 26 (0)              ; 16 (0)                    ; 0                 ; 0          ; 0    ; 0            ; |DE1_SoC|note_input:note_loader                                                                                                                                                                                          ; note_input                       ; work         ;
 ;       |note_input_controller:ni_c|                            ; 7 (7)               ; 4 (4)                     ; 0                 ; 0          ; 0    ; 0            ; |DE1_SoC|note_input:note_loader|note_input_controller:ni_c                                                                                                                                                               ; note_input_controller            ; work         ;
-;       |note_input_datapath:ni_d|                              ; 21 (21)             ; 12 (12)                   ; 0                 ; 0          ; 0    ; 0            ; |DE1_SoC|note_input:note_loader|note_input_datapath:ni_d                                                                                                                                                                 ; note_input_datapath              ; work         ;
+;       |note_input_datapath:ni_d|                              ; 19 (19)             ; 12 (12)                   ; 0                 ; 0          ; 0    ; 0            ; |DE1_SoC|note_input:note_loader|note_input_datapath:ni_d                                                                                                                                                                 ; note_input_datapath              ; work         ;
 ;    |note_ram120x3:user_notes_RAM|                             ; 0 (0)               ; 0 (0)                     ; 360               ; 0          ; 0    ; 0            ; |DE1_SoC|note_ram120x3:user_notes_RAM                                                                                                                                                                                    ; note_ram120x3                    ; work         ;
 ;       |altsyncram:altsyncram_component|                       ; 0 (0)               ; 0 (0)                     ; 360               ; 0          ; 0    ; 0            ; |DE1_SoC|note_ram120x3:user_notes_RAM|altsyncram:altsyncram_component                                                                                                                                                    ; altsyncram                       ; work         ;
 ;          |altsyncram_tqq1:auto_generated|                     ; 0 (0)               ; 0 (0)                     ; 360               ; 0          ; 0    ; 0            ; |DE1_SoC|note_ram120x3:user_notes_RAM|altsyncram:altsyncram_component|altsyncram_tqq1:auto_generated                                                                                                                     ; altsyncram_tqq1                  ; work         ;
@@ -445,6 +462,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------+------------------+--------------+--------------+--------------+--------------+-------+-------------------+
 ; Name                                                                                                                                                                                                                       ; Type       ; Mode             ; Port A Depth ; Port A Width ; Port B Depth ; Port B Width ; Size  ; MIF               ;
 +----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------+------------------+--------------+--------------+--------------+--------------+-------+-------------------+
+; FIR_filter:filter1|reg_file:r_unit|altsyncram:array_reg_rtl_0|altsyncram_agi1:auto_generated|ALTSYNCRAM                                                                                                                    ; AUTO       ; Simple Dual Port ; 8            ; 24           ; 8            ; 24           ; 192   ; None              ;
 ; audio_codec:codec|Altera_UP_Audio_Out_Serializer:Audio_Out_Serializer|Altera_UP_SYNC_FIFO:Audio_Out_Left_Channel_FIFO|scfifo:Sync_FIFO|scfifo_8ba1:auto_generated|a_dpfifo_r2a1:dpfifo|altsyncram_p3i1:FIFOram|ALTSYNCRAM  ; AUTO       ; Simple Dual Port ; 128          ; 24           ; 128          ; 24           ; 3072  ; None              ;
 ; audio_codec:codec|Altera_UP_Audio_Out_Serializer:Audio_Out_Serializer|Altera_UP_SYNC_FIFO:Audio_Out_Right_Channel_FIFO|scfifo:Sync_FIFO|scfifo_8ba1:auto_generated|a_dpfifo_r2a1:dpfifo|altsyncram_p3i1:FIFOram|ALTSYNCRAM ; AUTO       ; Simple Dual Port ; 128          ; 24           ; 128          ; 24           ; 3072  ; None              ;
 ; note_ROM_select:rom_select|A4_ROM:A4|altsyncram:altsyncram_component|altsyncram_dgh1:auto_generated|ALTSYNCRAM                                                                                                             ; M10K block ; ROM              ; 1329         ; 24           ; --           ; --           ; 31896 ; A4_data.mif       ;
@@ -539,6 +557,8 @@ Encoding Type:  One-Hot
 ; audio_codec:codec|done_dac_channel_sync                                                                                                                                                                                            ; Stuck at VCC due to stuck port data_in ;
 ; audio_codec:codec|done_adc_channel_sync                                                                                                                                                                                            ; Stuck at VCC due to stuck port data_in ;
 ; audio_and_video_config:cfg|num_bits_to_transfer[0..2]                                                                                                                                                                              ; Stuck at VCC due to stuck port data_in ;
+; FIR_filter:filter1|fifo_ctrl:c_unit|empty                                                                                                                                                                                          ; Stuck at VCC due to stuck port data_in ;
+; FIR_filter:filter1|fifo_ctrl:c_unit|full                                                                                                                                                                                           ; Stuck at GND due to stuck port data_in ;
 ; audio_and_video_config:cfg|Altera_UP_I2C:I2C_Controller|s_i2c_transceiver~2                                                                                                                                                        ; Lost fanout                            ;
 ; audio_and_video_config:cfg|Altera_UP_I2C:I2C_Controller|s_i2c_transceiver~3                                                                                                                                                        ; Lost fanout                            ;
 ; audio_and_video_config:cfg|Altera_UP_I2C:I2C_Controller|s_i2c_transceiver~4                                                                                                                                                        ; Lost fanout                            ;
@@ -547,7 +567,7 @@ Encoding Type:  One-Hot
 ; audio_and_video_config:cfg|Altera_UP_I2C_AV_Auto_Initialize:Auto_Initialize|s_i2c_auto_init~4                                                                                                                                      ; Lost fanout                            ;
 ; note_input:note_loader|note_input_controller:ni_c|ps~2                                                                                                                                                                             ; Lost fanout                            ;
 ; note_input:note_loader|note_input_controller:ni_c|ps~3                                                                                                                                                                             ; Lost fanout                            ;
-; Total Number of Removed Registers = 85                                                                                                                                                                                             ;                                        ;
+; Total Number of Removed Registers = 87                                                                                                                                                                                             ;                                        ;
 +------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------------+
 
 
@@ -568,14 +588,53 @@ Encoding Type:  One-Hot
 +----------------------------------------------+-------+
 ; Statistic                                    ; Value ;
 +----------------------------------------------+-------+
-; Total registers                              ; 331   ;
-; Number of registers using Synchronous Clear  ; 94    ;
+; Total registers                              ; 392   ;
+; Number of registers using Synchronous Clear  ; 96    ;
 ; Number of registers using Synchronous Load   ; 0     ;
-; Number of registers using Asynchronous Clear ; 56    ;
+; Number of registers using Asynchronous Clear ; 80    ;
 ; Number of registers using Asynchronous Load  ; 0     ;
-; Number of registers using Clock Enable       ; 160   ;
+; Number of registers using Clock Enable       ; 186   ;
 ; Number of registers using Preset             ; 0     ;
 +----------------------------------------------+-------+
+
+
++--------------------------------------------------------------------------------------------------------------------+
+; Registers Added for RAM Pass-Through Logic                                                                         ;
++---------------------------------------------------------------+----------------------------------------------------+
+; Register Name                                                 ; RAM Name                                           ;
++---------------------------------------------------------------+----------------------------------------------------+
+; FIR_filter:filter1|reg_file:r_unit|array_reg_rtl_0_bypass[0]  ; FIR_filter:filter1|reg_file:r_unit|array_reg_rtl_0 ;
+; FIR_filter:filter1|reg_file:r_unit|array_reg_rtl_0_bypass[1]  ; FIR_filter:filter1|reg_file:r_unit|array_reg_rtl_0 ;
+; FIR_filter:filter1|reg_file:r_unit|array_reg_rtl_0_bypass[2]  ; FIR_filter:filter1|reg_file:r_unit|array_reg_rtl_0 ;
+; FIR_filter:filter1|reg_file:r_unit|array_reg_rtl_0_bypass[3]  ; FIR_filter:filter1|reg_file:r_unit|array_reg_rtl_0 ;
+; FIR_filter:filter1|reg_file:r_unit|array_reg_rtl_0_bypass[4]  ; FIR_filter:filter1|reg_file:r_unit|array_reg_rtl_0 ;
+; FIR_filter:filter1|reg_file:r_unit|array_reg_rtl_0_bypass[5]  ; FIR_filter:filter1|reg_file:r_unit|array_reg_rtl_0 ;
+; FIR_filter:filter1|reg_file:r_unit|array_reg_rtl_0_bypass[6]  ; FIR_filter:filter1|reg_file:r_unit|array_reg_rtl_0 ;
+; FIR_filter:filter1|reg_file:r_unit|array_reg_rtl_0_bypass[7]  ; FIR_filter:filter1|reg_file:r_unit|array_reg_rtl_0 ;
+; FIR_filter:filter1|reg_file:r_unit|array_reg_rtl_0_bypass[8]  ; FIR_filter:filter1|reg_file:r_unit|array_reg_rtl_0 ;
+; FIR_filter:filter1|reg_file:r_unit|array_reg_rtl_0_bypass[9]  ; FIR_filter:filter1|reg_file:r_unit|array_reg_rtl_0 ;
+; FIR_filter:filter1|reg_file:r_unit|array_reg_rtl_0_bypass[10] ; FIR_filter:filter1|reg_file:r_unit|array_reg_rtl_0 ;
+; FIR_filter:filter1|reg_file:r_unit|array_reg_rtl_0_bypass[11] ; FIR_filter:filter1|reg_file:r_unit|array_reg_rtl_0 ;
+; FIR_filter:filter1|reg_file:r_unit|array_reg_rtl_0_bypass[12] ; FIR_filter:filter1|reg_file:r_unit|array_reg_rtl_0 ;
+; FIR_filter:filter1|reg_file:r_unit|array_reg_rtl_0_bypass[13] ; FIR_filter:filter1|reg_file:r_unit|array_reg_rtl_0 ;
+; FIR_filter:filter1|reg_file:r_unit|array_reg_rtl_0_bypass[14] ; FIR_filter:filter1|reg_file:r_unit|array_reg_rtl_0 ;
+; FIR_filter:filter1|reg_file:r_unit|array_reg_rtl_0_bypass[15] ; FIR_filter:filter1|reg_file:r_unit|array_reg_rtl_0 ;
+; FIR_filter:filter1|reg_file:r_unit|array_reg_rtl_0_bypass[16] ; FIR_filter:filter1|reg_file:r_unit|array_reg_rtl_0 ;
+; FIR_filter:filter1|reg_file:r_unit|array_reg_rtl_0_bypass[17] ; FIR_filter:filter1|reg_file:r_unit|array_reg_rtl_0 ;
+; FIR_filter:filter1|reg_file:r_unit|array_reg_rtl_0_bypass[18] ; FIR_filter:filter1|reg_file:r_unit|array_reg_rtl_0 ;
+; FIR_filter:filter1|reg_file:r_unit|array_reg_rtl_0_bypass[19] ; FIR_filter:filter1|reg_file:r_unit|array_reg_rtl_0 ;
+; FIR_filter:filter1|reg_file:r_unit|array_reg_rtl_0_bypass[20] ; FIR_filter:filter1|reg_file:r_unit|array_reg_rtl_0 ;
+; FIR_filter:filter1|reg_file:r_unit|array_reg_rtl_0_bypass[21] ; FIR_filter:filter1|reg_file:r_unit|array_reg_rtl_0 ;
+; FIR_filter:filter1|reg_file:r_unit|array_reg_rtl_0_bypass[22] ; FIR_filter:filter1|reg_file:r_unit|array_reg_rtl_0 ;
+; FIR_filter:filter1|reg_file:r_unit|array_reg_rtl_0_bypass[23] ; FIR_filter:filter1|reg_file:r_unit|array_reg_rtl_0 ;
+; FIR_filter:filter1|reg_file:r_unit|array_reg_rtl_0_bypass[24] ; FIR_filter:filter1|reg_file:r_unit|array_reg_rtl_0 ;
+; FIR_filter:filter1|reg_file:r_unit|array_reg_rtl_0_bypass[25] ; FIR_filter:filter1|reg_file:r_unit|array_reg_rtl_0 ;
+; FIR_filter:filter1|reg_file:r_unit|array_reg_rtl_0_bypass[26] ; FIR_filter:filter1|reg_file:r_unit|array_reg_rtl_0 ;
+; FIR_filter:filter1|reg_file:r_unit|array_reg_rtl_0_bypass[27] ; FIR_filter:filter1|reg_file:r_unit|array_reg_rtl_0 ;
+; FIR_filter:filter1|reg_file:r_unit|array_reg_rtl_0_bypass[28] ; FIR_filter:filter1|reg_file:r_unit|array_reg_rtl_0 ;
+; FIR_filter:filter1|reg_file:r_unit|array_reg_rtl_0_bypass[29] ; FIR_filter:filter1|reg_file:r_unit|array_reg_rtl_0 ;
+; FIR_filter:filter1|reg_file:r_unit|array_reg_rtl_0_bypass[30] ; FIR_filter:filter1|reg_file:r_unit|array_reg_rtl_0 ;
++---------------------------------------------------------------+----------------------------------------------------+
 
 
 +---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -583,15 +642,17 @@ Encoding Type:  One-Hot
 +--------------------+-----------+---------------+----------------------+------------------------+------------+-------------------------------------------------------------------------------------------------------+
 ; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered ; Example Multiplexer Output                                                                            ;
 +--------------------+-----------+---------------+----------------------+------------------------+------------+-------------------------------------------------------------------------------------------------------+
-; 3:1                ; 7 bits    ; 14 LEs        ; 7 LEs                ; 7 LEs                  ; Yes        ; |DE1_SoC|note_input:note_loader|note_input_datapath:ni_d|RAM_addr[1]                                  ;
-; 3:1                ; 14 bits   ; 28 LEs        ; 0 LEs                ; 28 LEs                 ; Yes        ; |DE1_SoC|num_writes_counter:num_writes|num_writes[9]                                                  ;
-; 3:1                ; 11 bits   ; 22 LEs        ; 0 LEs                ; 22 LEs                 ; Yes        ; |DE1_SoC|ROM_addr_counter:ROM_count|addr[8]                                                           ;
-; 3:1                ; 3 bits    ; 6 LEs         ; 3 LEs                ; 3 LEs                  ; Yes        ; |DE1_SoC|audio_and_video_config:cfg|Altera_UP_I2C:I2C_Controller|current_bit[0]                       ;
-; 4:1                ; 4 bits    ; 8 LEs         ; 8 LEs                ; 0 LEs                  ; Yes        ; |DE1_SoC|audio_and_video_config:cfg|Altera_UP_I2C_AV_Auto_Initialize:Auto_Initialize|data_out[3]      ;
-; 4:1                ; 4 bits    ; 8 LEs         ; 8 LEs                ; 0 LEs                  ; Yes        ; |DE1_SoC|audio_and_video_config:cfg|Altera_UP_I2C_AV_Auto_Initialize:Auto_Initialize|data_out[2]      ;
-; 5:1                ; 23 bits   ; 69 LEs        ; 46 LEs               ; 23 LEs                 ; Yes        ; |DE1_SoC|audio_codec:codec|Altera_UP_Audio_Out_Serializer:Audio_Out_Serializer|data_out_shift_reg[16] ;
-; 9:1                ; 3 bits    ; 18 LEs        ; 15 LEs               ; 3 LEs                  ; Yes        ; |DE1_SoC|note_input:note_loader|note_input_datapath:ni_d|RAM_din[1]                                   ;
-; 8:1                ; 24 bits   ; 120 LEs       ; 120 LEs              ; 0 LEs                  ; No         ; |DE1_SoC|note_ROM_select:rom_select|Mux8                                                              ;
+; 3:1                ; 3 bits    ; 6 LEs         ; 3 LEs                ; 3 LEs                  ; Yes        ; |DE1_SoC|FIR_filter:filter1|fifo_ctrl:c_unit|wr_ptr[2]                                                ;
+; 3:1                ; 7 bits    ; 14 LEs        ; 7 LEs                ; 7 LEs                  ; Yes        ; |DE1_SoC|note_input:note_loader|note_input_datapath:ni_d|RAM_addr[4]                                  ;
+; 3:1                ; 14 bits   ; 28 LEs        ; 0 LEs                ; 28 LEs                 ; Yes        ; |DE1_SoC|num_writes_counter:num_writes|num_writes[0]                                                  ;
+; 3:1                ; 11 bits   ; 22 LEs        ; 0 LEs                ; 22 LEs                 ; Yes        ; |DE1_SoC|ROM_addr_counter:ROM_count|addr[2]                                                           ;
+; 3:1                ; 3 bits    ; 6 LEs         ; 3 LEs                ; 3 LEs                  ; Yes        ; |DE1_SoC|audio_and_video_config:cfg|Altera_UP_I2C:I2C_Controller|current_bit[2]                       ;
+; 4:1                ; 4 bits    ; 8 LEs         ; 8 LEs                ; 0 LEs                  ; Yes        ; |DE1_SoC|audio_and_video_config:cfg|Altera_UP_I2C_AV_Auto_Initialize:Auto_Initialize|data_out[0]      ;
+; 4:1                ; 4 bits    ; 8 LEs         ; 8 LEs                ; 0 LEs                  ; Yes        ; |DE1_SoC|audio_and_video_config:cfg|Altera_UP_I2C_AV_Auto_Initialize:Auto_Initialize|data_out[5]      ;
+; 5:1                ; 23 bits   ; 69 LEs        ; 46 LEs               ; 23 LEs                 ; Yes        ; |DE1_SoC|audio_codec:codec|Altera_UP_Audio_Out_Serializer:Audio_Out_Serializer|data_out_shift_reg[21] ;
+; 9:1                ; 3 bits    ; 18 LEs        ; 15 LEs               ; 3 LEs                  ; Yes        ; |DE1_SoC|note_input:note_loader|note_input_datapath:ni_d|RAM_din[2]                                   ;
+; 3:1                ; 3 bits    ; 6 LEs         ; 6 LEs                ; 0 LEs                  ; No         ; |DE1_SoC|FIR_filter:filter1|fifo_ctrl:c_unit|rd_ptr                                                   ;
+; 8:1                ; 16 bits   ; 80 LEs        ; 80 LEs               ; 0 LEs                  ; No         ; |DE1_SoC|note_ROM_select:rom_select|Mux14                                                             ;
 +--------------------+-----------+---------------+----------------------+------------------------+------------+-------------------------------------------------------------------------------------------------------+
 
 
@@ -701,6 +762,15 @@ Encoding Type:  One-Hot
 +---------------------------------+--------------------+------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 ; OPTIMIZE_POWER_DURING_SYNTHESIS ; NORMAL_COMPILATION ; -    ; -                                                                                                                                                                        ;
 +---------------------------------+--------------------+------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+
++---------------------------------------------------------------------------------------------------------------------+
+; Source assignments for FIR_filter:filter1|reg_file:r_unit|altsyncram:array_reg_rtl_0|altsyncram_agi1:auto_generated ;
++---------------------------------+--------------------+------+-------------------------------------------------------+
+; Assignment                      ; Value              ; From ; To                                                    ;
++---------------------------------+--------------------+------+-------------------------------------------------------+
+; OPTIMIZE_POWER_DURING_SYNTHESIS ; NORMAL_COMPILATION ; -    ; -                                                     ;
++---------------------------------+--------------------+------+-------------------------------------------------------+
 
 
 +-------------------------------------------------------------------------+
@@ -1251,6 +1321,38 @@ Note: In order to hide this table in the UI and the text report file, please set
 ; DEVICE_FAMILY                      ; Cyclone V            ; Untyped                                               ;
 ; CBXI_PARAMETER                     ; altsyncram_jgh1      ; Untyped                                               ;
 +------------------------------------+----------------------+-------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-----------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: FIR_filter:filter1 ;
++----------------+-------+----------------------------------------+
+; Parameter Name ; Value ; Type                                   ;
++----------------+-------+----------------------------------------+
+; n              ; 8     ; Signed Integer                         ;
+; w              ; 24    ; Signed Integer                         ;
++----------------+-------+----------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++----------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: FIR_filter:filter1|fifo_ctrl:c_unit ;
++----------------+-------+---------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                    ;
++----------------+-------+---------------------------------------------------------+
+; ADDR_WIDTH     ; 3     ; Signed Integer                                          ;
++----------------+-------+---------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++---------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: FIR_filter:filter1|reg_file:r_unit ;
++----------------+-------+--------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                   ;
++----------------+-------+--------------------------------------------------------+
+; DATA_WIDTH     ; 24    ; Signed Integer                                         ;
+; ADDR_WIDTH     ; 3     ; Signed Integer                                         ;
++----------------+-------+--------------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
@@ -1921,12 +2023,73 @@ Note: In order to hide this table in the UI and the text report file, please set
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
++----------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for Inferred Entity Instance: FIR_filter:filter1|reg_file:r_unit|altsyncram:array_reg_rtl_0 ;
++------------------------------------+----------------------+----------------------------------------------------+
+; Parameter Name                     ; Value                ; Type                                               ;
++------------------------------------+----------------------+----------------------------------------------------+
+; BYTE_SIZE_BLOCK                    ; 8                    ; Untyped                                            ;
+; AUTO_CARRY_CHAINS                  ; ON                   ; AUTO_CARRY                                         ;
+; IGNORE_CARRY_BUFFERS               ; OFF                  ; IGNORE_CARRY                                       ;
+; AUTO_CASCADE_CHAINS                ; ON                   ; AUTO_CASCADE                                       ;
+; IGNORE_CASCADE_BUFFERS             ; OFF                  ; IGNORE_CASCADE                                     ;
+; WIDTH_BYTEENA                      ; 1                    ; Untyped                                            ;
+; OPERATION_MODE                     ; DUAL_PORT            ; Untyped                                            ;
+; WIDTH_A                            ; 24                   ; Untyped                                            ;
+; WIDTHAD_A                          ; 3                    ; Untyped                                            ;
+; NUMWORDS_A                         ; 8                    ; Untyped                                            ;
+; OUTDATA_REG_A                      ; UNREGISTERED         ; Untyped                                            ;
+; ADDRESS_ACLR_A                     ; NONE                 ; Untyped                                            ;
+; OUTDATA_ACLR_A                     ; NONE                 ; Untyped                                            ;
+; WRCONTROL_ACLR_A                   ; NONE                 ; Untyped                                            ;
+; INDATA_ACLR_A                      ; NONE                 ; Untyped                                            ;
+; BYTEENA_ACLR_A                     ; NONE                 ; Untyped                                            ;
+; WIDTH_B                            ; 24                   ; Untyped                                            ;
+; WIDTHAD_B                          ; 3                    ; Untyped                                            ;
+; NUMWORDS_B                         ; 8                    ; Untyped                                            ;
+; INDATA_REG_B                       ; CLOCK1               ; Untyped                                            ;
+; WRCONTROL_WRADDRESS_REG_B          ; CLOCK1               ; Untyped                                            ;
+; RDCONTROL_REG_B                    ; CLOCK1               ; Untyped                                            ;
+; ADDRESS_REG_B                      ; CLOCK0               ; Untyped                                            ;
+; OUTDATA_REG_B                      ; UNREGISTERED         ; Untyped                                            ;
+; BYTEENA_REG_B                      ; CLOCK1               ; Untyped                                            ;
+; INDATA_ACLR_B                      ; NONE                 ; Untyped                                            ;
+; WRCONTROL_ACLR_B                   ; NONE                 ; Untyped                                            ;
+; ADDRESS_ACLR_B                     ; NONE                 ; Untyped                                            ;
+; OUTDATA_ACLR_B                     ; NONE                 ; Untyped                                            ;
+; RDCONTROL_ACLR_B                   ; NONE                 ; Untyped                                            ;
+; BYTEENA_ACLR_B                     ; NONE                 ; Untyped                                            ;
+; WIDTH_BYTEENA_A                    ; 1                    ; Untyped                                            ;
+; WIDTH_BYTEENA_B                    ; 1                    ; Untyped                                            ;
+; RAM_BLOCK_TYPE                     ; AUTO                 ; Untyped                                            ;
+; BYTE_SIZE                          ; 8                    ; Untyped                                            ;
+; READ_DURING_WRITE_MODE_MIXED_PORTS ; DONT_CARE            ; Untyped                                            ;
+; READ_DURING_WRITE_MODE_PORT_A      ; NEW_DATA_NO_NBE_READ ; Untyped                                            ;
+; READ_DURING_WRITE_MODE_PORT_B      ; NEW_DATA_NO_NBE_READ ; Untyped                                            ;
+; INIT_FILE                          ; UNUSED               ; Untyped                                            ;
+; INIT_FILE_LAYOUT                   ; PORT_A               ; Untyped                                            ;
+; MAXIMUM_DEPTH                      ; 0                    ; Untyped                                            ;
+; CLOCK_ENABLE_INPUT_A               ; NORMAL               ; Untyped                                            ;
+; CLOCK_ENABLE_INPUT_B               ; NORMAL               ; Untyped                                            ;
+; CLOCK_ENABLE_OUTPUT_A              ; NORMAL               ; Untyped                                            ;
+; CLOCK_ENABLE_OUTPUT_B              ; NORMAL               ; Untyped                                            ;
+; CLOCK_ENABLE_CORE_A                ; USE_INPUT_CLKEN      ; Untyped                                            ;
+; CLOCK_ENABLE_CORE_B                ; USE_INPUT_CLKEN      ; Untyped                                            ;
+; ENABLE_ECC                         ; FALSE                ; Untyped                                            ;
+; ECC_PIPELINE_STAGE_ENABLED         ; FALSE                ; Untyped                                            ;
+; WIDTH_ECCSTATUS                    ; 3                    ; Untyped                                            ;
+; DEVICE_FAMILY                      ; Cyclone V            ; Untyped                                            ;
+; CBXI_PARAMETER                     ; altsyncram_agi1      ; Untyped                                            ;
++------------------------------------+----------------------+----------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
 +------------------------------------------------------------------------------------------------------------------+
 ; altsyncram Parameter Settings by Entity Instance                                                                 ;
 +-------------------------------------------+----------------------------------------------------------------------+
 ; Name                                      ; Value                                                                ;
 +-------------------------------------------+----------------------------------------------------------------------+
-; Number of entity instances                ; 8                                                                    ;
+; Number of entity instances                ; 9                                                                    ;
 ; Entity Instance                           ; note_ram120x3:user_notes_RAM|altsyncram:altsyncram_component         ;
 ;     -- OPERATION_MODE                     ; SINGLE_PORT                                                          ;
 ;     -- WIDTH_A                            ; 3                                                                    ;
@@ -2014,6 +2177,17 @@ Note: In order to hide this table in the UI and the text report file, please set
 ;     -- ADDRESS_REG_B                      ; CLOCK1                                                               ;
 ;     -- OUTDATA_REG_B                      ; UNREGISTERED                                                         ;
 ;     -- RAM_BLOCK_TYPE                     ; M10K                                                                 ;
+;     -- READ_DURING_WRITE_MODE_MIXED_PORTS ; DONT_CARE                                                            ;
+; Entity Instance                           ; FIR_filter:filter1|reg_file:r_unit|altsyncram:array_reg_rtl_0        ;
+;     -- OPERATION_MODE                     ; DUAL_PORT                                                            ;
+;     -- WIDTH_A                            ; 24                                                                   ;
+;     -- NUMWORDS_A                         ; 8                                                                    ;
+;     -- OUTDATA_REG_A                      ; UNREGISTERED                                                         ;
+;     -- WIDTH_B                            ; 24                                                                   ;
+;     -- NUMWORDS_B                         ; 8                                                                    ;
+;     -- ADDRESS_REG_B                      ; CLOCK0                                                               ;
+;     -- OUTDATA_REG_B                      ; UNREGISTERED                                                         ;
+;     -- RAM_BLOCK_TYPE                     ; AUTO                                                                 ;
 ;     -- READ_DURING_WRITE_MODE_MIXED_PORTS ; DONT_CARE                                                            ;
 +-------------------------------------------+----------------------------------------------------------------------+
 
@@ -2129,6 +2303,16 @@ Note: In order to hide this table in the UI and the text report file, please set
 +-------+-------+----------+-------------------------------+
 
 
++-----------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "FIR_filter:filter1|fifo_ctrl:c_unit"                                                 ;
++-------+--------+----------+-------------------------------------------------------------------------------------+
+; Port  ; Type   ; Severity ; Details                                                                             ;
++-------+--------+----------+-------------------------------------------------------------------------------------+
+; empty ; Output ; Info     ; Explicitly unconnected                                                              ;
+; full  ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++-------+--------+----------+-------------------------------------------------------------------------------------+
+
+
 +-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 ; Port Connectivity Checks: "note_ROM_select:rom_select|G4_ROM:G4"                                                                                                                                                ;
 +---------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -2224,36 +2408,39 @@ Note: In order to hide this table in the UI and the text report file, please set
 +-----------------------+-----------------------------+
 ; Type                  ; Count                       ;
 +-----------------------+-----------------------------+
-; arriav_ff             ; 331                         ;
+; arriav_ff             ; 392                         ;
 ;     CLR               ; 2                           ;
 ;     CLR SCLR          ; 22                          ;
 ;     ENA               ; 95                          ;
-;     ENA CLR           ; 7                           ;
+;     ENA CLR           ; 31                          ;
 ;     ENA CLR SCLR      ; 25                          ;
-;     ENA SCLR          ; 33                          ;
+;     ENA SCLR          ; 35                          ;
 ;     SCLR              ; 14                          ;
-;     plain             ; 133                         ;
+;     plain             ; 168                         ;
 ; arriav_io_obuf        ; 33                          ;
-; arriav_lcell_comb     ; 489                         ;
+; arriav_lcell_comb     ; 522                         ;
 ;     arith             ; 160                         ;
 ;         1 data inputs ; 131                         ;
 ;         2 data inputs ; 29                          ;
 ;     extend            ; 8                           ;
 ;         7 data inputs ; 8                           ;
-;     normal            ; 321                         ;
+;     normal            ; 329                         ;
 ;         0 data inputs ; 1                           ;
 ;         1 data inputs ; 14                          ;
-;         2 data inputs ; 18                          ;
-;         3 data inputs ; 25                          ;
-;         4 data inputs ; 76                          ;
-;         5 data inputs ; 95                          ;
-;         6 data inputs ; 92                          ;
+;         2 data inputs ; 17                          ;
+;         3 data inputs ; 26                          ;
+;         4 data inputs ; 80                          ;
+;         5 data inputs ; 107                         ;
+;         6 data inputs ; 84                          ;
+;     shared            ; 25                          ;
+;         0 data inputs ; 1                           ;
+;         3 data inputs ; 24                          ;
 ; boundary_port         ; 98                          ;
 ; generic_pll           ; 1                           ;
-; stratixv_ram_block    ; 219                         ;
+; stratixv_ram_block    ; 187                         ;
 ;                       ;                             ;
-; Max LUT depth         ; 4.50                        ;
-; Average LUT depth     ; 1.99                        ;
+; Max LUT depth         ; 6.30                        ;
+; Average LUT depth     ; 2.61                        ;
 +-----------------------+-----------------------------+
 
 
@@ -2272,10 +2459,16 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 17.0.0 Build 595 04/25/2017 SJ Lite Edition
-    Info: Processing started: Mon Jun 08 15:57:21 2026
+    Info: Processing started: Mon Jun 08 16:55:36 2026
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off DE1_SoC -c DE1_SoC
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 16 of the 20 processors detected
+Info (12021): Found 1 design units, including 1 entities, in source file reg_file.sv
+    Info (12023): Found entity 1: reg_file File: U:/EE_371/Lab6b/reg_file.sv Line: 5
+Info (12021): Found 1 design units, including 1 entities, in source file fir_filter.sv
+    Info (12023): Found entity 1: FIR_filter File: U:/EE_371/Lab6b/FIR_filter.sv Line: 3
+Info (12021): Found 1 design units, including 1 entities, in source file fifo_ctrl.sv
+    Info (12023): Found entity 1: fifo_ctrl File: U:/EE_371/Lab6b/fifo_ctrl.sv Line: 6
 Warning (10263): Verilog HDL Event Control warning at serial_driver.sv(64): event expression contains "|" or "||" File: U:/EE_371/Lab6b/serial_driver.sv Line: 64
 Info (12021): Found 1 design units, including 1 entities, in source file serial_driver.sv
     Info (12023): Found entity 1: serial_driver File: U:/EE_371/Lab6b/serial_driver.sv Line: 1
@@ -2539,11 +2732,14 @@ Info (12133): Instantiated megafunction "note_ROM_select:rom_select|G4_ROM:G4|al
 Info (12021): Found 1 design units, including 1 entities, in source file db/altsyncram_jgh1.tdf
     Info (12023): Found entity 1: altsyncram_jgh1 File: U:/EE_371/Lab6b/db/altsyncram_jgh1.tdf Line: 28
 Info (12128): Elaborating entity "altsyncram_jgh1" for hierarchy "note_ROM_select:rom_select|G4_ROM:G4|altsyncram:altsyncram_component|altsyncram_jgh1:auto_generated" File: c:/intelfpga_lite/17.0/quartus/libraries/megafunctions/altsyncram.tdf Line: 792
-Info (12128): Elaborating entity "write_pulse" for hierarchy "write_pulse:wp" File: U:/EE_371/Lab6b/DE1_SoC.sv Line: 161
-Info (12128): Elaborating entity "num_writes_counter" for hierarchy "num_writes_counter:num_writes" File: U:/EE_371/Lab6b/DE1_SoC.sv Line: 162
+Info (12128): Elaborating entity "FIR_filter" for hierarchy "FIR_filter:filter1" File: U:/EE_371/Lab6b/DE1_SoC.sv Line: 155
+Info (12128): Elaborating entity "fifo_ctrl" for hierarchy "FIR_filter:filter1|fifo_ctrl:c_unit" File: U:/EE_371/Lab6b/FIR_filter.sv Line: 28
+Info (12128): Elaborating entity "reg_file" for hierarchy "FIR_filter:filter1|reg_file:r_unit" File: U:/EE_371/Lab6b/FIR_filter.sv Line: 30
+Info (12128): Elaborating entity "write_pulse" for hierarchy "write_pulse:wp" File: U:/EE_371/Lab6b/DE1_SoC.sv Line: 165
+Info (12128): Elaborating entity "num_writes_counter" for hierarchy "num_writes_counter:num_writes" File: U:/EE_371/Lab6b/DE1_SoC.sv Line: 166
 Warning (10230): Verilog HDL assignment warning at num_writes_counter.sv(29): truncated value with size 32 to match size of target (14) File: U:/EE_371/Lab6/num_writes_counter.sv Line: 29
 Warning (10230): Verilog HDL assignment warning at num_writes_counter.sv(32): truncated value with size 32 to match size of target (7) File: U:/EE_371/Lab6/num_writes_counter.sv Line: 32
-Info (12128): Elaborating entity "clock_generator" for hierarchy "clock_generator:my_clock_gen" File: U:/EE_371/Lab6b/DE1_SoC.sv Line: 191
+Info (12128): Elaborating entity "clock_generator" for hierarchy "clock_generator:my_clock_gen" File: U:/EE_371/Lab6b/DE1_SoC.sv Line: 197
 Info (12128): Elaborating entity "altpll" for hierarchy "clock_generator:my_clock_gen|altpll:DE_Clock_Generator_Audio" File: U:/EE_371/Lab6b/clock_generator.v Line: 134
 Info (12130): Elaborated megafunction instantiation "clock_generator:my_clock_gen|altpll:DE_Clock_Generator_Audio" File: U:/EE_371/Lab6b/clock_generator.v Line: 134
 Info (12133): Instantiated megafunction "clock_generator:my_clock_gen|altpll:DE_Clock_Generator_Audio" with the following parameter: File: U:/EE_371/Lab6b/clock_generator.v Line: 134
@@ -2606,11 +2802,11 @@ Info (12133): Instantiated megafunction "clock_generator:my_clock_gen|altpll:DE_
 Info (12021): Found 1 design units, including 1 entities, in source file db/altpll_1uu1.tdf
     Info (12023): Found entity 1: altpll_1uu1 File: U:/EE_371/Lab6b/db/altpll_1uu1.tdf Line: 26
 Info (12128): Elaborating entity "altpll_1uu1" for hierarchy "clock_generator:my_clock_gen|altpll:DE_Clock_Generator_Audio|altpll_1uu1:auto_generated" File: c:/intelfpga_lite/17.0/quartus/libraries/megafunctions/altpll.tdf Line: 898
-Info (12128): Elaborating entity "audio_and_video_config" for hierarchy "audio_and_video_config:cfg" File: U:/EE_371/Lab6b/DE1_SoC.sv Line: 201
+Info (12128): Elaborating entity "audio_and_video_config" for hierarchy "audio_and_video_config:cfg" File: U:/EE_371/Lab6b/DE1_SoC.sv Line: 207
 Info (12128): Elaborating entity "Altera_UP_Slow_Clock_Generator" for hierarchy "audio_and_video_config:cfg|Altera_UP_Slow_Clock_Generator:Clock_Generator_400KHz" File: U:/EE_371/Lab6b/audio_and_video_config.v Line: 180
 Info (12128): Elaborating entity "Altera_UP_I2C_AV_Auto_Initialize" for hierarchy "audio_and_video_config:cfg|Altera_UP_I2C_AV_Auto_Initialize:Auto_Initialize" File: U:/EE_371/Lab6b/audio_and_video_config.v Line: 205
 Info (12128): Elaborating entity "Altera_UP_I2C" for hierarchy "audio_and_video_config:cfg|Altera_UP_I2C:I2C_Controller" File: U:/EE_371/Lab6b/audio_and_video_config.v Line: 252
-Info (12128): Elaborating entity "audio_codec" for hierarchy "audio_codec:codec" File: U:/EE_371/Lab6b/DE1_SoC.sv Line: 222
+Info (12128): Elaborating entity "audio_codec" for hierarchy "audio_codec:codec" File: U:/EE_371/Lab6b/DE1_SoC.sv Line: 228
 Info (12128): Elaborating entity "Altera_UP_Clock_Edge" for hierarchy "audio_codec:codec|Altera_UP_Clock_Edge:Bit_Clock_Edges" File: U:/EE_371/Lab6b/audio_codec.v Line: 181
 Info (12128): Elaborating entity "Altera_UP_Audio_In_Deserializer" for hierarchy "audio_codec:codec|Altera_UP_Audio_In_Deserializer:Audio_In_Deserializer" File: U:/EE_371/Lab6b/audio_codec.v Line: 238
 Info (12128): Elaborating entity "Altera_UP_Audio_Bit_Counter" for hierarchy "audio_codec:codec|Altera_UP_Audio_In_Deserializer:Audio_In_Deserializer|Altera_UP_Audio_Bit_Counter:Audio_Out_Bit_Counter" File: U:/EE_371/Lab6b/Altera_UP_Audio_In_Deserializer.v Line: 197
@@ -2702,8 +2898,99 @@ Warning (14284): Synthesized away the following node(s):
         Warning (14320): Synthesized away node "audio_codec:codec|Altera_UP_Audio_In_Deserializer:Audio_In_Deserializer|Altera_UP_SYNC_FIFO:Audio_In_Left_Channel_FIFO|scfifo:Sync_FIFO|scfifo_8ba1:auto_generated|a_dpfifo_r2a1:dpfifo|altsyncram_p3i1:FIFOram|q_b[21]" File: U:/EE_371/Lab6b/db/altsyncram_p3i1.tdf Line: 668
         Warning (14320): Synthesized away node "audio_codec:codec|Altera_UP_Audio_In_Deserializer:Audio_In_Deserializer|Altera_UP_SYNC_FIFO:Audio_In_Left_Channel_FIFO|scfifo:Sync_FIFO|scfifo_8ba1:auto_generated|a_dpfifo_r2a1:dpfifo|altsyncram_p3i1:FIFOram|q_b[22]" File: U:/EE_371/Lab6b/db/altsyncram_p3i1.tdf Line: 698
         Warning (14320): Synthesized away node "audio_codec:codec|Altera_UP_Audio_In_Deserializer:Audio_In_Deserializer|Altera_UP_SYNC_FIFO:Audio_In_Left_Channel_FIFO|scfifo:Sync_FIFO|scfifo_8ba1:auto_generated|a_dpfifo_r2a1:dpfifo|altsyncram_p3i1:FIFOram|q_b[23]" File: U:/EE_371/Lab6b/db/altsyncram_p3i1.tdf Line: 728
+        Warning (14320): Synthesized away node "note_ROM_select:rom_select|G4_ROM:G4|altsyncram:altsyncram_component|altsyncram_jgh1:auto_generated|q_a[0]" File: U:/EE_371/Lab6b/db/altsyncram_jgh1.tdf Line: 35
+        Warning (14320): Synthesized away node "note_ROM_select:rom_select|G4_ROM:G4|altsyncram:altsyncram_component|altsyncram_jgh1:auto_generated|q_a[1]" File: U:/EE_371/Lab6b/db/altsyncram_jgh1.tdf Line: 57
+        Warning (14320): Synthesized away node "note_ROM_select:rom_select|G4_ROM:G4|altsyncram:altsyncram_component|altsyncram_jgh1:auto_generated|q_a[2]" File: U:/EE_371/Lab6b/db/altsyncram_jgh1.tdf Line: 79
+        Warning (14320): Synthesized away node "note_ROM_select:rom_select|G4_ROM:G4|altsyncram:altsyncram_component|altsyncram_jgh1:auto_generated|q_a[3]" File: U:/EE_371/Lab6b/db/altsyncram_jgh1.tdf Line: 101
+        Warning (14320): Synthesized away node "note_ROM_select:rom_select|G4_ROM:G4|altsyncram:altsyncram_component|altsyncram_jgh1:auto_generated|q_a[4]" File: U:/EE_371/Lab6b/db/altsyncram_jgh1.tdf Line: 123
+        Warning (14320): Synthesized away node "note_ROM_select:rom_select|G4_ROM:G4|altsyncram:altsyncram_component|altsyncram_jgh1:auto_generated|q_a[5]" File: U:/EE_371/Lab6b/db/altsyncram_jgh1.tdf Line: 145
+        Warning (14320): Synthesized away node "note_ROM_select:rom_select|G4_ROM:G4|altsyncram:altsyncram_component|altsyncram_jgh1:auto_generated|q_a[6]" File: U:/EE_371/Lab6b/db/altsyncram_jgh1.tdf Line: 167
+        Warning (14320): Synthesized away node "note_ROM_select:rom_select|G4_ROM:G4|altsyncram:altsyncram_component|altsyncram_jgh1:auto_generated|q_a[7]" File: U:/EE_371/Lab6b/db/altsyncram_jgh1.tdf Line: 189
+        Warning (14320): Synthesized away node "note_ROM_select:rom_select|F4_ROM:F4|altsyncram:altsyncram_component|altsyncram_igh1:auto_generated|q_a[0]" File: U:/EE_371/Lab6b/db/altsyncram_igh1.tdf Line: 35
+        Warning (14320): Synthesized away node "note_ROM_select:rom_select|F4_ROM:F4|altsyncram:altsyncram_component|altsyncram_igh1:auto_generated|q_a[1]" File: U:/EE_371/Lab6b/db/altsyncram_igh1.tdf Line: 57
+        Warning (14320): Synthesized away node "note_ROM_select:rom_select|F4_ROM:F4|altsyncram:altsyncram_component|altsyncram_igh1:auto_generated|q_a[2]" File: U:/EE_371/Lab6b/db/altsyncram_igh1.tdf Line: 79
+        Warning (14320): Synthesized away node "note_ROM_select:rom_select|F4_ROM:F4|altsyncram:altsyncram_component|altsyncram_igh1:auto_generated|q_a[3]" File: U:/EE_371/Lab6b/db/altsyncram_igh1.tdf Line: 101
+        Warning (14320): Synthesized away node "note_ROM_select:rom_select|F4_ROM:F4|altsyncram:altsyncram_component|altsyncram_igh1:auto_generated|q_a[4]" File: U:/EE_371/Lab6b/db/altsyncram_igh1.tdf Line: 123
+        Warning (14320): Synthesized away node "note_ROM_select:rom_select|F4_ROM:F4|altsyncram:altsyncram_component|altsyncram_igh1:auto_generated|q_a[5]" File: U:/EE_371/Lab6b/db/altsyncram_igh1.tdf Line: 145
+        Warning (14320): Synthesized away node "note_ROM_select:rom_select|F4_ROM:F4|altsyncram:altsyncram_component|altsyncram_igh1:auto_generated|q_a[6]" File: U:/EE_371/Lab6b/db/altsyncram_igh1.tdf Line: 167
+        Warning (14320): Synthesized away node "note_ROM_select:rom_select|F4_ROM:F4|altsyncram:altsyncram_component|altsyncram_igh1:auto_generated|q_a[7]" File: U:/EE_371/Lab6b/db/altsyncram_igh1.tdf Line: 189
+        Warning (14320): Synthesized away node "note_ROM_select:rom_select|E4_ROM:E4|altsyncram:altsyncram_component|altsyncram_hgh1:auto_generated|q_a[0]" File: U:/EE_371/Lab6b/db/altsyncram_hgh1.tdf Line: 35
+        Warning (14320): Synthesized away node "note_ROM_select:rom_select|E4_ROM:E4|altsyncram:altsyncram_component|altsyncram_hgh1:auto_generated|q_a[1]" File: U:/EE_371/Lab6b/db/altsyncram_hgh1.tdf Line: 57
+        Warning (14320): Synthesized away node "note_ROM_select:rom_select|E4_ROM:E4|altsyncram:altsyncram_component|altsyncram_hgh1:auto_generated|q_a[2]" File: U:/EE_371/Lab6b/db/altsyncram_hgh1.tdf Line: 79
+        Warning (14320): Synthesized away node "note_ROM_select:rom_select|E4_ROM:E4|altsyncram:altsyncram_component|altsyncram_hgh1:auto_generated|q_a[3]" File: U:/EE_371/Lab6b/db/altsyncram_hgh1.tdf Line: 101
+        Warning (14320): Synthesized away node "note_ROM_select:rom_select|E4_ROM:E4|altsyncram:altsyncram_component|altsyncram_hgh1:auto_generated|q_a[4]" File: U:/EE_371/Lab6b/db/altsyncram_hgh1.tdf Line: 123
+        Warning (14320): Synthesized away node "note_ROM_select:rom_select|E4_ROM:E4|altsyncram:altsyncram_component|altsyncram_hgh1:auto_generated|q_a[5]" File: U:/EE_371/Lab6b/db/altsyncram_hgh1.tdf Line: 145
+        Warning (14320): Synthesized away node "note_ROM_select:rom_select|E4_ROM:E4|altsyncram:altsyncram_component|altsyncram_hgh1:auto_generated|q_a[6]" File: U:/EE_371/Lab6b/db/altsyncram_hgh1.tdf Line: 167
+        Warning (14320): Synthesized away node "note_ROM_select:rom_select|E4_ROM:E4|altsyncram:altsyncram_component|altsyncram_hgh1:auto_generated|q_a[7]" File: U:/EE_371/Lab6b/db/altsyncram_hgh1.tdf Line: 189
+        Warning (14320): Synthesized away node "note_ROM_select:rom_select|D4_ROM:D4|altsyncram:altsyncram_component|altsyncram_ggh1:auto_generated|q_a[0]" File: U:/EE_371/Lab6b/db/altsyncram_ggh1.tdf Line: 35
+        Warning (14320): Synthesized away node "note_ROM_select:rom_select|D4_ROM:D4|altsyncram:altsyncram_component|altsyncram_ggh1:auto_generated|q_a[1]" File: U:/EE_371/Lab6b/db/altsyncram_ggh1.tdf Line: 57
+        Warning (14320): Synthesized away node "note_ROM_select:rom_select|D4_ROM:D4|altsyncram:altsyncram_component|altsyncram_ggh1:auto_generated|q_a[2]" File: U:/EE_371/Lab6b/db/altsyncram_ggh1.tdf Line: 79
+        Warning (14320): Synthesized away node "note_ROM_select:rom_select|D4_ROM:D4|altsyncram:altsyncram_component|altsyncram_ggh1:auto_generated|q_a[3]" File: U:/EE_371/Lab6b/db/altsyncram_ggh1.tdf Line: 101
+        Warning (14320): Synthesized away node "note_ROM_select:rom_select|D4_ROM:D4|altsyncram:altsyncram_component|altsyncram_ggh1:auto_generated|q_a[4]" File: U:/EE_371/Lab6b/db/altsyncram_ggh1.tdf Line: 123
+        Warning (14320): Synthesized away node "note_ROM_select:rom_select|D4_ROM:D4|altsyncram:altsyncram_component|altsyncram_ggh1:auto_generated|q_a[5]" File: U:/EE_371/Lab6b/db/altsyncram_ggh1.tdf Line: 145
+        Warning (14320): Synthesized away node "note_ROM_select:rom_select|D4_ROM:D4|altsyncram:altsyncram_component|altsyncram_ggh1:auto_generated|q_a[6]" File: U:/EE_371/Lab6b/db/altsyncram_ggh1.tdf Line: 167
+        Warning (14320): Synthesized away node "note_ROM_select:rom_select|D4_ROM:D4|altsyncram:altsyncram_component|altsyncram_ggh1:auto_generated|q_a[7]" File: U:/EE_371/Lab6b/db/altsyncram_ggh1.tdf Line: 189
+        Warning (14320): Synthesized away node "note_ROM_select:rom_select|C4_ROM:C4|altsyncram:altsyncram_component|altsyncram_fgh1:auto_generated|q_a[0]" File: U:/EE_371/Lab6b/db/altsyncram_fgh1.tdf Line: 35
+        Warning (14320): Synthesized away node "note_ROM_select:rom_select|C4_ROM:C4|altsyncram:altsyncram_component|altsyncram_fgh1:auto_generated|q_a[1]" File: U:/EE_371/Lab6b/db/altsyncram_fgh1.tdf Line: 57
+        Warning (14320): Synthesized away node "note_ROM_select:rom_select|C4_ROM:C4|altsyncram:altsyncram_component|altsyncram_fgh1:auto_generated|q_a[2]" File: U:/EE_371/Lab6b/db/altsyncram_fgh1.tdf Line: 79
+        Warning (14320): Synthesized away node "note_ROM_select:rom_select|C4_ROM:C4|altsyncram:altsyncram_component|altsyncram_fgh1:auto_generated|q_a[3]" File: U:/EE_371/Lab6b/db/altsyncram_fgh1.tdf Line: 101
+        Warning (14320): Synthesized away node "note_ROM_select:rom_select|C4_ROM:C4|altsyncram:altsyncram_component|altsyncram_fgh1:auto_generated|q_a[4]" File: U:/EE_371/Lab6b/db/altsyncram_fgh1.tdf Line: 123
+        Warning (14320): Synthesized away node "note_ROM_select:rom_select|C4_ROM:C4|altsyncram:altsyncram_component|altsyncram_fgh1:auto_generated|q_a[5]" File: U:/EE_371/Lab6b/db/altsyncram_fgh1.tdf Line: 145
+        Warning (14320): Synthesized away node "note_ROM_select:rom_select|C4_ROM:C4|altsyncram:altsyncram_component|altsyncram_fgh1:auto_generated|q_a[6]" File: U:/EE_371/Lab6b/db/altsyncram_fgh1.tdf Line: 167
+        Warning (14320): Synthesized away node "note_ROM_select:rom_select|C4_ROM:C4|altsyncram:altsyncram_component|altsyncram_fgh1:auto_generated|q_a[7]" File: U:/EE_371/Lab6b/db/altsyncram_fgh1.tdf Line: 189
+        Warning (14320): Synthesized away node "note_ROM_select:rom_select|B4_ROM:B4|altsyncram:altsyncram_component|altsyncram_egh1:auto_generated|q_a[0]" File: U:/EE_371/Lab6b/db/altsyncram_egh1.tdf Line: 35
+        Warning (14320): Synthesized away node "note_ROM_select:rom_select|B4_ROM:B4|altsyncram:altsyncram_component|altsyncram_egh1:auto_generated|q_a[1]" File: U:/EE_371/Lab6b/db/altsyncram_egh1.tdf Line: 57
+        Warning (14320): Synthesized away node "note_ROM_select:rom_select|B4_ROM:B4|altsyncram:altsyncram_component|altsyncram_egh1:auto_generated|q_a[2]" File: U:/EE_371/Lab6b/db/altsyncram_egh1.tdf Line: 79
+        Warning (14320): Synthesized away node "note_ROM_select:rom_select|B4_ROM:B4|altsyncram:altsyncram_component|altsyncram_egh1:auto_generated|q_a[3]" File: U:/EE_371/Lab6b/db/altsyncram_egh1.tdf Line: 101
+        Warning (14320): Synthesized away node "note_ROM_select:rom_select|B4_ROM:B4|altsyncram:altsyncram_component|altsyncram_egh1:auto_generated|q_a[4]" File: U:/EE_371/Lab6b/db/altsyncram_egh1.tdf Line: 123
+        Warning (14320): Synthesized away node "note_ROM_select:rom_select|B4_ROM:B4|altsyncram:altsyncram_component|altsyncram_egh1:auto_generated|q_a[5]" File: U:/EE_371/Lab6b/db/altsyncram_egh1.tdf Line: 145
+        Warning (14320): Synthesized away node "note_ROM_select:rom_select|B4_ROM:B4|altsyncram:altsyncram_component|altsyncram_egh1:auto_generated|q_a[6]" File: U:/EE_371/Lab6b/db/altsyncram_egh1.tdf Line: 167
+        Warning (14320): Synthesized away node "note_ROM_select:rom_select|B4_ROM:B4|altsyncram:altsyncram_component|altsyncram_egh1:auto_generated|q_a[7]" File: U:/EE_371/Lab6b/db/altsyncram_egh1.tdf Line: 189
+        Warning (14320): Synthesized away node "note_ROM_select:rom_select|A4_ROM:A4|altsyncram:altsyncram_component|altsyncram_dgh1:auto_generated|q_a[0]" File: U:/EE_371/Lab6b/db/altsyncram_dgh1.tdf Line: 35
+        Warning (14320): Synthesized away node "note_ROM_select:rom_select|A4_ROM:A4|altsyncram:altsyncram_component|altsyncram_dgh1:auto_generated|q_a[1]" File: U:/EE_371/Lab6b/db/altsyncram_dgh1.tdf Line: 57
+        Warning (14320): Synthesized away node "note_ROM_select:rom_select|A4_ROM:A4|altsyncram:altsyncram_component|altsyncram_dgh1:auto_generated|q_a[2]" File: U:/EE_371/Lab6b/db/altsyncram_dgh1.tdf Line: 79
+        Warning (14320): Synthesized away node "note_ROM_select:rom_select|A4_ROM:A4|altsyncram:altsyncram_component|altsyncram_dgh1:auto_generated|q_a[3]" File: U:/EE_371/Lab6b/db/altsyncram_dgh1.tdf Line: 101
+        Warning (14320): Synthesized away node "note_ROM_select:rom_select|A4_ROM:A4|altsyncram:altsyncram_component|altsyncram_dgh1:auto_generated|q_a[4]" File: U:/EE_371/Lab6b/db/altsyncram_dgh1.tdf Line: 123
+        Warning (14320): Synthesized away node "note_ROM_select:rom_select|A4_ROM:A4|altsyncram:altsyncram_component|altsyncram_dgh1:auto_generated|q_a[5]" File: U:/EE_371/Lab6b/db/altsyncram_dgh1.tdf Line: 145
+        Warning (14320): Synthesized away node "note_ROM_select:rom_select|A4_ROM:A4|altsyncram:altsyncram_component|altsyncram_dgh1:auto_generated|q_a[6]" File: U:/EE_371/Lab6b/db/altsyncram_dgh1.tdf Line: 167
+        Warning (14320): Synthesized away node "note_ROM_select:rom_select|A4_ROM:A4|altsyncram:altsyncram_component|altsyncram_dgh1:auto_generated|q_a[7]" File: U:/EE_371/Lab6b/db/altsyncram_dgh1.tdf Line: 189
+Warning (276020): Inferred RAM node "FIR_filter:filter1|reg_file:r_unit|array_reg_rtl_0" from synchronous design logic.  Pass-through logic has been added to match the read-during-write behavior of the original design.
 Info (276014): Found 1 instances of uninferred RAM logic
     Info (276004): RAM logic "audio_and_video_config:cfg|Altera_UP_I2C_AV_Auto_Initialize:Auto_Initialize|Ram0" is uninferred due to inappropriate RAM size File: U:/EE_371/Lab6b/Altera_UP_I2C_AV_Auto_Initialize.v Line: 305
+Info (19000): Inferred 1 megafunctions from design logic
+    Info (276029): Inferred altsyncram megafunction from the following design logic: "FIR_filter:filter1|reg_file:r_unit|array_reg_rtl_0" 
+        Info (286033): Parameter OPERATION_MODE set to DUAL_PORT
+        Info (286033): Parameter WIDTH_A set to 24
+        Info (286033): Parameter WIDTHAD_A set to 3
+        Info (286033): Parameter NUMWORDS_A set to 8
+        Info (286033): Parameter WIDTH_B set to 24
+        Info (286033): Parameter WIDTHAD_B set to 3
+        Info (286033): Parameter NUMWORDS_B set to 8
+        Info (286033): Parameter ADDRESS_ACLR_A set to NONE
+        Info (286033): Parameter OUTDATA_REG_B set to UNREGISTERED
+        Info (286033): Parameter ADDRESS_ACLR_B set to NONE
+        Info (286033): Parameter OUTDATA_ACLR_B set to NONE
+        Info (286033): Parameter ADDRESS_REG_B set to CLOCK0
+        Info (286033): Parameter INDATA_ACLR_A set to NONE
+        Info (286033): Parameter WRCONTROL_ACLR_A set to NONE
+Info (12130): Elaborated megafunction instantiation "FIR_filter:filter1|reg_file:r_unit|altsyncram:array_reg_rtl_0"
+Info (12133): Instantiated megafunction "FIR_filter:filter1|reg_file:r_unit|altsyncram:array_reg_rtl_0" with the following parameter:
+    Info (12134): Parameter "OPERATION_MODE" = "DUAL_PORT"
+    Info (12134): Parameter "WIDTH_A" = "24"
+    Info (12134): Parameter "WIDTHAD_A" = "3"
+    Info (12134): Parameter "NUMWORDS_A" = "8"
+    Info (12134): Parameter "WIDTH_B" = "24"
+    Info (12134): Parameter "WIDTHAD_B" = "3"
+    Info (12134): Parameter "NUMWORDS_B" = "8"
+    Info (12134): Parameter "ADDRESS_ACLR_A" = "NONE"
+    Info (12134): Parameter "OUTDATA_REG_B" = "UNREGISTERED"
+    Info (12134): Parameter "ADDRESS_ACLR_B" = "NONE"
+    Info (12134): Parameter "OUTDATA_ACLR_B" = "NONE"
+    Info (12134): Parameter "ADDRESS_REG_B" = "CLOCK0"
+    Info (12134): Parameter "INDATA_ACLR_A" = "NONE"
+    Info (12134): Parameter "WRCONTROL_ACLR_A" = "NONE"
+Info (12021): Found 1 design units, including 1 entities, in source file db/altsyncram_agi1.tdf
+    Info (12023): Found entity 1: altsyncram_agi1 File: U:/EE_371/Lab6b/db/altsyncram_agi1.tdf Line: 28
 Warning (12241): 7 hierarchies have connectivity warnings - see the Connectivity Checks report folder
 Warning (13034): The following nodes have both tri-state and non-tri-state drivers
     Warning (13035): Inserted always-enabled tri-state buffer between "V_GPIO[26]" and its non-tri-state driver. File: U:/EE_371/Lab6b/DE1_SoC.sv Line: 10
@@ -2798,16 +3085,16 @@ Warning (21074): Design contains 4 input pin(s) that do not drive logic
     Warning (15610): No output dependent on input pin "KEY[0]" File: U:/EE_371/Lab6b/DE1_SoC.sv Line: 6
     Warning (15610): No output dependent on input pin "KEY[1]" File: U:/EE_371/Lab6b/DE1_SoC.sv Line: 6
     Warning (15610): No output dependent on input pin "KEY[2]" File: U:/EE_371/Lab6b/DE1_SoC.sv Line: 6
-Info (21057): Implemented 872 device resources after synthesis - the final resource count might be different
+Info (21057): Implemented 907 device resources after synthesis - the final resource count might be different
     Info (21058): Implemented 10 input pins
     Info (21059): Implemented 55 output pins
     Info (21060): Implemented 33 bidirectional pins
-    Info (21061): Implemented 554 logic cells
-    Info (21064): Implemented 219 RAM segments
+    Info (21061): Implemented 621 logic cells
+    Info (21064): Implemented 187 RAM segments
     Info (21065): Implemented 1 PLLs
-Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 146 warnings
-    Info: Peak virtual memory: 4964 megabytes
-    Info: Processing ended: Mon Jun 08 15:57:32 2026
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 203 warnings
+    Info: Peak virtual memory: 4953 megabytes
+    Info: Processing ended: Mon Jun 08 16:55:47 2026
     Info: Elapsed time: 00:00:11
     Info: Total CPU time (on all processors): 00:00:13
 
