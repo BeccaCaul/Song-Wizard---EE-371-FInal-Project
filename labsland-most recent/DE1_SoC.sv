@@ -186,7 +186,7 @@ module DE1_SoC #(parameter MAX = 3125000) (CLOCK_50, CLOCK2_50, FPGA_I2C_SCLK, F
 	output VGA_VS;
 	
 		
-    get_image img (.CLOCK_50, .reset, .trigger (A),
+    get_image img (.CLOCK_50, .reset, .A, .B, .C, .D, .E, .F, .G, .full, .all_done,
 			.VGA_R, .VGA_G, .VGA_B, .VGA_BLANK_N, .VGA_CLK, .VGA_HS, .VGA_SYNC_N, .VGA_VS
     );
 

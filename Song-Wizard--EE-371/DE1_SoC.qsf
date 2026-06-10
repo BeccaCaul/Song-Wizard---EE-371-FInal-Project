@@ -42,7 +42,7 @@ set_global_assignment -name DEVICE 5CGXFC7C7F23C8
 set_global_assignment -name TOP_LEVEL_ENTITY DE1_SoC
 set_global_assignment -name ORIGINAL_QUARTUS_VERSION 17.0.0
 set_global_assignment -name PROJECT_CREATION_TIME_DATE "12:43:32  MAY 06, 2026"
-set_global_assignment -name LAST_QUARTUS_VERSION "17.0.0 Lite Edition"
+set_global_assignment -name LAST_QUARTUS_VERSION "24.1std.0 Lite Edition"
 set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
 set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
 set_global_assignment -name POWER_PRESET_COOLING_SOLUTION "23 MM HEAT SINK WITH 200 LFPM AIRFLOW"
@@ -50,6 +50,34 @@ set_global_assignment -name POWER_BOARD_THERMAL_MODEL "NONE (CONSERVATIVE)"
 set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
 set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
 set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
+set_global_assignment -name SYSTEMVERILOG_FILE video_driver.sv
+set_global_assignment -name SYSTEMVERILOG_FILE num_writes_counter.sv
+set_global_assignment -name VERILOG_FILE note_ram120x3_bb.v
+set_global_assignment -name SYSTEMVERILOG_FILE get_image.sv
+set_global_assignment -name VERILOG_FILE G4_ROM_bb.v
+set_global_assignment -name VERILOG_FILE G4_ROM.v
+set_global_assignment -name QIP_FILE G4_ROM.qip
+set_global_assignment -name VERILOG_FILE F4_ROM_bb.v
+set_global_assignment -name VERILOG_FILE F4_ROM.v
+set_global_assignment -name QIP_FILE F4_ROM.qip
+set_global_assignment -name VERILOG_FILE E4_ROM_bb.v
+set_global_assignment -name VERILOG_FILE E4_ROM.v
+set_global_assignment -name QIP_FILE E4_ROM.qip
+set_global_assignment -name VERILOG_FILE D4_ROM_bb.v
+set_global_assignment -name VERILOG_FILE D4_ROM.v
+set_global_assignment -name QIP_FILE D4_ROM.qip
+set_global_assignment -name VERILOG_FILE CLOCK25_PLL_0002.v
+set_global_assignment -name VERILOG_FILE CLOCK25_PLL.v
+set_global_assignment -name VERILOG_FILE C4_ROM_bb.v
+set_global_assignment -name SYSTEMVERILOG_FILE background_rom.sv
+set_global_assignment -name VERILOG_FILE B4_ROM_bb.v
+set_global_assignment -name VERILOG_FILE B4_ROM.v
+set_global_assignment -name QIP_FILE B4_ROM.qip
+set_global_assignment -name VERILOG_FILE altera_up_avalon_video_vga_timing.v
+set_global_assignment -name VERILOG_FILE A4_ROM_bb.v
+set_global_assignment -name VERILOG_FILE A4_ROM.v
+set_global_assignment -name QIP_FILE A4_ROM.qip
 set_global_assignment -name SYSTEMVERILOG_FILE reg_file.sv
 set_global_assignment -name SYSTEMVERILOG_FILE FIR_filter.sv
 set_global_assignment -name SYSTEMVERILOG_FILE fifo_ctrl.sv
@@ -90,4 +118,4 @@ set_global_assignment -name QIP_FILE //udrive.uw.edu/mflessa/EE_371/Lab6/E4_ROM.
 set_global_assignment -name QIP_FILE //udrive.uw.edu/mflessa/EE_371/Lab6/F4_ROM.qip
 set_global_assignment -name QIP_FILE //udrive.uw.edu/mflessa/EE_371/Lab6/G4_ROM.qip
 set_global_assignment -name SYSTEMVERILOG_FILE write_pulse.sv
-set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
+set_global_assignment -name MIF_FILE song_wizard_wip.mif
